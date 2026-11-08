@@ -53,6 +53,7 @@ for (const m of DB) {
   }
 }
 if (skipped.length) console.warn(`⚠ ${skipped.length} machines skipped (no photo yet):\n  ` + skipped.join("\n  "));
+if (config.defaultMilestone && !DB.some(m => m.id === config.defaultMilestone)) problems.push(`defaultMilestone "${config.defaultMilestone}" not found`);
 if (problems.length) {
   console.error("✗ Data problems:\n  " + problems.join("\n  "));
   process.exit(1);
@@ -103,7 +104,7 @@ function archiveHtml(db, s) {
 function headHtml(lang, db, s) {
   const url = pageUrl(lang);
   const ogImage = `${SITE}${BASE}og-${lang}.jpg`;
-  const first = db[db.length - 1];
+  const first = db.find(m => m.id === config.defaultMilestone) || db[db.length - 1];
   const ld = {
     "@context": "https://schema.org",
     "@graph": [
@@ -156,7 +157,7 @@ mkdirSync(DIST, { recursive: true });
 for (const lang of LANGS) {
   const s = i18n[lang];
   const db = localize(DB, lang);
-  const first = db[db.length - 1];
+  const first = db.find(m => m.id === config.defaultMilestone) || db[db.length - 1];
   const ui = { ...s };
   const vars = {
     lang,
@@ -166,7 +167,7 @@ for (const lang of LANGS) {
     initBadge: esc(first.topBadge),
     initDate: esc(first.date),
     initOS: esc(first.os),
-    initCounter: `${db.length} ${esc(s.of)} ${db.length}`,
+    initCounter: `${db.indexOf(first) + 1} ${esc(s.of)} ${db.length}`,
     initTitle: esc(first.title),
     initQuote: esc(`“${first.quote}”`),
     allMacsLabel: esc(s.allMacs.replace("{n}", TOTAL)),
@@ -184,6 +185,7 @@ for (const lang of LANGS) {
     .replace("/*__CREDITS__*/{}", safeJson(credits))
     .replace("/*__SOUNDS__*/{}", safeJson(SOUNDS))
     .replace("/*__UI__*/{}", safeJson(ui))
+    .replace('/*__DEFAULT__*/""', JSON.stringify(first.id))
     .replace("/*__SYNTH__*/", synthJs);
   let html = template
     .replace("<!--__HEAD__-->", headHtml(lang, db, s))

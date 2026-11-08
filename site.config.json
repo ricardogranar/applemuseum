@@ -6,6 +6,9 @@
   "author": {
     "name": "Ricardo Graña",
     "url": "https://ricardostudio.com",
-    "sameAs": ["https://www.linkedin.com/in/ricardograna/"]
-  }
+    "sameAs": [
+      "https://www.linkedin.com/in/ricardograna/"
+    ]
+  },
+  "defaultMilestone": "1990-macintosh-classic"
 }

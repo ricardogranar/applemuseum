@@ -16,7 +16,9 @@
     const FIRST_YEAR = 1976, LAST_YEAR = 2026;
     const TOTAL_MACHINES = MAC_TIMELINE_DB.reduce((n, m) => n + m.variants.length, 0);
 
-    let currentIndex = MAC_TIMELINE_DB.length - 1; // starts on the newest milestone
+    const DEFAULT_ID = /*__DEFAULT__*/"";
+    // Landing machine when the URL has no #hash (configurable in site.config.json → defaultMilestone)
+    let currentIndex = Math.max(0, MAC_TIMELINE_DB.findIndex(m => m.id === DEFAULT_ID));
     let currentVariantIdx = 0;
     let eraUiEnabled = true;
     let timeLapseTimer = null;

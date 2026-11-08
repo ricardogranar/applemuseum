@@ -1,0 +1,517 @@
+[
+  {
+    "id": "1976-apple-i",
+    "year": 1976,
+    "date": {"en": "July 1976", "es": "Julio de 1976"},
+    "os": {"en": "Woz Monitor ROM · Integer BASIC (cassette)", "es": "Woz Monitor en ROM · Integer BASIC (casete)"},
+    "topBrand": "Apple Computer",
+    "topBadge": {"en": "1976 · 8-Bit", "es": "1976 · 8 bits"},
+    "shortLabel": {"en": "Apple I", "es": "Apple I"},
+    "title": {"en": "Apple I", "es": "Apple I"},
+    "quote": {"en": "The Byte Shop orders 50 fully assembled boards at $500 each—the deal that turned a hobby project into a company.", "es": "The Byte Shop encarga 50 placas montadas a 500 $ cada una: el pedido que convirtió un proyecto de aficionados en una empresa."},
+    "story": {"en": "Designed by Steve Wozniak and sold by Steve Jobs, the Apple I was a single assembled circuit board built around the MOS 6502. Buyers supplied their own case, keyboard, power transformers and TV or monitor; about 200 were produced.", "es": "Diseñado por Steve Wozniak y vendido por Steve Jobs, el Apple I era una única placa montada en torno al MOS 6502. El comprador ponía la caja, el teclado, los transformadores y el televisor o monitor; se fabricaron unas 200 unidades."},
+    "highlights": {
+      "en": [
+        "Sold as a fully assembled, tested board at a time when hobby computers usually arrived as kits of loose parts.",
+        "Built-in video terminal circuitry: add a keyboard and a TV and you had a working computer with 40×24 text."
+      ],
+      "es": [
+        "Se vendía como placa montada y probada, cuando los ordenadores de aficionado solían llegar como kits de piezas sueltas.",
+        "Circuito de terminal de vídeo integrado: con un teclado y un televisor ya tenías un ordenador con texto de 40×24."
+      ]
+    },
+    "archiveNote": {"en": "Wozniak picked the $666.66 price because he liked repeating digits—and it was a one-third markup on the $500 wholesale price.", "es": "Wozniak eligió el precio de 666,66 $ porque le gustaban los dígitos repetidos, y además suponía un margen de un tercio sobre los 500 $ de mayorista."},
+    "chime": "apple1_1976",
+    "variants": [
+      {
+        "name": "Apple I",
+        "img": "apple1",
+        "wiki": "Apple_I",
+        "wikiEs": "Apple_I",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "MOS 6502 @ 1.023 MHz", "es": "MOS 6502 a 1,023 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "4 KB RAM (8 KB on board)", "es": "4 KB de RAM (8 KB en placa)"}},
+          {"label": {"en": "VIDEO", "es": "VÍDEO"}, "value": {"en": "40×24 uppercase text", "es": "Texto en mayúsculas de 40×24"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$666.66", "es": "666,66 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1977-apple-ii",
+    "year": 1977,
+    "date": {"en": "June 10, 1977", "es": "10 de junio de 1977"},
+    "os": {"en": "Integer BASIC in ROM · Apple DOS (1978)", "es": "Integer BASIC en ROM · Apple DOS (1978)"},
+    "topBrand": "Apple ][",
+    "topBadge": {"en": "1977 · Color Graphics", "es": "1977 · Gráficos color"},
+    "shortLabel": {"en": "Apple II", "es": "Apple II"},
+    "title": {"en": "Apple II", "es": "Apple II"},
+    "quote": {"en": "A molded plastic case, color graphics and eight expansion slots turn the personal computer into a finished product.", "es": "Una caja de plástico moldeado, gráficos en color y ocho ranuras de expansión convierten el ordenador personal en un producto acabado."},
+    "story": {"en": "Wozniak's Apple II arrived as a complete computer with a built-in keyboard, color graphics and eight expansion slots. Wozniak's Disk II floppy drive followed in June 1978, and VisiCalc—the first spreadsheet—debuted on it in 1979.", "es": "El Apple II de Wozniak llegó como un ordenador completo, con teclado integrado, gráficos en color y ocho ranuras de expansión. La disquetera Disk II, también de Wozniak, llegó en junio de 1978, y VisiCalc, la primera hoja de cálculo, se estrenó en él en 1979."},
+    "highlights": {
+      "en": [
+        "Jerry Manock's injection-molded plastic case made it look like an appliance, not a hobbyist kit.",
+        "Eight internal expansion slots invited third-party cards—from disk controllers to 80-column displays."
+      ],
+      "es": [
+        "La caja de plástico inyectado de Jerry Manock le daba aspecto de electrodoméstico, no de kit de aficionado.",
+        "Ocho ranuras de expansión internas abrieron la puerta a tarjetas de terceros, de controladoras de disco a vídeo de 80 columnas."
+      ]
+    },
+    "archiveNote": {"en": "Apple paid Shepardson Microsystems $13,000 in April 1978 to write Apple DOS for the new Disk II drive.", "es": "En abril de 1978, Apple pagó 13.000 $ a Shepardson Microsystems para que escribiera Apple DOS para la nueva disquetera Disk II."},
+    "chime": "apple2_1977",
+    "variants": [
+      {
+        "name": "Apple II",
+        "img": "apple2",
+        "wiki": "Apple_II",
+        "wikiEs": "Apple_II",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "MOS 6502 @ 1.023 MHz", "es": "MOS 6502 a 1,023 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "4 KB RAM (up to 48 KB)", "es": "4 KB de RAM (hasta 48 KB)"}},
+          {"label": {"en": "EXPANSION", "es": "EXPANSIÓN"}, "value": {"en": "8 internal slots", "es": "8 ranuras internas"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,298 (4 KB) · $2,638 (48 KB)", "es": "1.298 $ (4 KB) · 2.638 $ (48 KB)"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1979-apple-ii-plus",
+    "year": 1979,
+    "date": {"en": "June 1979", "es": "Junio de 1979"},
+    "os": {"en": "Applesoft BASIC in ROM · Apple DOS", "es": "Applesoft BASIC en ROM · Apple DOS"},
+    "topBrand": "Apple ][ plus",
+    "topBadge": {"en": "1979 · Applesoft ROM", "es": "1979 · Applesoft ROM"},
+    "shortLabel": {"en": "Apple II Plus", "es": "Apple II Plus"},
+    "title": {"en": "Apple II Plus", "es": "Apple II Plus"},
+    "quote": {"en": "Power on and it boots straight from disk—or drops you into Applesoft BASIC, built right into the ROM.", "es": "Lo enciendes y arranca directamente desde el disco, o te deja en Applesoft BASIC, integrado en la propia ROM."},
+    "story": {"en": "The II Plus refined the Apple II with Applesoft BASIC in ROM and an Autostart ROM that booted from the Disk II at power-up. It shipped with 16, 32 or 48 KB of RAM, and about 380,000 were sold before the Apple IIe replaced it.", "es": "El II Plus pulió el Apple II con Applesoft BASIC en ROM y una ROM Autostart que arrancaba desde la Disk II al encenderlo. Se vendía con 16, 32 o 48 KB de RAM, y se vendieron unas 380.000 unidades antes de que lo sustituyera el Apple IIe."},
+    "highlights": {
+      "en": [
+        "Autostart ROM: the machine tried to boot from disk at power-up instead of waiting at a monitor prompt.",
+        "The Language Card raised RAM to 64 KB, the minimum for Apple Pascal, Logo and FORTRAN 77."
+      ],
+      "es": [
+        "ROM Autostart: el equipo intentaba arrancar desde disco al encenderse en lugar de quedarse esperando en el monitor.",
+        "La Language Card ampliaba la RAM a 64 KB, el mínimo para Apple Pascal, Logo y FORTRAN 77."
+      ]
+    },
+    "archiveNote": {"en": "Regional versions followed: the Europlus with PAL video for Europe, and the J-Plus (July 1980) with Katakana characters for Japan.", "es": "Hubo versiones regionales: el Europlus, con vídeo PAL para Europa, y el J-Plus (julio de 1980), con caracteres katakana para Japón."},
+    "chime": "apple2_1977",
+    "variants": [
+      {
+        "name": "Apple II Plus",
+        "img": "apple2plus",
+        "wiki": "Apple_II_Plus",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "MOS 6502 @ 1.023 MHz", "es": "MOS 6502 a 1,023 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "16–48 KB (64 KB with Language Card)", "es": "16–48 KB (64 KB con Language Card)"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "Optional 140 KB 5.25\" Disk II", "es": "Disk II opcional de 5,25\" y 140 KB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,195", "es": "1.195 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1980-apple-iii",
+    "year": 1980,
+    "date": {"en": "May 19, 1980", "es": "19 de mayo de 1980"},
+    "os": {"en": "Apple SOS (Sophisticated Operating System)", "es": "Apple SOS (Sophisticated Operating System)"},
+    "topBrand": "Apple SOS",
+    "topBadge": {"en": "1980 · Business Class", "es": "1980 · Para empresas"},
+    "shortLabel": {"en": "Apple III", "es": "Apple III"},
+    "title": {"en": "Apple III", "es": "Apple III"},
+    "quote": {"en": "Apple's first business computer: 80-column text, a built-in floppy and a 2 MHz 6502—undone by its own reliability.", "es": "El primer ordenador de Apple para empresas: texto de 80 columnas, disquetera integrada y un 6502 a 2 MHz, lastrado por su fiabilidad."},
+    "story": {"en": "Designed by Wendell Sander, the Apple III targeted offices with 128 KB of bank-switched RAM, 80-column text and a new operating system, SOS. Stability problems forced a recall of the first 14,000 units and a relaunch in November 1981; around 120,000 were sold including the Apple III Plus.", "es": "Diseñado por Wendell Sander, el Apple III apuntaba a la oficina con 128 KB de RAM por bancos, texto de 80 columnas y un nuevo sistema operativo, SOS. Sus problemas de estabilidad obligaron a retirar las primeras 14.000 unidades y a relanzarlo en noviembre de 1981; se vendieron unas 120.000 contando el Apple III Plus."},
+    "highlights": {
+      "en": [
+        "Bank switching let an 8-bit 6502 address 128 KB of RAM as standard, with upgrades going far beyond.",
+        "Built-in 5.25-inch drive, 80×24 text and 560×192 graphics made it a self-contained office workstation."
+      ],
+      "es": [
+        "La conmutación de bancos permitía a un 6502 de 8 bits direccionar 128 KB de RAM de serie, y mucho más con ampliaciones.",
+        "Disquetera de 5,25\" integrada, texto de 80×24 y gráficos de 560×192: una estación de trabajo de oficina autónoma."
+      ]
+    },
+    "archiveNote": {"en": "BYTE reported that its chips tended to wander out of their sockets; Apple reportedly told owners to lift the front six inches and drop it.", "es": "BYTE contó que sus chips tendían a salirse de los zócalos; según se dice, Apple aconsejó levantar la parte delantera 15 cm y dejarlo caer."},
+    "chime": "apple2_1977",
+    "variants": [
+      {
+        "name": "Apple III",
+        "img": "apple3",
+        "wiki": "Apple_III",
+        "wikiEs": "Apple_III",
+        "photoNote": {"en": "Photo shows the 1983 Apple III Plus (same case design)", "es": "La foto muestra el Apple III Plus de 1983 (mismo diseño de carcasa)"},
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Synertek 6502A/B @ 2 MHz", "es": "Synertek 6502A/B a 2 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "128 KB (up to 512 KB)", "es": "128 KB (hasta 512 KB)"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "Built-in 140 KB 5.25\" floppy", "es": "Disquetera integrada de 5,25\" y 140 KB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "From $4,340", "es": "Desde 4.340 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1983-lisa-iie",
+    "year": 1983,
+    "date": {"en": "January 19, 1983", "es": "19 de enero de 1983"},
+    "os": {"en": "Lisa Office System · Apple DOS 3.3", "es": "Lisa Office System · Apple DOS 3.3"},
+    "topBrand": "Lisa OS",
+    "topBadge": {"en": "1983 · GUI Pioneer", "es": "1983 · Pionero GUI"},
+    "shortLabel": {"en": "Apple Lisa", "es": "Apple Lisa"},
+    "title": {"en": "Apple Lisa & Apple IIe", "es": "Apple Lisa y Apple IIe"},
+    "quote": {"en": "Overlapping windows, pull-down menus and a mouse arrive on an Apple desk—at $9,995.", "es": "Ventanas superpuestas, menús desplegables y ratón llegan al escritorio de Apple, por 9.995 $."},
+    "story": {"en": "Inspired by Xerox PARC, the Lisa brought a mouse-driven graphical interface to Apple with a 5 MHz 68000 and 1 MB of RAM, but its price limited sales. The same day, the Apple IIe added lowercase text and 80-column support and went on to sell for nearly 11 years.", "es": "Inspirado en Xerox PARC, el Lisa llevó a Apple una interfaz gráfica manejada con ratón, con un 68000 a 5 MHz y 1 MB de RAM, pero su precio limitó las ventas. El mismo día, el Apple IIe añadió minúsculas y soporte de 80 columnas, y se vendió durante casi 11 años."},
+    "highlights": {
+      "en": [
+        "Lisa paired a 12-inch 720×364 bitmapped screen with a mouse, overlapping windows and pull-down menus.",
+        "The IIe ('e' for enhanced) built in lowercase and an auxiliary slot for 80-column text and 128 KB of RAM."
+      ],
+      "es": [
+        "El Lisa combinaba una pantalla de mapa de bits de 12\" y 720×364 con ratón, ventanas superpuestas y menús desplegables.",
+        "El IIe («e» de enhanced, mejorado) integraba minúsculas y una ranura auxiliar para texto de 80 columnas y 128 KB de RAM."
+      ]
+    },
+    "archiveNote": {"en": "Officially, Lisa stood for 'Local Integrated Software Architecture'. Decades later Jobs told his biographer: 'Obviously it was named for my daughter.'", "es": "Oficialmente, Lisa significaba «Local Integrated Software Architecture». Décadas después, Jobs confesó a su biógrafo: «Obviamente se llamaba así por mi hija»."},
+    "chime": "lisa_1983",
+    "variants": [
+      {
+        "name": "Apple Lisa",
+        "img": "lisa",
+        "wiki": "Apple_Lisa",
+        "wikiEs": "Apple_Lisa",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 5 MHz", "es": "Motorola 68000 a 5 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "1 MB RAM (up to 2 MB)", "es": "1 MB de RAM (hasta 2 MB)"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "12\" 720×364 monochrome", "es": "12\" monocromo de 720×364"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$9,995 (with 5 MB ProFile)", "es": "9.995 $ (con ProFile de 5 MB)"}}
+        ]
+      },
+      {
+        "name": "Apple IIe",
+        "img": "apple2e",
+        "wiki": "Apple_IIe",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "MOS 6502 @ 1.023 MHz", "es": "MOS 6502 a 1,023 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "64 KB (128 KB with 80-col. card)", "es": "64 KB (128 KB con tarjeta 80 col.)"}},
+          {"label": {"en": "PRODUCTION", "es": "PRODUCCIÓN"}, "value": {"en": "1983–1993 (nearly 11 years)", "es": "1983–1993 (casi 11 años)"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,395", "es": "1.395 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1984-macintosh",
+    "year": 1984,
+    "date": {"en": "January 24, 1984", "es": "24 de enero de 1984"},
+    "os": {"en": "System 1.0 (Finder 1.0)", "es": "System 1.0 (Finder 1.0)"},
+    "topBrand": "System 1.0",
+    "topBadge": {"en": "1984 · 1-Bit GUI", "es": "1984 · GUI de 1 bit"},
+    "shortLabel": {"en": "Macintosh 128K", "es": "Macintosh 128K"},
+    "title": {"en": "Macintosh 128K, 512K & Apple IIc", "es": "Macintosh 128K, 512K y Apple IIc"},
+    "quote": {"en": "A 9-inch 1-bit screen, a 3.5-inch floppy and a mouse in one friendly box—the Mac says hello.", "es": "Una pantalla de 9\" en 1 bit, un disquete de 3,5\" y un ratón en una caja amable: el Mac dice hola."},
+    "story": {"en": "Introduced two days after Ridley Scott's '1984' Super Bowl ad, the Macintosh bundled MacWrite and MacPaint and carried the Macintosh team's signatures molded inside its case. September's 512K 'Fat Mac' quadrupled the RAM, while the Apple IIc folded an Apple IIe into a portable package.", "es": "Presentado dos días después del anuncio «1984» de Ridley Scott en la Super Bowl, el Macintosh incluía MacWrite y MacPaint y llevaba las firmas del equipo moldeadas dentro de la carcasa. En septiembre, el 512K «Fat Mac» cuadruplicó la RAM, y el Apple IIc condensó un Apple IIe en un formato portátil."},
+    "highlights": {
+      "en": [
+        "An all-in-one case held a 9-inch 512×342 screen and a 400 KB 3.5-inch floppy, driven by a 68000 at 7.83 MHz.",
+        "The Apple IIc launched the Snow White design language and the off-white 'Fog' color, with a fold-out handle."
+      ],
+      "es": [
+        "Una carcasa todo en uno con pantalla de 9\" y 512×342 y disquetera de 3,5\" y 400 KB, movida por un 68000 a 7,83 MHz.",
+        "El Apple IIc estrenó el lenguaje de diseño Snow White y el color blanco roto «Fog», con un asa abatible."
+      ]
+    },
+    "archiveNote": {"en": "The '1984' commercial, directed by Ridley Scott, aired during Super Bowl XVIII on January 22, 1984, and cost US$1.5 million.", "es": "El anuncio «1984», dirigido por Ridley Scott, se emitió en la Super Bowl XVIII el 22 de enero de 1984 y costó 1,5 millones de dólares."},
+    "chime": "mac128k_1984",
+    "variants": [
+      {
+        "name": "Macintosh 128K",
+        "img": "mac128",
+        "wiki": "Macintosh_128K",
+        "wikiEs": "Macintosh_128K",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 7.83 MHz", "es": "Motorola 68000 a 7,83 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "128 KB RAM · 64 KB ROM", "es": "128 KB de RAM · 64 KB de ROM"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "9\" 512×342 monochrome (72 ppi)", "es": "9\" monocromo de 512×342 (72 ppp)"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$2,495", "es": "2.495 $"}}
+        ]
+      },
+      {
+        "name": "Macintosh 512K",
+        "img": "mac512",
+        "wiki": "Macintosh_512K",
+        "wikiEs": "Macintosh_512K",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 7.83 MHz", "es": "Motorola 68000 a 7,83 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "512 KB RAM (\"Fat Mac\")", "es": "512 KB de RAM («Fat Mac»)"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "400 KB 3.5\" floppy", "es": "Disquete de 3,5\" y 400 KB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$3,195", "es": "3.195 $"}}
+        ]
+      },
+      {
+        "name": "Apple IIc",
+        "img": "apple2c",
+        "wiki": "Apple_IIc",
+        "wikiEs": "Apple_IIc",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "WDC 65C02 @ 1.023 MHz", "es": "WDC 65C02 a 1,023 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "128 KB RAM", "es": "128 KB de RAM"}},
+          {"label": {"en": "WEIGHT", "es": "PESO"}, "value": {"en": "7.5 lb (3.4 kg)", "es": "3,4 kg"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,295", "es": "1.295 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1985-macintosh-xl",
+    "year": 1985,
+    "date": {"en": "January 1985", "es": "Enero de 1985"},
+    "os": {"en": "MacWorks XL (Mac System on Lisa hardware)", "es": "MacWorks XL (System de Mac sobre hardware Lisa)"},
+    "topBrand": "MacWorks XL",
+    "topBadge": {"en": "1985 · Lisa Reborn", "es": "1985 · Lisa renace"},
+    "shortLabel": {"en": "Macintosh XL", "es": "Macintosh XL"},
+    "title": {"en": "Macintosh XL (Lisa 2/10 Rebranded)", "es": "Macintosh XL (Lisa 2/10 renombrado)"},
+    "quote": {"en": "The Lisa gets a new name: same 12-inch screen and hard disk, now running Macintosh software.", "es": "El Lisa cambia de nombre: la misma pantalla de 12\" y el mismo disco duro, ahora con software de Macintosh."},
+    "story": {"en": "In January 1985 Apple rebranded the Lisa 2/10 as the Macintosh XL, running Mac software through MacWorks XL and cutting the price to $3,995. It was discontinued less than four months later; Sun Remarketing of Logan, Utah later sold the remaining stock as the 'Macintosh Professional'.", "es": "En enero de 1985, Apple rebautizó el Lisa 2/10 como Macintosh XL, que ejecutaba software de Mac mediante MacWorks XL, y bajó su precio a 3.995 $. Se retiró menos de cuatro meses después; Sun Remarketing, de Logan (Utah), vendió luego las existencias como «Macintosh Professional»."},
+    "highlights": {
+      "en": [
+        "Shipped with an internal 10 MB 'Widget' hard disk while other Macs of the day still ran from floppies.",
+        "Its 12-inch 720×364 screen used rectangular pixels; a later Screen Kit switched it to square 608×432 pixels."
+      ],
+      "es": [
+        "Incluía un disco duro interno «Widget» de 10 MB cuando el resto de Macs aún funcionaban con disquetes.",
+        "Su pantalla de 12\" y 720×364 tenía píxeles rectangulares; un Screen Kit posterior los hizo cuadrados, a 608×432."
+      ]
+    },
+    "archiveNote": {"en": "In 1989, about 2,700 unsold Lisas were reportedly buried in a landfill in Logan, Utah, for a tax write-off.", "es": "En 1989, unas 2.700 unidades de Lisa sin vender fueron, según se cuenta, enterradas en un vertedero de Logan (Utah) para obtener una deducción fiscal."},
+    "chime": "mac128k_1984",
+    "variants": [
+      {
+        "name": "Macintosh XL",
+        "img": "macxl",
+        "wiki": "Macintosh_XL",
+        "wikiEs": "Macintosh_XL",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 5 MHz", "es": "Motorola 68000 a 5 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "512 KB RAM (up to 2 MB)", "es": "512 KB de RAM (hasta 2 MB)"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "10 MB hard disk + 400 KB floppy", "es": "Disco duro de 10 MB + disquete de 400 KB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$3,995", "es": "3.995 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1986-macintosh-plus",
+    "year": 1986,
+    "date": {"en": "January 16, 1986", "es": "16 de enero de 1986"},
+    "os": {"en": "System 3.0 · 128 KB ROM with HFS", "es": "System 3.0 · ROM de 128 KB con HFS"},
+    "topBrand": "System 3.0",
+    "topBadge": {"en": "1986 · SCSI & SIMMs", "es": "1986 · SCSI y SIMM"},
+    "shortLabel": {"en": "Macintosh Plus", "es": "Macintosh Plus"},
+    "title": {"en": "Macintosh Plus & Apple IIGS", "es": "Macintosh Plus y Apple IIGS"},
+    "quote": {"en": "1 MB of RAM, 800 KB floppies and an external SCSI port fix the original Mac's bottlenecks.", "es": "1 MB de RAM, disquetes de 800 KB y un puerto SCSI externo resuelven los cuellos de botella del Mac original."},
+    "story": {"en": "The Macintosh Plus doubled the ROM to 128 KB, added SIMM memory and an external SCSI port, and stayed on sale unchanged for 1,734 days. That September, the Apple IIGS gave the Apple II line a 16-bit 65C816, Ensoniq wavetable sound and a color graphical interface.", "es": "El Macintosh Plus duplicó la ROM a 128 KB, añadió memoria SIMM y un puerto SCSI externo, y se vendió sin cambios durante 1.734 días. En septiembre, el Apple IIGS dio a la familia Apple II un 65C816 de 16 bits, sonido por tabla de ondas Ensoniq y una interfaz gráfica en color."},
+    "highlights": {
+      "en": [
+        "First Mac with a SCSI port, plus 30-pin SIMM slots that took RAM from 1 MB to 4 MB.",
+        "The IIGS was Apple's first product with Apple Desktop Bus and the first in the Platinum color scheme."
+      ],
+      "es": [
+        "Primer Mac con puerto SCSI, además de ranuras SIMM de 30 pines que llevaban la RAM de 1 MB a 4 MB.",
+        "El IIGS fue el primer producto de Apple con Apple Desktop Bus y el primero con el color Platinum."
+      ]
+    },
+    "archiveNote": {"en": "The first 50,000 Apple IIGS units carried a copy of Steve Wozniak's signature on the front with the words 'Limited Edition'.", "es": "Las primeras 50.000 unidades del Apple IIGS llevaban en el frontal una copia de la firma de Steve Wozniak con las palabras «Limited Edition»."},
+    "chime": "mac128k_1984",
+    "variants": [
+      {
+        "name": "Macintosh Plus",
+        "img": "macplus",
+        "wiki": "Macintosh_Plus",
+        "wikiEs": "Macintosh_Plus",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 7.83 MHz", "es": "Motorola 68000 a 7,83 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "1 MB RAM (4 MB via SIMMs)", "es": "1 MB de RAM (4 MB con SIMM)"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "800 KB floppy · external SCSI", "es": "Disquete de 800 KB · SCSI externo"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$2,599", "es": "2.599 $"}}
+        ]
+      },
+      {
+        "name": "Apple IIGS",
+        "img": "apple2gs",
+        "wiki": "Apple_IIGS",
+        "wikiEs": "Apple_IIGS",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "WDC 65C816 @ 2.8 MHz", "es": "WDC 65C816 a 2,8 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "256 KB RAM (up to 8 MB)", "es": "256 KB de RAM (hasta 8 MB)"}},
+          {"label": {"en": "SOUND", "es": "SONIDO"}, "value": {"en": "Ensoniq 5503, 32 oscillators", "es": "Ensoniq 5503, 32 osciladores"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$999 (without monitor)", "es": "999 $ (sin monitor)"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1987-macintosh-ii-se",
+    "year": 1987,
+    "date": {"en": "March 2, 1987", "es": "2 de marzo de 1987"},
+    "os": {"en": "System 4.1 · Color QuickDraw", "es": "System 4.1 · Color QuickDraw"},
+    "topBrand": "System 4",
+    "topBadge": {"en": "1987 · Color & NuBus", "es": "1987 · Color y NuBus"},
+    "shortLabel": {"en": "Macintosh II", "es": "Macintosh II"},
+    "title": {"en": "Macintosh II & Macintosh SE", "es": "Macintosh II y Macintosh SE"},
+    "quote": {"en": "The Mac opens up: six NuBus slots, a separate monitor and color on screen for the first time.", "es": "El Mac se abre: seis ranuras NuBus, monitor independiente y, por primera vez, color en pantalla."},
+    "story": {"en": "Announced at AppleWorld 1987, the Macintosh II was the first modular Mac, with a 68020, six NuBus slots and Color QuickDraw in ROM—despite Steve Jobs' earlier opposition to slots and color. The same day, the Macintosh SE brought an internal hard disk bay and an expansion slot to the compact Mac.", "es": "Presentado en AppleWorld 1987, el Macintosh II fue el primer Mac modular, con un 68020, seis ranuras NuBus y Color QuickDraw en ROM, pese a que Steve Jobs se había opuesto a las ranuras y al color. Ese mismo día, el Macintosh SE llevó al Mac compacto una bahía para disco duro interno y una ranura de expansión."},
+    "highlights": {
+      "en": [
+        "First Mac without a built-in display: a horizontal desktop case by Hartmut Esslinger with six NuBus slots.",
+        "The SE was the first compact Mac with an internal hard disk bay, an expansion slot and a cooling fan."
+      ],
+      "es": [
+        "Primer Mac sin pantalla integrada: una caja de sobremesa horizontal de Hartmut Esslinger con seis ranuras NuBus.",
+        "El SE fue el primer Mac compacto con bahía para disco duro interno, ranura de expansión y ventilador."
+      ]
+    },
+    "archiveNote": {"en": "The Macintosh SE's 256 KB ROM hides four photos of its engineering team—an Easter egg reached by jumping to address 0x41D89A.", "es": "La ROM de 256 KB del Macintosh SE esconde cuatro fotos de su equipo de ingenieros, un huevo de Pascua al que se llega saltando a la dirección 0x41D89A."},
+    "chime": "macii_1987",
+    "variants": [
+      {
+        "name": "Macintosh II",
+        "img": "mac2",
+        "wiki": "Macintosh_II",
+        "wikiEs": "Macintosh_II",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68020 @ 16 MHz + 68881 FPU", "es": "Motorola 68020 a 16 MHz + FPU 68881"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "1 MB RAM (up to 8 MB)", "es": "1 MB de RAM (hasta 8 MB)"}},
+          {"label": {"en": "EXPANSION", "es": "EXPANSIÓN"}, "value": {"en": "6 NuBus slots", "es": "6 ranuras NuBus"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$5,498 (with monitor & 20 MB HD)", "es": "5.498 $ (con monitor y disco de 20 MB)"}}
+        ]
+      },
+      {
+        "name": "Macintosh SE",
+        "img": "macse",
+        "wiki": "Macintosh_SE",
+        "wikiEs": "Macintosh_SE",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 7.8 MHz", "es": "Motorola 68000 a 7,8 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "1 MB RAM (up to 4 MB)", "es": "1 MB de RAM (hasta 4 MB)"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "Two 800 KB floppies or 20 MB HD", "es": "Dos disqueteras de 800 KB o disco de 20 MB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$2,900 · $3,900 (20 MB HD)", "es": "2.900 $ · 3.900 $ (disco de 20 MB)"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1988-macintosh-iix",
+    "year": 1988,
+    "date": {"en": "September 19, 1988", "es": "19 de septiembre de 1988"},
+    "os": {"en": "System 6 (MultiFinder)", "es": "System 6 (MultiFinder)"},
+    "topBrand": "System 6",
+    "topBadge": {"en": "1988 · SuperDrive", "es": "1988 · SuperDrive"},
+    "shortLabel": {"en": "Macintosh IIx", "es": "Macintosh IIx"},
+    "title": {"en": "Macintosh IIx & Apple IIc Plus", "es": "Macintosh IIx y Apple IIc Plus"},
+    "quote": {"en": "A 68030, a 68882 math chip and the 1.44 MB SuperDrive—the Mac II grows up.", "es": "Un 68030, un coprocesador 68882 y la SuperDrive de 1,44 MB: el Mac II se hace mayor."},
+    "story": {"en": "The Macintosh IIx kept the Mac II's six-slot case but swapped in a 16 MHz 68030 and a 68882 FPU, and became the first Mac with the 1.44 MB SuperDrive as standard. Days earlier, the Apple IIc Plus arrived as the final new Apple II model, with a 4 MHz 65C02 and a 3.5-inch drive.", "es": "El Macintosh IIx mantuvo la caja de seis ranuras del Mac II, pero estrenó un 68030 a 16 MHz y una FPU 68882, y fue el primer Mac con la SuperDrive de 1,44 MB de serie. Días antes llegó el Apple IIc Plus, el último Apple II nuevo, con un 65C02 a 4 MHz y disquetera de 3,5\"."},
+    "highlights": {
+      "en": [
+        "The IIx's 68882 coprocessor delivered up to double the floating-point performance of the Mac II's 68881.",
+        "The IIc Plus built a licensed Zip Chip accelerator into its logic board and moved the power supply inside."
+      ],
+      "es": [
+        "El coprocesador 68882 del IIx ofrecía hasta el doble de rendimiento en coma flotante que el 68881 del Mac II.",
+        "El IIc Plus integró en la placa un acelerador Zip Chip bajo licencia y llevó la fuente de alimentación al interior."
+      ]
+    },
+    "archiveNote": {"en": "During development, the Apple IIc Plus went by the codenames Raisin, Pizza and Adam Ant.", "es": "Durante su desarrollo, el Apple IIc Plus tuvo los nombres en clave Raisin, Pizza y Adam Ant."},
+    "chime": "macii_1987",
+    "variants": [
+      {
+        "name": "Macintosh IIx",
+        "img": "mac2x",
+        "wiki": "Macintosh_IIx",
+        "wikiEs": "Macintosh_IIx",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68030 @ 16 MHz + 68882 FPU", "es": "Motorola 68030 a 16 MHz + FPU 68882"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "1 or 4 MB RAM (up to 128 MB)", "es": "1 o 4 MB de RAM (hasta 128 MB)"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "1.44 MB SuperDrive", "es": "SuperDrive de 1,44 MB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$7,769", "es": "7.769 $"}}
+        ]
+      },
+      {
+        "name": "Apple IIc Plus",
+        "img": "apple2cplus",
+        "wiki": "Apple_IIc_Plus",
+        "wikiEs": "Apple_IIc_Plus",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "WDC 65C02 @ 4 MHz", "es": "WDC 65C02 a 4 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "128 KB RAM (up to 1.125 MB)", "es": "128 KB de RAM (hasta 1,125 MB)"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "Built-in 800 KB 3.5\" drive", "es": "Disquetera integrada de 3,5\" y 800 KB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$675", "es": "675 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1989-macintosh-se30",
+    "year": 1989,
+    "date": {"en": "January 19, 1989", "es": "19 de enero de 1989"},
+    "os": {"en": "System 6.0.3 (MultiFinder)", "es": "System 6.0.3 (MultiFinder)"},
+    "topBrand": "System 6",
+    "topBadge": {"en": "1989 · 32-Bit Compact", "es": "1989 · 68030 compacto"},
+    "shortLabel": {"en": "Macintosh SE/30", "es": "Macintosh SE/30"},
+    "title": {"en": "Macintosh SE/30, Portable & IIci", "es": "Macintosh SE/30, Portable y IIci"},
+    "quote": {"en": "A 68030 workstation squeezed into the classic compact Mac—and, by September, a Mac you could carry.", "es": "Una estación de trabajo con 68030 metida en el Mac compacto clásico y, en septiembre, un Mac que se podía llevar encima."},
+    "story": {"en": "The SE/30 packed a 68030, a 68882 FPU and a 1.44 MB SuperDrive into the compact Mac case. In September, the battery-powered Macintosh Portable and the 25 MHz Macintosh IIci followed; the IIci became one of the longest-lived and most popular Macs of its era.", "es": "El SE/30 metió un 68030, una FPU 68882 y una SuperDrive de 1,44 MB en la carcasa del Mac compacto. En septiembre llegaron el Macintosh Portable, con batería, y el Macintosh IIci a 25 MHz, que se convirtió en uno de los Macs más longevos y populares de su época."},
+    "highlights": {
+      "en": [
+        "The Portable's 9.8-inch 640×400 active-matrix LCD and lead-acid battery gave up to ten hours away from the wall.",
+        "The IIci was the first modular Mac with built-in video, and its 32-bit clean ROM paved the way for System 7."
+      ],
+      "es": [
+        "La pantalla LCD de matriz activa de 9,8\" y 640×400 y la batería de plomo del Portable daban hasta diez horas sin enchufe.",
+        "El IIci fue el primer Mac modular con vídeo integrado, y su ROM «32-bit clean» preparó el camino a System 7."
+      ]
+    },
+    "archiveNote": {"en": "Like the original Mac, the Macintosh IIci has its product design team's signatures molded inside the case, visible once the motherboard is removed.", "es": "Como el Mac original, el Macintosh IIci lleva las firmas de su equipo de diseño moldeadas dentro de la carcasa, visibles al retirar la placa base."},
+    "chime": "macii_1987",
+    "variants": [
+      {
+        "name": "Macintosh SE/30",
+        "img": "se30",
+        "wiki": "Macintosh_SE/30",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68030 @ 15.67 MHz + 68882 FPU", "es": "Motorola 68030 a 15,67 MHz + FPU 68882"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "1 MB RAM (up to 128 MB)", "es": "1 MB de RAM (hasta 128 MB)"}},
+          {"label": {"en": "EXPANSION", "es": "EXPANSIÓN"}, "value": {"en": "030 Processor Direct Slot", "es": "Ranura PDS para 030"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$4,369", "es": "4.369 $"}}
+        ]
+      },
+      {
+        "name": "Macintosh Portable",
+        "img": "macportable",
+        "wiki": "Macintosh_Portable",
+        "wikiEs": "Macintosh_Portable",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 16 MHz", "es": "Motorola 68000 a 16 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "9.8\" 640×400 active-matrix LCD", "es": "LCD de matriz activa de 9,8\" y 640×400"}},
+          {"label": {"en": "WEIGHT", "es": "PESO"}, "value": {"en": "15.8 lb (7.2 kg)", "es": "7,2 kg"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$5,799", "es": "5.799 $"}}
+        ]
+      },
+      {
+        "name": "Macintosh IIci",
+        "img": "mac2ci",
+        "wiki": "Macintosh_IIci",
+        "wikiEs": "Macintosh_IIci",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68030 @ 25 MHz + 68882 FPU", "es": "Motorola 68030 a 25 MHz + FPU 68882"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "1 or 4 MB RAM (up to 128 MB)", "es": "1 o 4 MB de RAM (hasta 128 MB)"}},
+          {"label": {"en": "VIDEO", "es": "VÍDEO"}, "value": {"en": "Built-in, up to 8-bit at 640×480", "es": "Integrado, hasta 8 bits a 640×480"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$6,269", "es": "6.269 $"}}
+        ]
+      }
+    ]
+  }
+]

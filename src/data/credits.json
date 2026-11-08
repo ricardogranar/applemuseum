@@ -1,0 +1,372 @@
+{
+ "apple1": {
+  "file": "2019-08-04 Apple I computer.jpg",
+  "author": "Maksym Kozlenko",
+  "license": "CC BY-SA 4.0"
+ },
+ "apple2": {
+  "file": "Apple II-IMG 7064.jpg",
+  "author": "Rama & Musée Bolo",
+  "license": "CC BY-SA 2.0 fr"
+ },
+ "apple2c": {
+  "file": "Apple IIc with monitor.jpg",
+  "author": "Bilby",
+  "license": "CC BY 3.0"
+ },
+ "apple2e": {
+  "file": "Apple IIe original.jpg",
+  "author": "User Apple2gs on en.wikipedia",
+  "license": "Public domain"
+ },
+ "apple2gs": {
+  "file": "Apple IIGS with peripherals.jpg",
+  "author": "Ruben de Rijcke",
+  "license": "CC BY-SA 4.0"
+ },
+ "apple2plus": {
+  "file": "Apple II Plus.jpg",
+  "author": "Bilby",
+  "license": "CC BY 3.0"
+ },
+ "apple3": {
+  "file": "Apple III+.jpg",
+  "author": "Bilby",
+  "license": "CC BY 3.0"
+ },
+ "colorclassic": {
+  "file": "Macintosh Colour Classic 1994 (retouched).jpg",
+  "author": "Mystère Martin",
+  "license": "CC BY-SA 3.0"
+ },
+ "cube": {
+  "file": "PowerMac G4 Cube.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY 2.0"
+ },
+ "emac": {
+  "file": "Apple-eMac-FL (transparent).png",
+  "author": "Evan-Amos",
+  "license": "Public domain"
+ },
+ "ibookclam": {
+  "file": "Clamshell iBook G3.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY 2.0"
+ },
+ "ibooksnow": {
+  "file": "IBook G3 laptop.jpg",
+  "author": "ProtoKiwi",
+  "license": "CC BY 4.0"
+ },
+ "imac2009": {
+  "file": "Imac 16-9.png",
+  "author": "This image has been made by Matthieu Riegler (User:Kyro) and released under the ",
+  "license": "CC BY 3.0"
+ },
+ "imac2012": {
+  "file": "FUSS 11 on iMac.jpg",
+  "author": "Paolo Dongilli",
+  "license": "CC BY-SA 4.0"
+ },
+ "imacalu": {
+  "file": "2009 iMac 24\" (44022210144).jpg",
+  "author": "Martin Pettitt from Bury St Edmunds, UK",
+  "license": "CC BY 2.0"
+ },
+ "imacdv": {
+  "file": "IMac G3 Indigo.jpg",
+  "author": "Carl Berkeley",
+  "license": "CC BY-SA 2.0"
+ },
+ "imacflavors": {
+  "file": "Imac G3 5 flavors side lineup.jpg",
+  "author": "Stephen Hackett",
+  "license": "CC BY-SA 4.0"
+ },
+ "imacg3": {
+  "file": "IMac Bondi Blue.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 2.0"
+ },
+ "imacg4": {
+  "file": "IMac G4 sunflower7.png",
+  "author": "Bishonen",
+  "license": "Public domain"
+ },
+ "imacg5": {
+  "file": "IMac G5 Rev. A front.jpg",
+  "author": "Matthew Welty (fiveaside) from Sacramento, USA",
+  "license": "CC BY-SA 2.0"
+ },
+ "imacm1": {
+  "file": "M1 iMac blue model (cropped & brighter).jpg",
+  "author": "Jelican9",
+  "license": "CC BY-SA 4.0"
+ },
+ "imacm4": {
+  "file": "IMac M4 2024 2 (cropped).jpg",
+  "author": "Seasider53",
+  "license": "CC BY 4.0"
+ },
+ "lisa": {
+  "file": "Apple Lisa (3) in Computer History Museum - California.jpg",
+  "author": "Marcin Wichary from San Francisco, Calif.",
+  "license": "CC BY 2.0"
+ },
+ "mac128": {
+  "file": "Computer macintosh 128k, 1984 (all about Apple onlus).jpg",
+  "author": "Sailko",
+  "license": "CC BY 3.0"
+ },
+ "mac2": {
+  "file": "Apple-macintosh-ii.jpg",
+  "author": "Akbkuku",
+  "license": "CC BY 4.0"
+ },
+ "mac2ci": {
+  "file": "Apple-macintosh-iici.jpg",
+  "author": "Akbkuku",
+  "license": "CC BY 4.0"
+ },
+ "mac2fx": {
+  "file": "Macintosh IIfx.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 3.0"
+ },
+ "mac2x": {
+  "file": "Macintosh IIx.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 3.0"
+ },
+ "mac512": {
+  "file": "2019-08-04 Apple Macintosh 512K.jpg",
+  "author": "Maksym Kozlenko",
+  "license": "CC BY-SA 4.0"
+ },
+ "macbook12": {
+  "file": "Apple Macbook12, 2015Unboxing 3.jpg",
+  "author": "Rüdiger Müller",
+  "license": "CC BY-SA 4.0"
+ },
+ "macbookwhite": {
+  "file": "MacBook white.png",
+  "author": "Jared C. Benedict",
+  "license": "CC BY-SA 3.0"
+ },
+ "macclassic": {
+  "file": "Apple Macintosh Classic (52319826039).jpg",
+  "author": "Chi Ho Chan from Hong Kong",
+  "license": "CC BY 2.0"
+ },
+ "macclassic2": {
+  "file": "Macintosh Classic 2.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 2.5"
+ },
+ "maclc": {
+  "file": "Apple Museum (Prague) Macintosh LC (1990) (cropped).jpg",
+  "author": "Benoît Prieur",
+  "license": "CC0"
+ },
+ "macplus": {
+  "file": "Apple Macintosh Plus white background (cropped).jpg",
+  "author": "Felix Winkelnkemper",
+  "license": "CC BY 2.0"
+ },
+ "macportable": {
+  "file": "Macintosh Portable-IMG 7541.jpg",
+  "author": "Rama",
+  "license": "CC BY-SA 2.0 fr"
+ },
+ "macpro2006": {
+  "file": "Mac Pro (2010).jpg",
+  "author": "Uadro",
+  "license": "CC BY-SA 4.0"
+ },
+ "macpro2013": {
+  "file": "New Mac Pro (12093123884).jpg",
+  "author": "Paul Hudson from United Kingdom",
+  "license": "CC BY 2.0"
+ },
+ "macpro2019": {
+  "file": "Apple Mac Pro 3rd generation, from 2019.jpeg",
+  "author": "FASTILY",
+  "license": "CC BY-SA 4.0"
+ },
+ "macse": {
+  "file": "Macintosh SE b.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 2.5"
+ },
+ "mactv": {
+  "file": "Macintosh TV.png",
+  "author": "Ben Boldt at English Wikipedia",
+  "license": "Public domain"
+ },
+ "macxl": {
+  "file": "Apple-LISA-Macintosh-XL.jpg",
+  "author": "Gerhard »GeWalt« Walter",
+  "license": "CC0"
+ },
+ "mba15": {
+  "file": "Macbook Air 15 inch - 2 (blurred).jpg",
+  "author": "User:KKPCW",
+  "license": "CC BY-SA 4.0"
+ },
+ "mba2008": {
+  "file": "MacBook Air black.png",
+  "author": "Tim Malabuyo from Santa Cruz",
+  "license": "CC BY 2.0"
+ },
+ "mba2010": {
+  "file": "Macbook Air.jpg",
+  "author": "https://es.ifixit.com/User/524640/Sam+Lionheart",
+  "license": "CC BY-SA 3.0"
+ },
+ "mbp2006": {
+  "file": "MacBook Pro.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY 2.0"
+ },
+ "mbp2021": {
+  "file": "MacBook Pro 16 (M1 Pro, 2021) - Wikipedia (cropped).jpg",
+  "author": "Premeditated",
+  "license": "CC BY-SA 4.0"
+ },
+ "mbp2026": {
+  "file": "MacBook Pro (14-inch, M5, Space Black).jpg",
+  "author": "AzureSaturn",
+  "license": "CC0"
+ },
+ "mbpm5": {
+  "file": "MacBook Pro (14-inch, M5, Space Black).jpg",
+  "author": "AzureSaturn",
+  "license": "CC0"
+ },
+ "mbpr2012": {
+  "file": "Retina MB Pro.jpg",
+  "author": "David Jafra from Toulouse, France",
+  "license": "CC BY 2.0"
+ },
+ "mbptouchbar": {
+  "file": "Late 2016 MacBook Pro.jpg",
+  "author": "Sonicdrewdriver",
+  "license": "CC BY-SA 4.0"
+ },
+ "mbpunibody": {
+  "file": "MacBook Pro, Late-2008.jpg",
+  "author": "Ashley Pomeroy",
+  "license": "CC BY-SA 4.0"
+ },
+ "mini2010": {
+  "file": "Mac Mini 2010 front.jpeg",
+  "author": "20px|link=User:Kcida10|Kcida10 Kcida10 (talk) (Uploads).",
+  "license": "CC0"
+ },
+ "minig4": {
+  "file": "Mac-mini-1st-gen.jpg",
+  "author": "Evan-Amos",
+  "license": "Public domain"
+ },
+ "minim4": {
+  "file": "Mac mini 2024 M4.jpg",
+  "author": "Seasider53",
+  "license": "CC BY 4.0"
+ },
+ "neo": {
+  "file": "MacBook Neo-5595.jpg",
+  "author": "GodeNehler",
+  "license": "CC BY-SA 4.0"
+ },
+ "pb100": {
+  "file": "Powerbook 100 pose.jpg",
+  "author": "Danamania",
+  "license": "CC0"
+ },
+ "pb1400": {
+  "file": "PowerBook 1400cs 133.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 3.0"
+ },
+ "pb540c": {
+  "file": "540c open.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 2.5"
+ },
+ "pbduo": {
+  "file": "PowerBook Duo 210 - front.jpg",
+  "author": "Stephen Edmonds",
+  "license": "CC BY-SA 2.5"
+ },
+ "pbg3wallstreet": {
+  "file": "WallstreetII.jpg",
+  "author": "Danamania",
+  "license": "CC BY-SA 3.0"
+ },
+ "pbg4al": {
+  "file": "Powerbook G4 17\" 1.67ghz Late-2005.jpg",
+  "author": "Ashley Pomeroy",
+  "license": "CC BY-SA 4.0"
+ },
+ "pbg4ti": {
+  "file": "1ghz Titanium Apple PowerBook G4.jpg",
+  "author": "Ashley Pomeroy",
+  "license": "CC BY-SA 4.0"
+ },
+ "pm6100": {
+  "file": "Power Macintosh 6100-60AV - front.jpg",
+  "author": "MIKI Yoshihito",
+  "license": "CC BY 2.0"
+ },
+ "pm9500": {
+  "file": "PowerMac 9500 132 front.jpg",
+  "author": "Thomas Kaiser",
+  "license": "CC BY-SA 3.0"
+ },
+ "pmg3bw": {
+  "file": "Apple Yosemite.JPG",
+  "author": "Dietmar Naujok",
+  "license": "CC BY 3.0"
+ },
+ "pmg4qs": {
+  "file": "Apple PowerMac G4 M8493 QuickSilver front.jpg",
+  "author": "baku13",
+  "license": "CC BY-SA 3.0"
+ },
+ "pmg5": {
+  "file": "Power Mac G5 hero left.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 3.0"
+ },
+ "quadra700": {
+  "file": "Macintosh Quadra 700.png",
+  "author": "Ben Boldt at English Wikipedia",
+  "license": "Public domain"
+ },
+ "quadra840av": {
+  "file": "Macintosh Quadra 840AV.jpg",
+  "author": "Silversword31",
+  "license": "LGPL"
+ },
+ "se30": {
+  "file": "Se30.jpg",
+  "author": "Wikimedia Commons contributor",
+  "license": "CC BY-SA 2.5"
+ },
+ "studio": {
+  "file": "Mac Studio (2022) front.jpg",
+  "author": "Yasu (talk)",
+  "license": "CC BY-SA 3.0"
+ },
+ "tam": {
+  "file": "Apple Macintosh Twentieth Anniversary (crop).jpg",
+  "author": "Shelby Jueden",
+  "license": "CC BY-SA 4.0"
+ },
+ "xserve": {
+  "file": "Apple Xserve (Early 2008) (26396570970).jpg",
+  "author": "htomari",
+  "license": "CC BY-SA 2.0"
+ }
+}

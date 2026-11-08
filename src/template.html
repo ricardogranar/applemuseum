@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--__HEAD__-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-page: radial-gradient(ellipse at 50% 42%, #ffffff 0%, #f2f3f7 62%, #e5e7ee 100%);
+      --bg-solid: #f2f3f7;
+      --topbar-bg: rgba(255, 255, 255, 0.88);
+      --topbar-border: 1px solid rgba(0, 0, 0, 0.08);
+      --topbar-radius: 999px;
+      --topbar-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      --text-main: #1d1d1f;
+      --text-muted: #6e6e73;
+      --accent-date: #d9460f;
+      --accent-primary: #0071e3;
+      --btn-bg: rgba(255, 255, 255, 0.88);
+      --btn-text: #1d1d1f;
+      --btn-border: 1px solid rgba(0, 0, 0, 0.12);
+      --btn-radius: 999px;
+      --btn-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      --decade-active-bg: #1d1d1f;
+      --decade-active-text: #ffffff;
+      --decade-active-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      --card-bg: rgba(255, 255, 255, 0.92);
+      --card-border: 1px solid rgba(0, 0, 0, 0.07);
+      --card-radius: 16px;
+      --card-shadow: 0 12px 36px rgba(0, 0, 0, 0.06);
+      --divider-color: rgba(0, 0, 0, 0.08);
+      --explore-bg: linear-gradient(180deg, #1482f0 0%, #0066cc 100%);
+      --explore-text: #ffffff;
+      --explore-border: 1px solid rgba(0, 75, 160, 0.4);
+      --explore-radius: 999px;
+      --explore-shadow: 0 6px 18px rgba(0, 102, 204, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+      --ruler-bg: rgba(235, 236, 242, 0.88);
+      --ruler-border: rgba(0, 0, 0, 0.08);
+      --watermark-color: rgba(0, 0, 0, 0.055);
+      --font-heading: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+      --font-quote: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --glass-refraction: 22px;
+    }
+
+    /* ============================================================================
+       MUTACIÓN COMPLETA DE INTERFAZ Y BOTONES SEGÚN LA ÉPOCA Y EL SISTEMA MAC OS
+       ============================================================================ */
+
+    /* 1. 1970s (1976–1982): APPLE I & APPLE II — TERMINAL CRT DE FÓSFORO VERDE */
+    body.era-ui-enabled[data-era="70s"] {
+      --bg-page:
+        repeating-linear-gradient(
+          0deg,
+          rgba(51, 255, 102, 0.05) 0px,
+          rgba(51, 255, 102, 0.05) 1px,
+          transparent 1px,
+          transparent 3px
+        ),
+        radial-gradient(ellipse at 50% 45%, #0f2915 0%, #07140a 65%, #030904 100%);
+      --bg-solid: #050e07;
+      --topbar-bg: #07150a;
+      --topbar-border: 1.5px solid #33ff66;
+      --topbar-radius: 0px;
+      --topbar-shadow: 0 0 22px rgba(51, 255, 102, 0.25), inset 0 0 10px rgba(51, 255, 102, 0.12);
+      --text-main: #33ff66;
+      --text-muted: #22b847;
+      --accent-date: #7dff9e;
+      --accent-primary: #33ff66;
+      --btn-bg: #061208;
+      --btn-text: #33ff66;
+      --btn-border: 1.5px solid #33ff66;
+      --btn-radius: 0px;
+      --btn-shadow: 0 0 10px rgba(51, 255, 102, 0.2);
+      --decade-active-bg: #33ff66;
+      --decade-active-text: #041006;
+      --decade-active-shadow: 0 0 16px rgba(51, 255, 102, 0.75);
+      --card-bg: rgba(6, 18, 9, 0.94);
+      --card-border: 1.5px solid #33ff66;
+      --card-radius: 0px;
+      --card-shadow: 0 0 26px rgba(51, 255, 102, 0.22), inset 0 0 12px rgba(51, 255, 102, 0.1);
+      --divider-color: rgba(51, 255, 102, 0.35);
+      --explore-bg: #33ff66;
+      --explore-text: #041006;
+      --explore-border: 1.5px solid #7dff9e;
+      --explore-radius: 0px;
+      --explore-shadow: 0 0 20px rgba(51, 255, 102, 0.6);
+      --ruler-bg: #051007;
+      --ruler-border: #33ff66;
+      --watermark-color: rgba(51, 255, 102, 0.08);
+      --font-heading: 'VT323', monospace;
+      --font-quote: 'VT323', monospace;
+      --font-mono: 'VT323', monospace;
+    }
+
+    /* 2. 1980s (1983–1989): SYSTEM 1.0 A SYSTEM 6 — ESCRITORIO 1-BIT DITHERED (SUSAN KARE) */
+    body.era-ui-enabled[data-era="80s"] {
+      --bg-page:
+        linear-gradient(45deg, #c6c6c6 25%, transparent 25%),
+        linear-gradient(-45deg, #c6c6c6 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #c6c6c6 75%),
+        linear-gradient(-45deg, transparent 75%, #c6c6c6 75%);
+      --bg-solid: #efefef;
+      --topbar-bg:
+        repeating-linear-gradient(
+          180deg,
+          #ffffff 0px,
+          #ffffff 2px,
+          #dcdcdc 2px,
+          #dcdcdc 3px
+        );
+      --topbar-border: 2px solid #000000;
+      --topbar-radius: 0px;
+      --topbar-shadow: 4px 4px 0px #000000;
+      --text-main: #000000;
+      --text-muted: #222222;
+      --accent-date: #000000;
+      --accent-primary: #000000;
+      --btn-bg: #ffffff;
+      --btn-text: #000000;
+      --btn-border: 2px solid #000000;
+      --btn-radius: 0px;
+      --btn-shadow: 2px 2px 0px #000000;
+      --decade-active-bg: #000000;
+      --decade-active-text: #ffffff;
+      --decade-active-shadow: 2px 2px 0px #444444;
+      --card-bg: #ffffff;
+      --card-border: 2px solid #000000;
+      --card-radius: 0px;
+      --card-shadow: 5px 5px 0px #000000;
+      --divider-color: #000000;
+      --explore-bg: #000000;
+      --explore-text: #ffffff;
+      --explore-border: 2px solid #000000;
+      --explore-radius: 0px;
+      --explore-shadow: 4px 4px 0px #555555;
+      --ruler-bg: #ffffff;
+      --ruler-border: #000000;
+      --watermark-color: rgba(0, 0, 0, 0.08);
+      --font-heading: 'Silkscreen', monospace;
+      --font-quote: 'JetBrains Mono', monospace;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    body.era-ui-enabled[data-era="80s"] {
+      background-size: 4px 4px;
+      background-position: 0 0, 0 2px, 2px -2px, -2px 0;
+    }
+
+    /* 3. 1990s (1991–1999): SYSTEM 7 & MAC OS 8 / 9 PLATINUM + BONDI BLUE */
+    body.era-ui-enabled[data-era="90s"] {
+      --bg-page: radial-gradient(ellipse at 50% 42%, #f5f8fa 0%, #d5e3ec 65%, #b3cbd9 100%);
+      --bg-solid: #d5e3ec;
+      --topbar-bg:
+        repeating-linear-gradient(
+          180deg,
+          #e8e8e8 0px,
+          #e8e8e8 1px,
+          #cccccc 1px,
+          #cccccc 2px
+        );
+      --topbar-border: 1.5px solid #222222;
+      --topbar-radius: 4px;
+      --topbar-shadow: inset 1.5px 1.5px 0px #ffffff, inset -1.5px -1.5px 0px #888888, 3px 3px 0px rgba(0, 0, 0, 0.45);
+      --text-main: #111111;
+      --text-muted: #3a3a3a;
+      --accent-date: #00738c;
+      --accent-primary: #00859c;
+      --btn-bg: linear-gradient(180deg, #f2f2f2 0%, #d4d4d4 100%);
+      --btn-text: #111111;
+      --btn-border: 1.5px solid #111111;
+      --btn-radius: 4px;
+      --btn-shadow: inset 1px 1px 0px #ffffff, inset -1px -1px 0px #888888, 1.5px 1.5px 0px rgba(0,0,0,0.35);
+      --decade-active-bg: linear-gradient(180deg, #009bb5 0%, #006b80 100%);
+      --decade-active-text: #ffffff;
+      --decade-active-shadow: inset 1px 1px 0px rgba(255,255,255,0.6), 1.5px 1.5px 0px #000000;
+      --card-bg: #e2e2e2;
+      --card-border: 1.5px solid #111111;
+      --card-radius: 4px;
+      --card-shadow: inset 1.5px 1.5px 0px #ffffff, inset -1.5px -1.5px 0px #888888, 4px 4px 0px rgba(0, 0, 0, 0.4);
+      --divider-color: #888888;
+      --explore-bg: linear-gradient(180deg, #009bb5 0%, #006b80 100%);
+      --explore-text: #ffffff;
+      --explore-border: 1.5px solid #111111;
+      --explore-radius: 4px;
+      --explore-shadow: inset 1.5px 1.5px 0px rgba(255,255,255,0.65), inset -1.5px -1.5px 0px rgba(0,0,0,0.4), 3px 3px 0px rgba(0,0,0,0.45);
+      --ruler-bg: #d4d4d4;
+      --ruler-border: #222222;
+      --watermark-color: rgba(0, 95, 115, 0.085);
+      --font-quote: 'Newsreader', Georgia, serif;
+    }
+
+    /* 4. 2000s (2000–2008): MAC OS X 10.0–10.5 AQUA (PINSTRIPES & CÁPSULAS DE GEL AZUL) */
+    body.era-ui-enabled[data-era="00s"] {
+      --bg-page:
+        repeating-linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.5) 0px,
+          rgba(255, 255, 255, 0.5) 2px,
+          rgba(218, 233, 248, 0.5) 2px,
+          rgba(218, 233, 248, 0.5) 4px
+        ),
+        radial-gradient(ellipse at 50% 45%, #ffffff 0%, #e1edf9 65%, #c9ddf2 100%);
+      --bg-solid: #e4effa;
+      --topbar-bg:
+        repeating-linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.94) 0px,
+          rgba(255, 255, 255, 0.94) 2px,
+          rgba(232, 240, 250, 0.94) 2px,
+          rgba(232, 240, 250, 0.94) 4px
+        );
+      --topbar-border: 1px solid rgba(0, 90, 190, 0.25);
+      --topbar-radius: 999px;
+      --topbar-shadow: 0 8px 26px rgba(0, 65, 135, 0.14), inset 0 1.5px 0 #ffffff;
+      --accent-date: #0066cc;
+      --accent-primary: #0066cc;
+      --btn-bg: linear-gradient(180deg, #ffffff 0%, #e3ebf5 100%);
+      --btn-text: #152233;
+      --btn-border: 1px solid rgba(0, 80, 170, 0.3);
+      --btn-radius: 999px;
+      --btn-shadow: inset 0 1px 0 #ffffff, 0 2px 5px rgba(0, 50, 100, 0.12);
+      --decade-active-bg: linear-gradient(180deg, #9ad0ff 0%, #1d82f5 48%, #0057c2 52%, #4da6ff 100%);
+      --decade-active-text: #ffffff;
+      --decade-active-shadow: inset 0 1.5px 1px rgba(255, 255, 255, 0.9), 0 3px 10px rgba(0, 102, 204, 0.45);
+      --card-bg:
+        repeating-linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.95) 0px,
+          rgba(255, 255, 255, 0.95) 2px,
+          rgba(240, 246, 252, 0.95) 2px,
+          rgba(240, 246, 252, 0.95) 4px
+        );
+      --card-border: 1px solid rgba(0, 102, 204, 0.22);
+      --card-radius: 16px;
+      --card-shadow: 0 14px 36px rgba(0, 60, 130, 0.12), inset 0 1.5px 0 #ffffff;
+      --explore-bg: linear-gradient(180deg, #9ad0ff 0%, #1d82f5 48%, #0057c2 52%, #4da6ff 100%);
+      --explore-border: 1px solid #00449e;
+      --explore-shadow: inset 0 1.5px 1px rgba(255, 255, 255, 0.92), 0 6px 18px rgba(0, 102, 204, 0.48);
+      --watermark-color: rgba(0, 65, 135, 0.065);
+      --font-quote: 'Newsreader', Georgia, serif;
+    }
+
+    /* 5. 2010s (2010–2019): OS X YOSEMITE / CATALINA — ALUMINIO UNIBODY & CRISTAL ESMERILADO */
+    body.era-ui-enabled[data-era="10s"] {
+      --bg-page: radial-gradient(ellipse at 50% 42%, #ffffff 0%, #eaedf3 62%, #d5dbe6 100%);
+      --bg-solid: #eaedf3;
+      --topbar-bg: rgba(246, 248, 252, 0.82);
+      --topbar-border: 1px solid rgba(0, 0, 0, 0.12);
+      --topbar-shadow: 0 6px 22px rgba(0, 0, 0, 0.07), inset 0 1px 0 #ffffff;
+      --accent-date: #007aff;
+      --accent-primary: #007aff;
+      --decade-active-bg: linear-gradient(180deg, #2b90ff 0%, #007aff 100%);
+      --decade-active-text: #ffffff;
+      --card-bg: rgba(255, 255, 255, 0.86);
+      --card-border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    /* 6. 2026: MACOS 26 TAHOE & MACOS 27 GOLDEN GATE — LIQUID GLASS & DYNAMIC ISLAND */
+    body.era-ui-enabled[data-era="20s"][data-year="2026"] {
+      --bg-page:
+        radial-gradient(circle at 18% 20%, rgba(186, 224, 255, 0.6) 0%, transparent 44%),
+        radial-gradient(circle at 82% 22%, rgba(238, 202, 255, 0.5) 0%, transparent 48%),
+        radial-gradient(ellipse at 50% 48%, #ffffff 0%, #eef2f9 65%, #dfe6f2 100%);
+      --topbar-bg: rgba(255, 255, 255, 0.58);
+      --topbar-border: 1px solid rgba(255, 255, 255, 0.92);
+      --topbar-shadow:
+        0 12px 34px rgba(15, 45, 95, 0.1),
+        inset 0 1.5px 1px #ffffff,
+        inset 0 -1px 2px rgba(56, 152, 255, 0.28);
+      --btn-bg: rgba(255, 255, 255, 0.62);
+      --btn-border: 1px solid rgba(255, 255, 255, 0.9);
+      --btn-shadow: 0 4px 12px rgba(0, 40, 100, 0.07), inset 0 1px 1px #ffffff;
+      --card-bg: rgba(255, 255, 255, 0.62);
+      --card-border: 1px solid rgba(255, 255, 255, 0.92);
+      --card-radius: 24px;
+      --card-shadow:
+        0 18px 44px rgba(15, 45, 95, 0.1),
+        inset 0 2px 1.5px #ffffff,
+        inset 0 -1.5px 2px rgba(56, 152, 255, 0.25);
+      --accent-date: #0066eb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    html, body {
+      width: 100%;
+      min-height: 100vh;
+      overflow-x: hidden;
+      background: var(--bg-page);
+      background-color: var(--bg-solid);
+      color: var(--text-main);
+      font-family: var(--font-heading);
+      transition: background 0.45s ease;
+    }
+
+    body {
+      display: block;
+    }
+
+    /* The interactive museum fills exactly one screen; archive + footer follow below */
+    .app-viewport {
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 6px;
+      padding-bottom: 10px;
+    }
+
+    /* ==================== 1. TOP NAVIGATION BAR (MATCHING SCREENSHOTS 1, 2, 3) ==================== */
+    .top-nav-wrapper {
+      width: 100%;
+      padding: 10px 18px 0;
+      z-index: 200;
+      flex-shrink: 0;
+    }
+
+    .top-pill-bar {
+      max-width: 1360px;
+      margin: 0 auto;
+      min-height: 48px;
+      padding: 6px 16px;
+      background: var(--topbar-bg);
+      border: var(--topbar-border);
+      border-radius: var(--topbar-radius);
+      box-shadow: var(--topbar-shadow);
+      backdrop-filter: blur(var(--glass-refraction)) saturate(180%);
+      -webkit-backdrop-filter: blur(var(--glass-refraction)) saturate(180%);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      transition: all 0.35s ease;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .traffic-lights {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-right: 4px;
+    }
+
+    .tl-dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      border: 1px solid rgba(0, 0, 0, 0.18);
+      box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.65);
+      transition: all 0.25s ease;
+    }
+
+    .tl-dot.red { background: #ff5f56; }
+    .tl-dot.yellow { background: #ffbd2e; }
+    .tl-dot.green { background: #27c93f; }
+
+    /* Mutación de los botones de ventana según el Mac OS histórico */
+    body.era-ui-enabled[data-era="70s"] .tl-dot {
+      border-radius: 0;
+      background: #061208 !important;
+      border: 1.5px solid #33ff66;
+      box-shadow: 0 0 6px rgba(51, 255, 102, 0.6);
+    }
+
+    /* En System 1.0 (80s) solo existía la casilla cuadrada blanca de cierre con borde negro */
+    body.era-ui-enabled[data-era="80s"] .tl-dot {
+      border-radius: 0;
+      width: 12px;
+      height: 12px;
+      background: #ffffff !important;
+      border: 2px solid #000000;
+      box-shadow: none;
+    }
+    body.era-ui-enabled[data-era="80s"] .tl-dot.yellow,
+    body.era-ui-enabled[data-era="80s"] .tl-dot.green {
+      display: none;
+    }
+
+    /* En Mac OS 8/9 Platinum (90s) son casillas cuadradas biseladas 3D */
+    body.era-ui-enabled[data-era="90s"] .tl-dot {
+      border-radius: 1px;
+      background: linear-gradient(135deg, #ffffff 0%, #b5b5b5 100%) !important;
+      border: 1.5px solid #111111;
+      box-shadow: inset 1px 1px 0 #ffffff;
+    }
+
+    /* En Modern UI (2020–2024) se ocultan igual que en las capturas 2 y 3 */
+    body:not(.era-ui-enabled) .traffic-lights,
+    body.era-ui-enabled[data-era="20s"]:not([data-year="2026"]) .traffic-lights {
+      display: none;
+    }
+
+    .brand-apple-icon {
+      font-size: 17px;
+      line-height: 1;
+      color: var(--text-main);
+      transition: all 0.3s;
+    }
+
+    /* Manzana arcoíris clásica de 6 colores para los Apple de los 70s, 80s y 90s */
+    body.era-ui-enabled[data-era="70s"] .brand-apple-icon,
+    body.era-ui-enabled[data-era="80s"] .brand-apple-icon,
+    body.era-ui-enabled[data-era="90s"] .brand-apple-icon {
+      background: linear-gradient(180deg, #61bb46 0%, #61bb46 16%, #fdb827 16%, #fdb827 33%, #f5821f 33%, #f5821f 50%, #e03a3e 50%, #e03a3e 66%, #963d97 66%, #963d97 83%, #009ddc 83%, #009ddc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 1px 0 rgba(0,0,0,0.35));
+    }
+
+    body.era-ui-enabled[data-era="00s"] .brand-apple-icon {
+      color: #0066cc;
+      text-shadow: 0 1px 3px rgba(0, 102, 204, 0.35);
+    }
+
+    .brand-os-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-main);
+    }
+
+    body.era-ui-enabled[data-era="80s"] .brand-os-title {
+      font-size: 12px;
+      background: #ffffff;
+      padding: 2px 6px;
+      border: 1.5px solid #000000;
+    }
+
+    .era-mode-badge {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--btn-text);
+      background: var(--btn-bg);
+      border: var(--btn-border);
+      border-radius: var(--btn-radius);
+      box-shadow: var(--btn-shadow);
+      padding: 3px 10px;
+      white-space: nowrap;
+    }
+
+    /* Center Decade Switcher Pill */
+    .decade-switcher {
+      display: flex;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.045);
+      border: var(--btn-border);
+      border-radius: var(--btn-radius);
+      padding: 3px;
+      gap: 3px;
+    }
+
+    body.era-ui-enabled[data-era="80s"] .decade-switcher {
+      background: #ffffff;
+      box-shadow: 2px 2px 0 #000000;
+    }
+
+    body.era-ui-enabled[data-era="90s"] .decade-switcher {
+      background: #cccccc;
+      box-shadow: inset 1px 1px 0 #888888, inset -1px -1px 0 #ffffff;
+    }
+
+    .decade-pill-btn {
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-family: var(--font-heading);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: var(--btn-radius);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .decade-pill-btn {
+      font-size: 15px;
+    }
+
+    body.era-ui-enabled[data-era="80s"] .decade-pill-btn {
+      font-size: 10.5px;
+    }
+
+    .decade-pill-btn:hover {
+      color: var(--text-main);
+    }
+
+    .decade-pill-btn.active {
+      background: var(--decade-active-bg);
+      color: var(--decade-active-text);
+      box-shadow: var(--decade-active-shadow);
+    }
+
+    /* Right Action Pills */
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .top-action-btn {
+      border: var(--btn-border);
+      background: var(--btn-bg);
+      color: var(--btn-text);
+      font-family: var(--font-heading);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: var(--btn-radius);
+      box-shadow: var(--btn-shadow);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .top-action-btn {
+      font-size: 14px;
+    }
+
+    body.era-ui-enabled[data-era="80s"] .top-action-btn {
+      font-size: 10px;
+    }
+
+    .top-action-btn:hover {
+      transform: translateY(-1px);
+    }
+
+    body.era-ui-enabled[data-era="80s"] .top-action-btn:hover,
+    body.era-ui-enabled[data-era="80s"] .top-action-btn.era-toggle-active {
+      background: #000000;
+      color: #ffffff;
+    }
+
+    .top-action-btn.era-toggle-active {
+      background: var(--decade-active-bg);
+      color: var(--decade-active-text);
+      box-shadow: var(--decade-active-shadow);
+    }
+
+    .top-action-btn.timelapse-active {
+      background: #1d1d1f;
+      color: #ffffff;
+    }
+
+    .audio-circle-btn {
+      width: 30px;
+      height: 30px;
+      border-radius: var(--btn-radius);
+      border: var(--btn-border);
+      background: var(--btn-bg);
+      color: var(--btn-text);
+      box-shadow: var(--btn-shadow);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.2s ease;
+    }
+
+    .audio-circle-btn:hover {
+      transform: scale(1.06);
+    }
+
+    /* ==================== 2. HEADER SECTION (EYEBROW, TITLE, QUOTE & SUB-MODEL PILLS) ==================== */
+    .hero-header {
+      text-align: center;
+      padding: 18px 20px 6px;
+      max-width: 980px;
+      margin: 0 auto;
+      z-index: 40;
+      flex-shrink: 0;
+    }
+
+    .eyebrow-row {
+      font-family: var(--font-heading);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .eyebrow-date {
+      color: var(--accent-date);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow-sep {
+      opacity: 0.55;
+    }
+
+    .hero-title {
+      font-size: clamp(23px, 3.1vw, 42px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.12;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .hero-title {
+      font-size: clamp(28px, 3.8vw, 48px);
+      letter-spacing: 0.02em;
+      text-shadow: 0 0 14px rgba(51, 255, 102, 0.45);
+    }
+
+    body.era-ui-enabled[data-era="80s"] .hero-title {
+      font-size: clamp(18px, 2.3vw, 30px);
+      letter-spacing: -0.02em;
+      background: #ffffff;
+      display: inline-block;
+      padding: 4px 12px;
+      border: 2px solid #000000;
+      box-shadow: 4px 4px 0px #000000;
+    }
+
+    .hero-quote {
+      font-family: var(--font-quote);
+      font-size: clamp(13.5px, 1.35vw, 17px);
+      line-height: 1.42;
+      color: var(--text-muted);
+      max-width: 740px;
+      margin: 0 auto 12px;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .hero-quote {
+      font-size: 19px;
+      color: #33ff66;
+    }
+
+    body.era-ui-enabled[data-era="80s"] .hero-quote {
+      font-size: 12px;
+      background: rgba(255, 255, 255, 0.92);
+      padding: 4px 10px;
+      border: 1px solid #000000;
+    }
+
+    body.era-ui-enabled[data-era="00s"] .hero-quote,
+    body.era-ui-enabled[data-era="90s"] .hero-quote {
+      font-style: italic;
+    }
+
+    /* Sub-Model Variant Switcher Pills (Matches "[PowerBook G4] [iBook G3]" & "[iMac] [Mac mini]" in Screenshots 1 & 2) */
+    .submodel-pills-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      min-height: 34px;
+    }
+
+    .submodel-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 4px 13px 4px 8px;
+      border-radius: var(--btn-radius);
+      border: var(--btn-border);
+      background: var(--btn-bg);
+      color: var(--btn-text);
+      font-family: var(--font-heading);
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--btn-shadow);
+      transition: all 0.2s ease;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .submodel-pill {
+      font-size: 15px;
+    }
+
+    body.era-ui-enabled[data-era="80s"] .submodel-pill {
+      font-size: 10.5px;
+    }
+
+    .submodel-pill img {
+      width: 22px;
+      height: 18px;
+      object-fit: contain;
+    }
+
+    .submodel-pill:hover {
+      transform: translateY(-1px);
+    }
+
+    .submodel-pill.active {
+      background: var(--decade-active-bg);
+      color: var(--decade-active-text);
+      box-shadow: var(--decade-active-shadow);
+    }
+
+    .submodel-pill.active img {
+      filter: drop-shadow(0 0 2px rgba(255,255,255,0.6));
+    }
+
+    /* ==================== 3. CENTER COVER FLOW STAGE + GIANT YEAR WATERMARK ==================== */
+    .stage-section {
+      position: relative;
+      width: 100%;
+      height: clamp(250px, 36vh, 360px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      perspective: 1400px;
+    }
+
+    /* Giant 4-Digit Year Watermark Behind the Active Machine (Matches "2001", "2023", "2024" in Screenshots) */
+    .giant-year-watermark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -52%);
+      font-size: clamp(145px, 24vw, 300px);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      color: var(--watermark-color);
+      line-height: 1;
+      pointer-events: none;
+      z-index: 1;
+      user-select: none;
+      transition: color 0.4s ease;
+    }
+
+    /* Subtle Studio Horizon Line */
+    .studio-horizon-line {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 22%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.06) 20%, rgba(0,0,0,0.06) 80%, transparent 100%);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .coverflow-track {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    /* Frameless Cutout Product Item */
+    .cf-machine {
+      position: absolute;
+      width: clamp(220px, 26vw, 340px);
+      height: clamp(185px, 26vh, 265px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transform-style: preserve-3d;
+      transition: transform 0.55s cubic-bezier(0.2, 0.85, 0.25, 1), opacity 0.45s ease, filter 0.45s ease;
+      will-change: transform, opacity;
+    }
+
+    /* Floating Monospace Label Above Side Machines (e.g., "2001 · PowerBook G4", "2002 · iMac G4") */
+    .cf-floating-label {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      font-weight: 600;
+      color: var(--text-muted);
+      white-space: nowrap;
+      margin-bottom: 6px;
+      padding: 2px 8px;
+      border-radius: var(--btn-radius);
+      border: var(--btn-border);
+      background: var(--btn-bg);
+      backdrop-filter: blur(4px);
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .cf-machine.is-center .cf-floating-label {
+      opacity: 0;
+    }
+
+    .cf-image-wrap {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 6px;
+      border-radius: 16px;
+      transition: background 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    /* En modo CRT oscuro de los 70s o escritorio tramado de los 80s damos un halo limpio de estudio a la foto real */
+    /* Halo de estudio sutil detrás de los recortes en las épocas oscuras / tramadas */
+    body.era-ui-enabled[data-era="70s"] .cf-machine.is-center .cf-image-wrap {
+      background: radial-gradient(ellipse at 50% 55%, rgba(51, 255, 102, 0.16) 0%, rgba(51, 255, 102, 0) 70%);
+    }
+
+    body.era-ui-enabled[data-era="80s"] .cf-machine.is-center .cf-image-wrap {
+      background: radial-gradient(ellipse at 50% 55%, #ffffff 0%, rgba(255,255,255,0.85) 45%, rgba(255,255,255,0) 72%);
+    }
+
+    .cf-image-wrap img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 18px 22px rgba(0, 0, 0, 0.16));
+      transition: transform 0.35s ease;
+    }
+
+    .cf-machine.is-center:hover .cf-image-wrap img {
+      transform: scale(1.04);
+    }
+
+    /* Soft Elliptical Floor Shadow Under Each Cutout Machine */
+    .cf-floor-shadow {
+      width: 68%;
+      height: 16px;
+      border-radius: 50%;
+      background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.22) 0%, rgba(0, 0, 0, 0) 72%);
+      margin-top: -6px;
+      pointer-events: none;
+      flex-shrink: 0;
+    }
+
+    /* Interactive 2026 Dynamic Island & Touch Badge on the 2026 MacBook Pro Touch Hero */
+    .hero-2026-pill {
+      position: absolute;
+      bottom: 8px;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(15, 18, 28, 0.86);
+      color: #ffffff;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      display: none;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .cf-machine.is-center .hero-2026-pill.show-badge {
+      display: inline-flex;
+    }
+
+    .siri-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: conic-gradient(#ff3b7f, #5856d6, #00c7be, #ff9500, #ff3b7f);
+    }
+
+    /* ==================== 4. BOTTOM 4-COLUMN SPEC CARD + EXPLORE BUTTON + RULER TIMELINE ==================== */
+    .bottom-dock-area {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      z-index: 60;
+      flex-shrink: 0;
+    }
+
+    .four-col-spec-card {
+      width: min(1060px, 92vw);
+      background: var(--card-bg);
+      border: var(--card-border);
+      border-radius: var(--card-radius);
+      box-shadow: var(--card-shadow);
+      backdrop-filter: blur(var(--glass-refraction));
+      -webkit-backdrop-filter: blur(var(--glass-refraction));
+      padding: 14px 22px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      transition: all 0.35s ease;
+    }
+
+    .spec-col {
+      padding-right: 12px;
+      border-right: 1px solid var(--divider-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .spec-col:last-child {
+      border-right: none;
+      padding-right: 0;
+    }
+
+    .spec-col-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .spec-col-label {
+      font-size: 13px;
+    }
+
+    .spec-col-value {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.3;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .spec-col-value {
+      font-size: 17px;
+    }
+
+    body.era-ui-enabled[data-era="80s"] .spec-col-value {
+      font-size: 11px;
+    }
+
+    /* "Explore Design Story ›" Button (Mutates per OS era: 70s CRT, 80s 1-bit, 90s Platinum bevel, 00s Aqua gel, 20s Pill) */
+    .explore-story-btn {
+      background: var(--explore-bg);
+      color: var(--explore-text);
+      border: var(--explore-border);
+      padding: 9px 24px;
+      border-radius: var(--explore-radius);
+      font-family: var(--font-heading);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--explore-shadow);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .explore-story-btn {
+      font-size: 17px;
+      letter-spacing: 0.04em;
+    }
+
+    body.era-ui-enabled[data-era="80s"] .explore-story-btn {
+      font-size: 11px;
+    }
+
+    .explore-story-btn:hover {
+      transform: translateY(-1px);
+    }
+
+    /* Bottom Horizontal Year Ruler Scrubber (Matches Screenshots 2 & 3 & Mutates with OS) */
+    .year-ruler-bar {
+      width: 100%;
+      height: 46px;
+      background: var(--ruler-bg);
+      border-top: 1.5px solid var(--ruler-border);
+      backdrop-filter: blur(12px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 12px;
+      gap: 8px;
+      transition: all 0.35s ease;
+    }
+
+    .ruler-arrow-btn {
+      width: 28px;
+      height: 28px;
+      border-radius: var(--btn-radius);
+      border: var(--btn-border);
+      background: var(--btn-bg);
+      color: var(--btn-text);
+      box-shadow: var(--btn-shadow);
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.2s;
+    }
+
+    .ruler-arrow-btn:hover {
+      background: #ffffff;
+    }
+
+    .ruler-scroll-track {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      overflow-x: auto;
+      scrollbar-width: none;
+      justify-content: flex-start;
+      gap: 2px;
+      padding: 0 8px;
+    }
+
+    .ruler-scroll-track::-webkit-scrollbar {
+      display: none;
+    }
+
+    .ruler-tick-item {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 4px 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      font-weight: 500;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+
+    body.era-ui-enabled[data-era="70s"] .ruler-tick-item {
+      font-size: 14px;
+    }
+
+    .ruler-tick-item:hover {
+      color: var(--text-main);
+    }
+
+    .ruler-tick-item.active {
+      color: var(--text-main);
+      font-weight: 800;
+      transform: translateY(-1px);
+    }
+
+    .ruler-tick-line {
+      width: 1.5px;
+      height: 7px;
+      background: var(--text-muted);
+      opacity: 0.45;
+      transition: all 0.2s;
+    }
+
+    .ruler-tick-item.active .ruler-tick-line {
+      height: 11px;
+      width: 2px;
+      opacity: 1;
+      background: var(--text-main);
+    }
+
+    /* ==================== 5. MODALS: OS-AUTHENTIC WINDOW FOR "EXPLORE DESIGN STORY" ==================== */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 14, 22, 0.62);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 500;
+      padding: 20px;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .story-modal-card {
+      background: var(--card-bg);
+      color: var(--text-main);
+      border: var(--card-border);
+      border-radius: var(--card-radius);
+      box-shadow: var(--card-shadow);
+      width: min(940px, 95vw);
+      max-height: 88vh;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    /* Authentic OS Window Titlebar inside the Modal */
+    .modal-os-titlebar {
+      height: 38px;
+      padding: 0 14px;
+      background: var(--topbar-bg);
+      border-bottom: var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .modal-body-pad {
+      padding: 24px;
+    }
+
+    .modal-close-btn {
+      background: var(--btn-bg);
+      border: var(--btn-border);
+      color: var(--btn-text);
+      box-shadow: var(--btn-shadow);
+      padding: 4px 12px;
+      border-radius: var(--btn-radius);
+      font-family: var(--font-heading);
+      font-size: 11.5px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .story-modal-grid {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 24px;
+      margin-top: 12px;
+      align-items: start;
+    }
+
+    .story-photo-box {
+      background: #ffffff;
+      border: var(--card-border);
+      border-radius: min(var(--card-radius), 18px);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .story-photo-box img {
+      width: 100%;
+      max-height: 240px;
+      object-fit: contain;
+    }
+
+    .photo-credit-line {
+      font-family: var(--font-mono);
+      font-size: 9.5px;
+      color: #8a8a8f;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    .photo-credits {
+      margin-top: 22px;
+      font-size: 12px;
+      color: #6e6e73;
+    }
+
+    .photo-credits summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: #1d1d1f;
+    }
+
+    .photo-credits p {
+      margin: 8px 0;
+    }
+
+    .photo-credits ul {
+      columns: 2 280px;
+      padding-left: 18px;
+      line-height: 1.6;
+    }
+
+    .photo-credits a {
+      color: #0066cc;
+    }
+
+    .legal-note {
+      margin-top: 14px;
+      font-size: 11px;
+      color: #8a8a8f;
+    }
+
+    /* All Macs Catalog Grid */
+    .catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .catalog-item {
+      background: #f7f8fa;
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 14px;
+      padding: 12px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .catalog-item:hover {
+      background: #ffffff;
+      border-color: #0071e3;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.07);
+    }
+
+    .catalog-item img {
+      width: 100%;
+      height: 105px;
+      object-fit: contain;
+      margin-bottom: 8px;
+    }
+
+    /* ==================== RESPONSIVE BREAKPOINTS (NO OVERLAPPING TEXT) ==================== */
+    @media (max-width: 900px) {
+      .four-col-spec-card {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .spec-col:nth-child(2) {
+        border-right: none;
+      }
+      .story-modal-grid {
+        grid-template-columns: 1fr;
+      }
+      .cf-floating-label {
+        display: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .top-pill-bar {
+        border-radius: 18px;
+        justify-content: center;
+      }
+      .four-col-spec-card {
+        grid-template-columns: 1fr;
+        padding: 12px 16px;
+        gap: 10px;
+      }
+      .spec-col {
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
+        padding-bottom: 8px;
+      }
+      .spec-col:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+      .stage-section {
+        height: 220px;
+      }
+    }
+
+    /* HUD Flotante de Información Acústica del Sonido de Arranque */
+    .chime-hud-toast {
+      position: fixed;
+      top: 66px;
+      right: 22px;
+      z-index: 400;
+      background: var(--card-bg);
+      color: var(--text-main);
+      border: var(--card-border);
+      border-radius: var(--btn-radius);
+      box-shadow: var(--card-shadow);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      padding: 8px 14px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      opacity: 0;
+      transform: translateY(-8px);
+      pointer-events: none;
+      transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+
+    .chime-hud-toast.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .chime-wave-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent-date);
+      box-shadow: 0 0 10px var(--accent-date);
+      animation: pulseChime 0.7s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulseChime {
+      from { transform: scale(0.8); opacity: 0.6; }
+      to { transform: scale(1.3); opacity: 1; }
+    }
+
+    /* ==================== THEME: 1998–1999 "THINK DIFFERENT" (BONDI TRANSLUCENCY) ==================== */
+    body.era-ui-enabled[data-era="think"] {
+      --bg-page:
+        radial-gradient(circle at 20% 18%, rgba(0, 160, 190, 0.18) 0%, transparent 42%),
+        radial-gradient(circle at 82% 26%, rgba(255, 140, 40, 0.12) 0%, transparent 40%),
+        radial-gradient(ellipse at 50% 45%, #ffffff 0%, #e6f3f6 62%, #cfe6ec 100%);
+      --bg-solid: #e6f3f6;
+      --topbar-bg: rgba(255, 255, 255, 0.72);
+      --topbar-border: 1px solid rgba(0, 130, 160, 0.35);
+      --topbar-radius: 14px;
+      --topbar-shadow: 0 10px 30px rgba(0, 110, 140, 0.14), inset 0 1px 0 #ffffff;
+      --text-main: #10262c;
+      --text-muted: #40616a;
+      --accent-date: #008fb0;
+      --accent-primary: #008fb0;
+      --btn-bg: rgba(255, 255, 255, 0.7);
+      --btn-border: 1px solid rgba(0, 130, 160, 0.3);
+      --btn-radius: 10px;
+      --decade-active-bg: linear-gradient(180deg, rgba(64, 196, 222, 0.95) 0%, rgba(0, 128, 160, 0.95) 100%);
+      --decade-active-text: #ffffff;
+      --decade-active-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.7), 0 3px 10px rgba(0, 128, 160, 0.35);
+      --card-bg: rgba(255, 255, 255, 0.66);
+      --card-border: 1px solid rgba(0, 130, 160, 0.25);
+      --card-radius: 18px;
+      --card-shadow: 0 16px 40px rgba(0, 90, 120, 0.12), inset 0 1px 0 #ffffff;
+      --divider-color: rgba(0, 130, 160, 0.2);
+      --explore-bg: linear-gradient(180deg, #3cc3dd 0%, #0089ab 100%);
+      --explore-border: 1px solid rgba(0, 100, 130, 0.5);
+      --explore-radius: 12px;
+      --explore-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), 0 6px 18px rgba(0, 128, 160, 0.35);
+      --ruler-bg: rgba(255, 255, 255, 0.6);
+      --watermark-color: rgba(0, 120, 150, 0.07);
+      --font-quote: 'Newsreader', Georgia, serif;
+    }
+
+    body.era-ui-enabled[data-era="think"] .hero-title {
+      font-family: 'Newsreader', Georgia, serif;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+    }
+
+    body.era-ui-enabled[data-era="think"] .hero-quote {
+      font-style: italic;
+    }
+
+    /* ==================== THEME: 2007–2012 LEOPARD / SNOW LEOPARD (DARK COVER FLOW) ==================== */
+    body.era-ui-enabled[data-era="leopard"] {
+      --bg-page:
+        radial-gradient(ellipse at 50% 38%, #3a3f48 0%, #1b1e23 55%, #0b0c0f 100%);
+      --bg-solid: #15171b;
+      --topbar-bg: linear-gradient(180deg, rgba(70, 74, 82, 0.92) 0%, rgba(34, 36, 41, 0.92) 100%);
+      --topbar-border: 1px solid rgba(255, 255, 255, 0.14);
+      --topbar-radius: 12px;
+      --topbar-shadow: 0 12px 34px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+      --text-main: #f2f3f5;
+      --text-muted: #a3a9b3;
+      --accent-date: #5cb3ff;
+      --accent-primary: #3d9bff;
+      --btn-bg: linear-gradient(180deg, rgba(90, 94, 102, 0.9) 0%, rgba(48, 51, 57, 0.9) 100%);
+      --btn-text: #f2f3f5;
+      --btn-border: 1px solid rgba(255, 255, 255, 0.16);
+      --btn-radius: 8px;
+      --btn-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16), 0 2px 6px rgba(0, 0, 0, 0.4);
+      --decade-active-bg: linear-gradient(180deg, #6fb8ff 0%, #1f7ff0 50%, #0a63d6 51%, #3d93f5 100%);
+      --decade-active-text: #ffffff;
+      --decade-active-shadow: 0 2px 10px rgba(30, 130, 255, 0.5);
+      --card-bg: rgba(38, 41, 47, 0.86);
+      --card-border: 1px solid rgba(255, 255, 255, 0.12);
+      --card-radius: 12px;
+      --card-shadow: 0 18px 44px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      --divider-color: rgba(255, 255, 255, 0.12);
+      --explore-bg: linear-gradient(180deg, #6fb8ff 0%, #1f7ff0 50%, #0a63d6 51%, #3d93f5 100%);
+      --explore-border: 1px solid #0a4fb0;
+      --explore-radius: 999px;
+      --ruler-bg: rgba(28, 30, 35, 0.9);
+      --ruler-border: rgba(255, 255, 255, 0.12);
+      --watermark-color: rgba(255, 255, 255, 0.045);
+    }
+
+    /* Cover Flow mirror floor — the 2007 iTunes / Finder reflection */
+    body.era-ui-enabled[data-era="leopard"] .cf-image-wrap img {
+      -webkit-box-reflect: below 2px linear-gradient(transparent 62%, rgba(255, 255, 255, 0.2));
+      filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.45));
+    }
+
+    body.era-ui-enabled[data-era="leopard"] .cf-floor-shadow {
+      opacity: 0.25;
+    }
+
+    body.era-ui-enabled[data-era="leopard"] .studio-horizon-line {
+      background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.08) 20%, rgba(255,255,255,0.08) 80%, transparent 100%);
+    }
+
+    /* ==================== LANGUAGE SWITCH ==================== */
+    .lang-switch {
+      display: inline-flex;
+      border: var(--btn-border);
+      border-radius: var(--btn-radius);
+      background: var(--btn-bg);
+      box-shadow: var(--btn-shadow);
+      overflow: hidden;
+    }
+
+    .lang-switch a {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 6px 9px;
+      color: var(--btn-text);
+      text-decoration: none;
+      line-height: 1;
+    }
+
+    .lang-switch a.active {
+      background: var(--decade-active-bg);
+      color: var(--decade-active-text);
+    }
+
+    /* ==================== FULL 1976–2026 RULER ==================== */
+    .ruler-tick-item.is-empty {
+      opacity: 0.38;
+    }
+
+    .ruler-tick-item.is-empty .ruler-tick-line {
+      height: 5px;
+    }
+
+    .ruler-tick-item:not(.is-major):not(.active) span:first-child {
+      font-size: 0.86em;
+    }
+
+    /* ==================== STORY MODAL: HIGHLIGHTS + ARCHIVE NOTE ==================== */
+    .modal-story {
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--text-main);
+      margin-bottom: 14px;
+    }
+
+    .modal-box:empty {
+      display: none;
+    }
+
+    .modal-box {
+      background: var(--btn-bg);
+      border: var(--card-border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+
+    .modal-box h3 {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .modal-box ul {
+      padding-left: 18px;
+      font-size: 13.5px;
+      line-height: 1.55;
+      color: var(--text-main);
+    }
+
+    .modal-note {
+      border-left: 3px solid var(--accent-date);
+    }
+
+    .modal-note p {
+      font-size: 13.5px;
+      line-height: 1.55;
+      color: var(--text-main);
+    }
+
+    .modal-specs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 10px;
+    }
+
+    .modal-spec {
+      background: var(--btn-bg);
+      padding: 12px;
+      border-radius: 10px;
+      border: var(--btn-border);
+      box-shadow: var(--btn-shadow);
+    }
+
+    .modal-spec-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .modal-spec-value {
+      font-size: 13.5px;
+      font-weight: 700;
+      margin-top: 4px;
+      color: var(--text-main);
+    }
+
+    .catalog-item {
+      text-decoration: none;
+    }
+
+    .catalog-year {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      font-weight: 700;
+      color: #d9460f;
+    }
+
+    .catalog-name {
+      font-size: 13px;
+      font-weight: 700;
+      color: #1d1d1f;
+      margin-top: 2px;
+    }
+
+    /* ==================== ARCHIVE INDEX + SITE FOOTER ==================== */
+    .archive-index {
+      width: min(1100px, 92vw);
+      margin: 56px auto 0;
+      color: var(--text-main);
+    }
+
+    .archive-index h2 {
+      font-size: clamp(22px, 3vw, 30px);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .archive-intro {
+      color: var(--text-muted);
+      font-size: 14.5px;
+      margin: 6px 0 22px;
+      max-width: 720px;
+      line-height: 1.55;
+    }
+
+    .archive-decades {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 22px 32px;
+    }
+
+    .archive-decades h3 {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      color: var(--accent-date);
+      margin-bottom: 8px;
+    }
+
+    .archive-decades ol {
+      list-style: none;
+    }
+
+    .archive-decades li a {
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 8px;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--divider-color);
+      color: var(--text-main);
+      text-decoration: none;
+      font-size: 13.5px;
+      line-height: 1.4;
+    }
+
+    .archive-decades li a:hover strong {
+      color: var(--accent-primary);
+    }
+
+    .archive-decades time {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-muted);
+      padding-top: 1px;
+    }
+
+    .archive-decades small {
+      display: block;
+      color: var(--text-muted);
+      font-size: 12px;
+    }
+
+    .site-footer {
+      width: min(1100px, 92vw);
+      margin: 40px auto 0;
+      padding: 18px 0 28px;
+      border-top: 1px solid var(--divider-color);
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .site-footer-main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px 20px;
+    }
+
+    .site-footer a,
+    .site-footer button {
+      color: var(--text-main);
+      font: inherit;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .site-footer a:hover,
+    .site-footer button:hover {
+      color: var(--accent-primary);
+    }
+
+    .site-footer nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .site-footer button {
+      background: none;
+      border: 0;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    .site-footer-legal {
+      margin-top: 10px;
+      font-size: 11.5px;
+      line-height: 1.5;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .cf-machine { transition: none; }
+    }
+  </style>
+</head>
+<body class="era-ui-enabled" data-era="{{initEra}}" data-year="{{initYear}}">
+
+  <!-- HUD ACÚSTICO DEL SONIDO DE ARRANQUE ORIGINAL -->
+  <div class="chime-hud-toast" id="chimeHudToast" role="status" aria-live="polite">
+    <span class="chime-wave-dot"></span>
+    <span id="chimeHudText"></span>
+  </div>
+
+  <div class="app-viewport">
+  <!-- 1. TOP NAVIGATION PILL BAR (EXACT MATCH TO SCREENSHOTS 1, 2, 3) -->
+  <div class="top-nav-wrapper">
+    <header class="top-pill-bar">
+      <div class="nav-left">
+        <div class="traffic-lights">
+          <span class="tl-dot red"></span>
+          <span class="tl-dot yellow"></span>
+          <span class="tl-dot green"></span>
+        </div>
+        <span class="brand-apple-icon" aria-hidden="true">&#63743;</span>
+        <span class="brand-os-title" id="topBrandTitle">{{initBrand}}</span>
+        <span class="era-mode-badge" id="topEraBadge">{{initBadge}}</span>
+      </div>
+
+      <nav class="decade-switcher" aria-label="Decades">
+        <button class="decade-pill-btn" data-decade="70s" onclick="jumpToDecade('70s')">70s</button>
+        <button class="decade-pill-btn" data-decade="80s" onclick="jumpToDecade('80s')">80s</button>
+        <button class="decade-pill-btn" data-decade="90s" onclick="jumpToDecade('90s')">90s</button>
+        <button class="decade-pill-btn" data-decade="00s" onclick="jumpToDecade('00s')">00s</button>
+        <button class="decade-pill-btn" data-decade="10s" onclick="jumpToDecade('10s')">10s</button>
+        <button class="decade-pill-btn" data-decade="20s" onclick="jumpToDecade('20s')">20s</button>
+      </nav>
+
+      <div class="nav-right">
+        <button class="top-action-btn era-toggle-active" id="eraUiToggleBtn" onclick="toggleEraUI()">
+          <span aria-hidden="true">&#10022;</span> <span>{{t.eraUi}}</span>
+        </button>
+        <button class="top-action-btn" id="timeLapseBtn" onclick="toggleTimeLapse()">
+          <span id="timeLapseIcon" aria-hidden="true">&#9654;</span> <span id="timeLapseText">{{t.timeLapse}}</span>
+        </button>
+        <button class="top-action-btn" onclick="openCatalogModal()">
+          <span aria-hidden="true">&#8862;</span> <span id="allMacsCountLabel">{{allMacsLabel}}</span>
+        </button>
+        <button class="audio-circle-btn" onclick="playCurrentChime()" title="{{t.playChime}}" aria-label="{{t.playChime}}">
+          &#128266;
+        </button>
+        <div class="lang-switch" role="group" aria-label="{{t.language}}">
+          <a href="{{urlEn}}" hreflang="en" lang="en" data-lang-link class="{{activeEn}}">EN</a>
+          <a href="{{urlEs}}" hreflang="es" lang="es" data-lang-link class="{{activeEs}}">ES</a>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- 2. CENTERED TYPOGRAPHIC HEADER + SUB-MODEL PILL SWITCHER -->
+  <section class="hero-header">
+    <div class="eyebrow-row">
+      <span class="eyebrow-date" id="heroDate">{{initDate}}</span>
+      <span class="eyebrow-sep">&middot;</span>
+      <span id="heroOS">{{initOS}}</span>
+      <span class="eyebrow-sep">&middot;</span>
+      <span id="heroCounter">{{initCounter}}</span>
+    </div>
+
+    <h1 class="hero-title" id="heroTitle">{{initTitle}}</h1>
+    <p class="hero-quote" id="heroQuote">{{initQuote}}</p>
+
+    <!-- Variant Switcher Pills (e.g., [PowerBook G4] [iBook G3] or [iMac] [Mac mini]) -->
+    <div class="submodel-pills-row" id="submodelPillsRow"></div>
+  </section>
+
+  <!-- 3. FLOATING CUTOUT COVER FLOW STAGE + GIANT YEAR WATERMARK -->
+  <main class="stage-section" id="stageSection" aria-label="{{t.stageLabel}}">
+    <div class="giant-year-watermark" id="giantYearWatermark" aria-hidden="true">{{initYear}}</div>
+    <div class="studio-horizon-line"></div>
+    <div class="coverflow-track" id="coverflowTrack"></div>
+  </main>
+
+  <!-- 4. BOTTOM 4-COLUMN SPEC CARD + "Explore Design Story ›" + YEAR RULER -->
+  <section class="bottom-dock-area">
+    <div class="four-col-spec-card" id="fourColSpecCard"></div>
+
+    <button class="explore-story-btn" onclick="openStoryModal()">
+      <span>{{t.explore}}</span> <span aria-hidden="true">&rsaquo;</span>
+    </button>
+
+    <div class="year-ruler-bar">
+      <button class="ruler-arrow-btn" onclick="stepMilestone(-1)" aria-label="{{t.prev}}">&lsaquo;</button>
+      <div class="ruler-scroll-track" id="rulerScrollTrack"></div>
+      <button class="ruler-arrow-btn" onclick="stepMilestone(1)" aria-label="{{t.next}}">&rsaquo;</button>
+    </div>
+  </section>
+  </div>
+
+  <!-- CRAWLABLE ARCHIVE INDEX (pre-rendered at build time: SEO + accessibility) -->
+  <section class="archive-index" id="archive" aria-labelledby="archiveTitle">
+    <h2 id="archiveTitle">{{t.archiveTitle}}</h2>
+    <p class="archive-intro">{{archiveIntro}}</p>
+    {{archiveHtml}}
+  </section>
+
+  <footer class="site-footer">
+    <div class="site-footer-main">
+      <span><strong>Apple Museum</strong> · {{t.createdBy}} <a href="https://ricardostudio.com" rel="author">Ricardo Graña</a> · 2026</span>
+      <nav aria-label="{{t.footerNav}}">
+        <a href="https://ricardostudio.com" target="_blank" rel="noopener">ricardostudio.com</a>
+        <a href="https://www.linkedin.com/in/ricardograna/" target="_blank" rel="me noopener">LinkedIn</a>
+        <button type="button" onclick="openCredits()">{{t.photoCredits}}</button>
+      </nav>
+    </div>
+    <p class="site-footer-legal">{{t.legal}}</p>
+  </footer>
+
+  <!-- MODAL 1: DESIGN STORY & DEEP SPECS (ADOPTS AUTHENTIC HISTORICAL OS WINDOW CHROME) -->
+  <div class="modal-backdrop" id="storyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" onclick="if(event.target===this) closeStoryModal()">
+    <div class="story-modal-card">
+      <div class="modal-os-titlebar">
+        <div class="traffic-lights" style="display:flex;">
+          <span class="tl-dot red" onclick="closeStoryModal()" style="cursor:pointer;"></span>
+          <span class="tl-dot yellow"></span>
+          <span class="tl-dot green"></span>
+        </div>
+        <div style="font-family:var(--font-mono);font-size:11.5px;font-weight:700;" id="modalWindowBarTitle">System Inspector</div>
+        <button class="modal-close-btn" onclick="closeStoryModal()">{{t.close}} &#10005;</button>
+      </div>
+      <div class="modal-body-pad">
+        <div style="font-family:var(--font-mono);font-size:11px;font-weight:700;color:var(--accent-date);" id="modalEyebrow"></div>
+        <h2 style="font-size:26px;font-weight:800;margin:4px 0 12px;" id="modalTitle"></h2>
+
+        <div class="story-modal-grid">
+          <div class="story-photo-box">
+            <img id="modalPhoto" alt="" decoding="async" />
+            <div class="photo-credit-line" id="modalPhotoCredit"></div>
+            <div style="display:flex;gap:8px;width:100%;justify-content:center;flex-wrap:wrap;">
+              <button class="top-action-btn" onclick="playCurrentChime()">&#128266; {{t.startupChime}}</button>
+              <a id="modalWikiLink" href="#" target="_blank" rel="noopener noreferrer" class="top-action-btn" style="text-decoration:none;">Wikipedia &#8599;</a>
+            </div>
+          </div>
+          <div>
+            <p id="modalStoryText" class="modal-story"></p>
+            <div id="modalHighlights" class="modal-box"></div>
+            <div id="modalArchiveNote" class="modal-box modal-note"></div>
+            <div id="modalSpecsList" class="modal-specs"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: ALL MACS CATALOG GRID (1976–2026) -->
+  <div class="modal-backdrop" id="catalogModal" role="dialog" aria-modal="true" aria-label="{{t.catalogTitle}}" onclick="if(event.target===this) closeCatalogModal()">
+    <div class="story-modal-card" style="background:#ffffff;color:#1d1d1f;">
+      <div class="modal-os-titlebar" style="background:#f5f5f7;color:#1d1d1f;">
+        <strong>{{t.catalogTitle}}</strong>
+        <button class="modal-close-btn" onclick="closeCatalogModal()">{{t.close}} &#10005;</button>
+      </div>
+      <div class="modal-body-pad">
+        <p style="font-size:13.5px;color:#6e6e73;">{{t.catalogIntro}}</p>
+        <div class="catalog-grid" id="catalogGrid"></div>
+        <details class="photo-credits">
+          <summary>{{t.creditsSummary}}</summary>
+          <p>{{t.creditsIntro}}</p>
+          <ul id="photoCreditsList"></ul>
+        </details>
+        <p class="legal-note">{{t.legal}}</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+/*__APP__*/
+  </script>
+</body>
+</html>

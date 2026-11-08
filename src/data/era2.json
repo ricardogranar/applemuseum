@@ -1,0 +1,466 @@
+[
+  {
+    "id": "1990-macintosh-classic",
+    "year": 1990,
+    "date": {"en": "October 15, 1990", "es": "15 de octubre de 1990"},
+    "os": {"en": "System 6 (upgradable to System 7)", "es": "System 6 (actualizable a System 7)"},
+    "topBrand": "System 6",
+    "topBadge": {"en": "1990 · Under $1,000", "es": "1990 · Mac asequible"},
+    "shortLabel": {"en": "Macintosh Classic", "es": "Macintosh Classic"},
+    "title": {"en": "Macintosh Classic, LC & IIfx", "es": "Macintosh Classic, LC y IIfx"},
+    "quote": {"en": "The first Macintosh to sell for less than $1,000, launched the same day as the low-cost color LC.", "es": "El primer Macintosh por menos de 1.000 $, presentado el mismo día que el asequible LC en color."},
+    "story": {"en": "After years of chasing high margins, Apple swung to the low end. On October 15, 1990, John Sculley unveiled the $999 Classic and the color LC, while the 40 MHz IIfx, launched that March, sat at the top of the range as the fastest Mac yet.", "es": "Tras años persiguiendo grandes márgenes, Apple apostó por la gama baja. El 15 de octubre de 1990, John Sculley presentó el Classic de 999 $ y el LC en color, mientras el IIfx de 40 MHz, lanzado en marzo, coronaba la gama como el Mac más rápido hasta entonces."},
+    "highlights": {
+      "en": ["Classic: the 1984 compact design reborn, up to 25% faster than the Macintosh Plus it replaced at the bottom of the range.", "LC: a slim 'pizza box' built from five main parts and four cables that a robot could insert, making color affordable for schools."],
+      "es": ["Classic: el diseño compacto de 1984 renacido, hasta un 25 % más rápido que el Macintosh Plus al que sustituyó como modelo de entrada.", "LC: una fina caja tipo «pizza» con cinco piezas principales y cuatro cables que podía montar un robot, para llevar el color a los colegios."]
+    },
+    "archiveNote": {"en": "Apple paid about $1 million to Modular Computer Systems, a Daimler-Benz subsidiary, for the right to use the name 'Classic' under a five-year contract.", "es": "Apple pagó cerca de 1 millón de dólares a Modular Computer Systems, filial de Daimler-Benz, por usar el nombre «Classic» durante un contrato de cinco años."},
+    "chime": "mac128k_1984",
+    "variants": [
+      {
+        "name": "Macintosh Classic",
+        "img": "macclassic",
+        "wiki": "Macintosh_Classic",
+        "wikiEs": "Macintosh_Classic",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 7.83 MHz", "es": "Motorola 68000 a 7,83 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "1 MB (expandable to 4 MB)", "es": "1 MB (ampliable a 4 MB)"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "9\" monochrome CRT, 512×342", "es": "CRT monocromo de 9\", 512×342"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$999", "es": "999 $"}}
+        ]
+      },
+      {
+        "name": "Macintosh LC",
+        "img": "maclc",
+        "wiki": "Macintosh_LC",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68020 @ 16 MHz", "es": "Motorola 68020 a 16 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "2 MB (expandable to 10 MB)", "es": "2 MB (ampliable a 10 MB)"}},
+          {"label": {"en": "COMPATIBILITY", "es": "COMPATIBILIDAD"}, "value": {"en": "Optional Apple IIe Card", "es": "Tarjeta Apple IIe opcional"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$2,400 (no display)", "es": "2.400 $ (sin monitor)"}}
+        ]
+      },
+      {
+        "name": "Macintosh IIfx",
+        "img": "mac2fx",
+        "wiki": "Macintosh_IIfx",
+        "wikiEs": "Macintosh_IIfx",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68030 @ 40 MHz", "es": "Motorola 68030 a 40 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "4 MB (expandable to 128 MB)", "es": "4 MB (ampliable a 128 MB)"}},
+          {"label": {"en": "EXPANSION", "es": "EXPANSIÓN"}, "value": {"en": "6 NuBus slots", "es": "6 ranuras NuBus"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$8,969", "es": "8.969 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1991-powerbook-100",
+    "year": 1991,
+    "date": {"en": "October 21, 1991", "es": "21 de octubre de 1991"},
+    "os": {"en": "System 7.0.1", "es": "System 7.0.1"},
+    "topBrand": "System 7",
+    "topBadge": {"en": "1991 · Palm Rests", "es": "1991 · Reposamuñecas"},
+    "shortLabel": {"en": "PowerBook 100", "es": "PowerBook 100"},
+    "title": {"en": "PowerBook 100/140/170, Quadra 700 & Classic II", "es": "PowerBook 100/140/170, Quadra 700 y Classic II"},
+    "quote": {"en": "Push the keyboard back, put the trackball in front: the palm-rest layout nearly every notebook still follows.", "es": "Teclado hacia atrás y trackball delante: la disposición con reposamuñecas que casi todos los portátiles siguen usando."},
+    "story": {"en": "On October 21, 1991, Apple launched the PowerBook 100, 140 and 170 alongside the first Quadras and the Classic II. The entry-level 100 was designed and built by Sony in under 13 months, and PowerBook sales reached $1 billion in their first year.", "es": "El 21 de octubre de 1991, Apple lanzó los PowerBook 100, 140 y 170 junto a los primeros Quadra y el Classic II. Sony diseñó y fabricó el PowerBook 100 de entrada en menos de 13 meses, y las ventas de PowerBook alcanzaron 1.000 millones de dólares en su primer año."},
+    "highlights": {
+      "en": ["PowerBook: a centered trackball ahead of the keyboard created palm rests and worked for both left- and right-handed users.", "Quadra 700: Apple's first mini-tower and one of the first Macs with the Motorola 68040, built to rival Intel 486 PCs."],
+      "es": ["PowerBook: el trackball centrado delante del teclado creó los reposamuñecas y servía tanto a diestros como a zurdos.", "Quadra 700: la primera minitorre de Apple y uno de los primeros Mac con el Motorola 68040, pensado para competir con los PC 486 de Intel."]
+    },
+    "archiveNote": {"en": "In 2005 Mobile PC magazine ranked the PowerBook 100 the '#1 gadget of all time', and in 2006 PC World named it the tenth-greatest PC ever.", "es": "En 2005 la revista Mobile PC eligió el PowerBook 100 como «el mejor gadget de todos los tiempos», y en 2006 PC World lo situó como el décimo mejor PC de la historia."},
+    "chime": "quadra_1991",
+    "variants": [
+      {
+        "name": "PowerBook 100",
+        "img": "pb100",
+        "wiki": "PowerBook_100",
+        "wikiEs": "PowerBook_100",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68000 @ 16 MHz", "es": "Motorola 68000 a 16 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "9\" monochrome LCD, 640×400", "es": "LCD monocromo de 9\", 640×400"}},
+          {"label": {"en": "WEIGHT", "es": "PESO"}, "value": {"en": "5.1 lb (2.3 kg)", "es": "2,3 kg"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "About $2,500", "es": "Unos 2.500 $"}}
+        ]
+      },
+      {
+        "name": "Macintosh Quadra 700",
+        "img": "quadra700",
+        "wiki": "Macintosh_Quadra_700",
+        "wikiEs": "Macintosh_Quadra_700",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68040 @ 25 MHz", "es": "Motorola 68040 a 25 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "4 MB (expandable to 68 MB)", "es": "4 MB (ampliable a 68 MB)"}},
+          {"label": {"en": "FORM FACTOR", "es": "FORMATO"}, "value": {"en": "Apple's first mini-tower", "es": "Primera minitorre de Apple"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$5,700", "es": "5.700 $"}}
+        ]
+      },
+      {
+        "name": "Macintosh Classic II",
+        "img": "macclassic2",
+        "wiki": "Macintosh_Classic_II",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68030 @ 16 MHz", "es": "Motorola 68030 a 16 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "2 MB (expandable to 10 MB)", "es": "2 MB (ampliable a 10 MB)"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "9\" monochrome CRT, 512×342", "es": "CRT monocromo de 9\", 512×342"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "About $1,900", "es": "Unos 1.900 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1992-powerbook-duo",
+    "year": 1992,
+    "date": {"en": "October 19, 1992", "es": "19 de octubre de 1992"},
+    "os": {"en": "System 7.1", "es": "System 7.1"},
+    "topBrand": "System 7.1",
+    "topBadge": {"en": "1992 · Dock & Go", "es": "1992 · Subportátil"},
+    "shortLabel": {"en": "PowerBook Duo 210", "es": "PowerBook Duo 210"},
+    "title": {"en": "PowerBook Duo 210 & Duo Dock", "es": "PowerBook Duo 210 y Duo Dock"},
+    "quote": {"en": "A 4.1 lb subnotebook on the road; slide it into the Duo Dock and it becomes a desktop Mac.", "es": "Un subportátil de 1,9 kg para viajar; introdúcelo en el Duo Dock y se convierte en un Mac de sobremesa."},
+    "story": {"en": "The PowerBook Duo was the smallest and lightest PowerBook of its day. To get there, Apple left out most ports and the floppy drive, moving them into optional docks, the biggest of which swallowed the whole laptop like a VHS recorder.", "es": "El PowerBook Duo fue el PowerBook más pequeño y ligero de su época. Para lograrlo, Apple prescindió de casi todos los puertos y de la disquetera y los trasladó a bases opcionales; la mayor se tragaba el portátil entero como un vídeo VHS."},
+    "highlights": {
+      "en": ["Most ports moved out to optional docks, keeping the Duo 210 to just 4.1 lb and 10.9 × 8.5 in.", "The Duo Dock added a floppy drive, two NuBus slots, an optional FPU and space for a second hard drive, with a monitor on top."],
+      "es": ["La mayoría de los puertos pasaron a bases opcionales, lo que dejó el Duo 210 en solo 1,9 kg y 28 × 22 cm.", "El Duo Dock añadía disquetera, dos ranuras NuBus, FPU opcional y hueco para un segundo disco duro, con el monitor encima."]
+    },
+    "archiveNote": {"en": "Aging Duo Docks are prone to capacitor failures that jam the docking mechanism, a fault collectors call the 'Duo Dock Tick of Death'.", "es": "Con los años, los condensadores de los Duo Dock fallan y bloquean el mecanismo de acoplamiento, una avería que los coleccionistas llaman «Duo Dock Tick of Death»."},
+    "chime": "quadra_1991",
+    "variants": [
+      {
+        "name": "PowerBook Duo 210",
+        "img": "pbduo",
+        "wiki": "PowerBook_Duo",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68030 @ 25 MHz", "es": "Motorola 68030 a 25 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "9.1\" 4-bit grayscale LCD", "es": "LCD de 9,1\" en escala de grises de 4 bits"}},
+          {"label": {"en": "MEMORY / STORAGE", "es": "MEMORIA / ALMACENAMIENTO"}, "value": {"en": "4 MB RAM · 80 MB hard drive", "es": "4 MB de RAM · disco duro de 80 MB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$2,249", "es": "2.249 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1993-color-classic",
+    "year": 1993,
+    "date": {"en": "February 10, 1993", "es": "10 de febrero de 1993"},
+    "os": {"en": "System 7.1", "es": "System 7.1"},
+    "topBrand": "System 7.1",
+    "topBadge": {"en": "1993 · Color & AV", "es": "1993 · Color y AV"},
+    "shortLabel": {"en": "Color Classic", "es": "Color Classic"},
+    "title": {"en": "Color Classic, Quadra 840AV & Macintosh TV", "es": "Color Classic, Quadra 840AV y Macintosh TV"},
+    "quote": {"en": "The compact Mac finally gets color, the AV Macs learn to see and listen, and the Macintosh TV doubles as a television.", "es": "El Mac compacto por fin tiene color, los Mac AV aprenden a ver y escuchar, y el Macintosh TV también es un televisor."},
+    "story": {"en": "1993 pushed the Mac into new media. The Color Classic put a 10-inch Sony Trinitron in the compact case, the Quadra 840AV added video in and out with a DSP, and the black Macintosh TV switched its screen between Mac desktop and cable TV.", "es": "1993 llevó al Mac a nuevos medios. El Color Classic metió un Sony Trinitron de 10 pulgadas en la caja compacta, el Quadra 840AV añadió entrada y salida de vídeo con un DSP y el Macintosh TV, negro, alternaba su pantalla entre el escritorio del Mac y la televisión por cable."},
+    "highlights": {
+      "en": ["Color Classic: the last of the original compact Macs, with a sharp 512×384 Trinitron tube inside the all-in-one case.", "Quadra 840AV: a 66 MHz AT&T DSP handled speech recognition, 16-bit 48 kHz stereo audio and S-Video/composite I/O."],
+      "es": ["Color Classic: el último de los Mac compactos originales, con un nítido tubo Trinitron de 512×384 en la caja todo en uno.", "Quadra 840AV: un DSP de AT&T a 66 MHz gestionaba reconocimiento de voz, audio estéreo de 16 bits a 48 kHz y vídeo S-Video/compuesto."]
+    },
+    "archiveNote": {"en": "The Macintosh TV was the first Mac made in black, and its credit-card-sized remote also worked with Sony televisions. Only 10,000 were made.", "es": "El Macintosh TV fue el primer Mac fabricado en negro, y su mando del tamaño de una tarjeta de crédito también servía para televisores Sony. Solo se fabricaron 10.000."},
+    "chime": "macii_1987",
+    "variants": [
+      {
+        "name": "Macintosh Color Classic",
+        "img": "colorclassic",
+        "wiki": "Macintosh_Color_Classic",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68030 @ 16 MHz", "es": "Motorola 68030 a 16 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "4 MB (expandable to 10 MB)", "es": "4 MB (ampliable a 10 MB)"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "10\" Sony Trinitron, 512×384", "es": "Sony Trinitron de 10\", 512×384"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,389", "es": "1.389 $"}}
+        ]
+      },
+      {
+        "name": "Macintosh Quadra 840AV",
+        "img": "quadra840av",
+        "wiki": "Macintosh_Quadra_840AV",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68040 @ 40 MHz", "es": "Motorola 68040 a 40 MHz"}},
+          {"label": {"en": "CO-PROCESSOR", "es": "COPROCESADOR"}, "value": {"en": "AT&T 3210 DSP @ 66 MHz", "es": "DSP AT&T 3210 a 66 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "8 MB (expandable to 128 MB)", "es": "8 MB (ampliable a 128 MB)"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "About $3,500", "es": "Unos 3.500 $"}}
+        ]
+      },
+      {
+        "name": "Macintosh TV",
+        "img": "mactv",
+        "wiki": "Macintosh_TV",
+        "wikiEs": "Macintosh_TV",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68030 @ 32 MHz", "es": "Motorola 68030 a 32 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "14\" Sony Trinitron + cable TV", "es": "Sony Trinitron de 14\" + TV por cable"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "160 MB HDD · CD-ROM", "es": "Disco de 160 MB · CD-ROM"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$2,097", "es": "2.097 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1994-power-macintosh-6100",
+    "year": 1994,
+    "date": {"en": "March 14, 1994", "es": "14 de marzo de 1994"},
+    "os": {"en": "System 7.1.2 (first PowerPC release)", "es": "System 7.1.2 (primera versión para PowerPC)"},
+    "topBrand": "System 7.1.2",
+    "topBadge": {"en": "1994 · PowerPC", "es": "1994 · PowerPC"},
+    "shortLabel": {"en": "Power Macintosh 6100", "es": "Power Macintosh 6100"},
+    "title": {"en": "Power Macintosh 6100 & PowerBook 540c", "es": "Power Macintosh 6100 y PowerBook 540c"},
+    "quote": {"en": "Apple abandons the 68k for PowerPC and runs old Mac software through a built-in emulator.", "es": "Apple abandona el 68k por PowerPC y ejecuta el software antiguo del Mac mediante un emulador integrado."},
+    "story": {"en": "The Power Macintosh 6100 was the first Mac with a PowerPC chip from the Apple–IBM–Motorola alliance. Two months later the PowerBook 540c set the template for the modern laptop with a trackpad, stereo speakers and built-in Ethernet.", "es": "El Power Macintosh 6100 fue el primer Mac con un chip PowerPC de la alianza Apple–IBM–Motorola. Dos meses después, el PowerBook 540c fijó el modelo del portátil moderno con trackpad, altavoces estéreo y Ethernet integrado."},
+    "highlights": {
+      "en": ["6100: a 60 MHz PowerPC 601 RISC chip, with a 68k emulator in the system software running existing Mac applications unchanged.", "540c: the first PowerBooks with a trackpad, stereo speakers and Ethernet, plus two battery bays and a swappable CPU card."],
+      "es": ["6100: un chip RISC PowerPC 601 a 60 MHz, con un emulador 68k en el sistema que ejecutaba sin cambios las aplicaciones existentes.", "540c: los primeros PowerBook con trackpad, altavoces estéreo y Ethernet, además de dos bahías de batería y procesador en tarjeta intercambiable."]
+    },
+    "archiveNote": {"en": "Macworld's review of the 6100/60 said Apple had 'finally regained the performance lead it lost about eight years ago' to Intel 386 PCs.", "es": "La reseña de Macworld del 6100/60 afirmó que Apple había «recuperado por fin la ventaja en rendimiento que perdió hace unos ocho años» frente a los PC con Intel 386."},
+    "chime": "powermac_1994",
+    "variants": [
+      {
+        "name": "Power Macintosh 6100",
+        "img": "pm6100",
+        "wiki": "Power_Macintosh_6100",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC 601 @ 60 MHz", "es": "PowerPC 601 a 60 MHz"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "8 MB RAM", "es": "8 MB de RAM"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "160 MB hard drive", "es": "Disco duro de 160 MB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,819", "es": "1.819 $"}}
+        ]
+      },
+      {
+        "name": "PowerBook 540c",
+        "img": "pb540c",
+        "wiki": "PowerBook_500_series",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "Motorola 68LC040 @ 33 MHz", "es": "Motorola 68LC040 a 33 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "9.5\" active-matrix color LCD", "es": "LCD en color de matriz activa de 9,5\""}},
+          {"label": {"en": "POINTING", "es": "PUNTERO"}, "value": {"en": "First PowerBook trackpad", "es": "Primer trackpad en un PowerBook"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "About $4,800", "es": "Unos 4.800 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1995-power-macintosh-9500",
+    "year": 1995,
+    "date": {"en": "June 19, 1995", "es": "19 de junio de 1995"},
+    "os": {"en": "System 7.5.2", "es": "System 7.5.2"},
+    "topBrand": "System 7.5",
+    "topBadge": {"en": "1995 · PCI Arrives", "es": "1995 · Llega PCI"},
+    "shortLabel": {"en": "Power Macintosh 9500", "es": "Power Macintosh 9500"},
+    "title": {"en": "Power Macintosh 9500", "es": "Power Macintosh 9500"},
+    "quote": {"en": "Six PCI slots, a swappable CPU card and the PowerPC 604: Apple's high-end tower embraces industry standards.", "es": "Seis ranuras PCI, procesador en tarjeta intercambiable y el PowerPC 604: la torre de gama alta de Apple adopta los estándares del sector."},
+    "story": {"en": "The 9500 replaced NuBus with PCI, the same expansion bus used in Windows PCs, and moved the processor onto a daughtercard. Its 'Tsunami' logic board became the reference design for the Mac clones of the mid-1990s.", "es": "El 9500 sustituyó NuBus por PCI, el mismo bus de expansión de los PC con Windows, y trasladó el procesador a una tarjeta hija. Su placa «Tsunami» sirvió de diseño de referencia para los clónicos de Mac de mediados de los noventa."},
+    "highlights": {
+      "en": ["The first Mac with PCI slots and the first to use 168-pin DIMM memory, with 12 slots for up to 1.5 GB of RAM.", "CPU daughtercard design: later 604e cards brought 200 MHz and even dual 180 MHz processors to the same tower."],
+      "es": ["El primer Mac con ranuras PCI y el primero con memoria DIMM de 168 contactos, con 12 ranuras para hasta 1,5 GB de RAM.", "Procesador en tarjeta hija: las tarjetas 604e posteriores llevaron 200 MHz e incluso dos procesadores a 180 MHz a la misma torre."]
+    },
+    "archiveNote": {"en": "With a PC Compatibility Card in a PCI slot, the 9500 could carry its own Intel Pentium-class processor and run Microsoft Windows.", "es": "Con una tarjeta de compatibilidad PC en una ranura PCI, el 9500 podía alojar su propio procesador de clase Intel Pentium y ejecutar Microsoft Windows."},
+    "chime": "powermac_1994",
+    "variants": [
+      {
+        "name": "Power Macintosh 9500",
+        "img": "pm9500",
+        "wiki": "Power_Macintosh_9500",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC 604 @ 120–150 MHz", "es": "PowerPC 604 a 120–150 MHz"}},
+          {"label": {"en": "EXPANSION", "es": "EXPANSIÓN"}, "value": {"en": "6 PCI slots", "es": "6 ranuras PCI"}},
+          {"label": {"en": "MEMORY", "es": "MEMORIA"}, "value": {"en": "12 DIMM slots, up to 1.5 GB", "es": "12 ranuras DIMM, hasta 1,5 GB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "From $4,699", "es": "Desde 4.699 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1996-powerbook-1400",
+    "year": 1996,
+    "date": {"en": "October 1996", "es": "Octubre de 1996"},
+    "os": {"en": "System 7.5.3", "es": "System 7.5.3"},
+    "topBrand": "System 7.5",
+    "topBadge": {"en": "1996 · CD on the Go", "es": "1996 · CD portátil"},
+    "shortLabel": {"en": "PowerBook 1400", "es": "PowerBook 1400"},
+    "title": {"en": "PowerBook 1400", "es": "PowerBook 1400"},
+    "quote": {"en": "A CD-ROM in a PowerBook for the first time, and a lid you could personalize with your own artwork.", "es": "Por primera vez un CD-ROM en un PowerBook, y una tapa que podías personalizar con tu propio diseño."},
+    "story": {"en": "After the troubled PowerBook 5300, Apple needed a dependable laptop fast. It turned to Taiwan's Quanta Computer, which adapted an existing notebook design, and the result was a solid, affordable PowerBook that sold until 1998.", "es": "Tras el accidentado PowerBook 5300, Apple necesitaba rápidamente un portátil fiable. Recurrió a la taiwanesa Quanta Computer, que adaptó un diseño de portátil existente, y el resultado fue un PowerBook sólido y asequible que se vendió hasta 1998."},
+    "highlights": {
+      "en": ["Its expansion bay was the first in a PowerBook large enough for a CD-ROM drive, and also took floppy or Zip drives.", "Drives in the bay could be 'warm swapped' while the PowerBook was asleep, without shutting it down."],
+      "es": ["Su bahía de expansión fue la primera de un PowerBook con espacio para una unidad de CD-ROM, y también admitía disquetera o Zip.", "Las unidades de la bahía se podían cambiar «en caliente» con el PowerBook en reposo, sin apagarlo."]
+    },
+    "archiveNote": {"en": "Each 1400 shipped with removable 'BookCover' lid panels: a grey one and a clear one, under which owners could slip their own printed designs.", "es": "Cada 1400 incluía paneles de tapa «BookCover» extraíbles: uno gris y otro transparente, bajo el que los usuarios podían colocar sus propios diseños impresos."},
+    "chime": "powermac_1994",
+    "variants": [
+      {
+        "name": "PowerBook 1400",
+        "img": "pb1400",
+        "wiki": "PowerBook_1400",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC 603e @ 117 or 133 MHz", "es": "PowerPC 603e a 117 o 133 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "11.3\" LCD", "es": "LCD de 11,3\""}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "750 MB–1 GB HDD · CD-ROM bay", "es": "Disco de 750 MB–1 GB · bahía CD-ROM"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "From $2,499", "es": "Desde 2.499 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1997-twentieth-anniversary-macintosh",
+    "year": 1997,
+    "date": {"en": "March 20, 1997", "es": "20 de marzo de 1997"},
+    "os": {"en": "Mac OS 7.6.1 / Mac OS 8", "es": "Mac OS 7.6.1 / Mac OS 8"},
+    "topBrand": "Mac OS 8",
+    "topBadge": {"en": "1997 · Flat Panel", "es": "1997 · Pantalla plana"},
+    "shortLabel": {"en": "20th Anniversary Mac", "es": "Mac 20.º Aniversario"},
+    "title": {"en": "Twentieth Anniversary Macintosh & Power Macintosh G3", "es": "Twentieth Anniversary Macintosh y Power Macintosh G3"},
+    "quote": {"en": "A $7,499 flat-panel Mac with Bose sound and a vertical CD slot, delivered and set up at your home.", "es": "Un Mac de pantalla plana de 7.499 $ con sonido Bose y CD vertical, entregado e instalado en tu casa."},
+    "story": {"en": "Built to mark Apple's 20th anniversary, the TAM previewed the flat all-in-one Macs to come. In November, with Steve Jobs back in charge, the Power Macintosh G3 debuted the PowerPC G3 chip alongside build-to-order sales on Apple's online store.", "es": "Creado para el 20.º aniversario de Apple, el TAM anticipó los Mac planos todo en uno del futuro. En noviembre, con Steve Jobs de nuevo al mando, el Power Macintosh G3 estrenó el chip PowerPC G3 junto con la venta a medida en la tienda online de Apple."},
+    "highlights": {
+      "en": ["TAM: a 12.1\" active-matrix LCD, Bose speakers with a subwoofer and a vertical CD-ROM in a slim all-in-one case.", "Power Mac G3: the PowerPC 750 beat Apple's own 604e in many benchmarks, so Apple dropped the 604e support from its 'Gossamer' board."],
+      "es": ["TAM: LCD de matriz activa de 12,1\", altavoces Bose con subwoofer y CD-ROM vertical en una fina carcasa todo en uno.", "Power Mac G3: el PowerPC 750 superó al 604e de la propia Apple en muchas pruebas, así que Apple quitó el soporte 604e de su placa «Gossamer»."]
+    },
+    "archiveNote": {"en": "The TAM launched at $7,499 with concierge delivery and setup. When it was discontinued in 1998, Apple cut remaining stock to $1,995 and US dealers sold out in two weeks.", "es": "El TAM salió a 7.499 $ con entrega e instalación a domicilio. Al retirarse en 1998, Apple rebajó las existencias a 1.995 $ y los distribuidores de EE. UU. las agotaron en dos semanas."},
+    "chime": "tam_1997",
+    "variants": [
+      {
+        "name": "Twentieth Anniversary Macintosh",
+        "img": "tam",
+        "wiki": "Twentieth_Anniversary_Macintosh",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC 603ev @ 250 MHz", "es": "PowerPC 603ev a 250 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "12.1\" active-matrix LCD, 800×600", "es": "LCD de matriz activa de 12,1\", 800×600"}},
+          {"label": {"en": "AUDIO", "es": "AUDIO"}, "value": {"en": "Bose speakers + subwoofer", "es": "Altavoces Bose + subwoofer"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$7,499", "es": "7.499 $"}}
+        ]
+      },
+      {
+        "name": "Power Macintosh G3",
+        "img": "pmg3beige",
+        "wiki": "Power_Macintosh_G3",
+        "wikiEs": "Power_Macintosh_G3",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC G3 (750) @ 233 or 266 MHz", "es": "PowerPC G3 (750) a 233 o 266 MHz"}},
+          {"label": {"en": "FORMATS", "es": "FORMATOS"}, "value": {"en": "Desktop & Mini Tower", "es": "Sobremesa y minitorre"}},
+          {"label": {"en": "EXPANSION", "es": "EXPANSIÓN"}, "value": {"en": "3 PCI slots", "es": "3 ranuras PCI"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "From $1,599", "es": "Desde 1.599 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1998-imac-g3",
+    "year": 1998,
+    "date": {"en": "August 15, 1998", "es": "15 de agosto de 1998"},
+    "os": {"en": "Mac OS 8.1 / Mac OS 8.5", "es": "Mac OS 8.1 / Mac OS 8.5"},
+    "topBrand": "Mac OS 8.5",
+    "topBadge": {"en": "1998 · Bondi Blue", "es": "1998 · Azul Bondi"},
+    "shortLabel": {"en": "iMac G3", "es": "iMac G3"},
+    "title": {"en": "iMac G3 & PowerBook G3 'Wallstreet'", "es": "iMac G3 y PowerBook G3 «Wallstreet»"},
+    "quote": {"en": "Goodbye beige boxes and floppy drives; hello translucent plastic, USB and one-step internet.", "es": "Adiós a las cajas beis y a las disqueteras; hola al plástico translúcido, al USB y a internet en un paso."},
+    "story": {"en": "The iMac was Apple's first major product after Steve Jobs returned. Jony Ive's team wrapped a CRT, a G3 chip and USB ports in translucent Bondi Blue plastic, and Apple sold 800,000 in 20 weeks. That May, the curvy 'Wallstreet' PowerBook G3 had arrived.", "es": "El iMac fue el primer gran producto de Apple tras el regreso de Steve Jobs. El equipo de Jony Ive envolvió un CRT, un chip G3 y puertos USB en plástico translúcido azul Bondi, y Apple vendió 800.000 en 20 semanas. En mayo había llegado el curvilíneo PowerBook G3 «Wallstreet»."},
+    "highlights": {
+      "en": ["iMac: dropped serial ports and the floppy drive in favor of USB and a CD-ROM, betting on the standards that would win.", "Wallstreet: a lighter, rounded case with 12.1\", 13.3\" or 14.1\" screens and the first PowerBook to use industry-standard ATA optical drives."],
+      "es": ["iMac: eliminó los puertos serie y la disquetera en favor del USB y el CD-ROM, apostando por los estándares que acabarían imponiéndose.", "Wallstreet: carcasa más ligera y redondeada con pantallas de 12,1\", 13,3\" o 14,1\" y el primer PowerBook con unidades ópticas ATA estándar."]
+    },
+    "archiveNote": {"en": "Nearly half of early iMac buyers were first-time computer owners, and the PowerBook G3 Series was the last Apple computer to carry the rainbow Apple logo.", "es": "Casi la mitad de los primeros compradores del iMac nunca habían tenido ordenador, y el PowerBook G3 Series fue el último Apple con el logotipo arcoíris."},
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "iMac G3 (Bondi Blue)",
+        "img": "imacg3",
+        "wiki": "IMac_G3",
+        "wikiEs": "IMac_G3",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC G3 (750) @ 233 MHz", "es": "PowerPC G3 (750) a 233 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "15\" CRT, up to 1024×768", "es": "CRT de 15\", hasta 1024×768"}},
+          {"label": {"en": "CONNECTIVITY", "es": "CONECTIVIDAD"}, "value": {"en": "2× USB · Ethernet · modem", "es": "2× USB · Ethernet · módem"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,299", "es": "1.299 $"}}
+        ]
+      },
+      {
+        "name": "PowerBook G3 \"Wallstreet\"",
+        "img": "pbg3wallstreet",
+        "wiki": "PowerBook_G3",
+        "wikiEs": null,
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC G3 (750) @ 233–292 MHz", "es": "PowerPC G3 (750) a 233–292 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "12.1\", 13.3\" or 14.1\" LCD", "es": "LCD de 12,1\", 13,3\" o 14,1\""}},
+          {"label": {"en": "EXPANSION", "es": "EXPANSIÓN"}, "value": {"en": "Two expansion bays", "es": "Dos bahías de expansión"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "From about $2,300", "es": "Desde unos 2.300 $"}}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1999-ibook-g3",
+    "year": 1999,
+    "date": {"en": "July 21, 1999", "es": "21 de julio de 1999"},
+    "os": {"en": "Mac OS 8.6 / Mac OS 9", "es": "Mac OS 8.6 / Mac OS 9"},
+    "topBrand": "Mac OS 9",
+    "topBadge": {"en": "1999 · AirPort Wi-Fi", "es": "1999 · Wi-Fi AirPort"},
+    "shortLabel": {"en": "iBook G3", "es": "iBook G3"},
+    "title": {"en": "iBook, Power Mac G4, Blue & White G3 & iMac Flavors", "es": "iBook, Power Mac G4, G3 azul y blanco e iMac de colores"},
+    "quote": {"en": "iMac to go: the first mainstream computer designed and sold with built-in Wi-Fi networking.", "es": "El iMac para llevar: el primer ordenador de gran consumo diseñado y vendido con Wi-Fi integrado."},
+    "story": {"en": "Apple's 1999 lineup was all color and curves. January brought the five-flavour iMac and the blue-and-white Power Mac G3, July the clamshell iBook with AirPort wireless, and August the graphite Power Mac G4, marketed as a 'personal supercomputer'.", "es": "La gama de Apple de 1999 fue todo color y curvas. En enero llegaron el iMac en cinco sabores y el Power Mac G3 azul y blanco; en julio, el iBook de concha con Wi-Fi AirPort; y en agosto, el Power Mac G4 grafito, anunciado como un «superordenador personal»."},
+    "highlights": {
+      "en": ["iBook: the AirPort antenna was built into the display bezel, and the carry handle was molded into the rubber-edged clamshell.", "Power Mac G3/G4: the whole side panel swings down with the logic board on it, for tool-free access while the machine runs."],
+      "es": ["iBook: la antena AirPort iba integrada en el marco de la pantalla y el asa estaba moldeada en la carcasa de concha con bordes de goma.", "Power Mac G3/G4: todo el lateral se abre hacia abajo con la placa base montada, para acceder sin herramientas incluso en marcha."]
+    },
+    "archiveNote": {"en": "To demonstrate AirPort at the iBook's launch, Phil Schiller jumped from a height holding an iBook while it kept transferring data to another computer.", "es": "Para demostrar AirPort en la presentación del iBook, Phil Schiller saltó desde cierta altura con un iBook en las manos mientras seguía transfiriendo datos a otro ordenador."},
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "iBook G3 (Clamshell)",
+        "img": "ibookclam",
+        "wiki": "IBook",
+        "wikiEs": "IBook",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC G3 @ 300 MHz", "es": "PowerPC G3 a 300 MHz"}},
+          {"label": {"en": "DISPLAY", "es": "PANTALLA"}, "value": {"en": "12.1\" LCD, 800×600", "es": "LCD de 12,1\", 800×600"}},
+          {"label": {"en": "WIRELESS", "es": "INALÁMBRICO"}, "value": {"en": "Optional AirPort 802.11b", "es": "AirPort 802.11b opcional"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,599", "es": "1.599 $"}}
+        ]
+      },
+      {
+        "name": "Power Mac G4 (Graphite)",
+        "img": "pmg4graphite",
+        "wiki": "Power_Mac_G4",
+        "wikiEs": "Power_Mac_G4",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC G4 (7400) @ 350–500 MHz", "es": "PowerPC G4 (7400) a 350–500 MHz"}},
+          {"label": {"en": "VECTOR UNIT", "es": "UNIDAD VECTORIAL"}, "value": {"en": "Velocity Engine (AltiVec)", "es": "Velocity Engine (AltiVec)"}},
+          {"label": {"en": "PORTS", "es": "PUERTOS"}, "value": {"en": "2× USB · 2× FireWire 400", "es": "2× USB · 2× FireWire 400"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "From $1,599", "es": "Desde 1.599 $"}}
+        ]
+      },
+      {
+        "name": "Power Macintosh G3 (Blue and White)",
+        "img": "pmg3bw",
+        "wiki": "Power_Macintosh_G3",
+        "wikiEs": "Power_Macintosh_G3",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC G3 @ 300–400 MHz", "es": "PowerPC G3 a 300–400 MHz"}},
+          {"label": {"en": "ARCHITECTURE", "es": "ARQUITECTURA"}, "value": {"en": "First 'New World ROM' Power Mac", "es": "Primer Power Mac «New World ROM»"}},
+          {"label": {"en": "PORTS", "es": "PUERTOS"}, "value": {"en": "USB · FireWire · ADB", "es": "USB · FireWire · ADB"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,599–$2,999", "es": "1.599–2.999 $"}}
+        ]
+      },
+      {
+        "name": "iMac G3 (Five Flavors)",
+        "img": "imacflavors",
+        "wiki": "IMac_G3",
+        "wikiEs": "IMac_G3",
+        "specs": [
+          {"label": {"en": "PROCESSOR", "es": "PROCESADOR"}, "value": {"en": "PowerPC G3 @ 266 MHz", "es": "PowerPC G3 a 266 MHz"}},
+          {"label": {"en": "STORAGE", "es": "ALMACENAMIENTO"}, "value": {"en": "6 GB hard drive", "es": "Disco duro de 6 GB"}},
+          {"label": {"en": "COLORS", "es": "COLORES"}, "value": {"en": "Blueberry, Grape, Tangerine, Lime, Strawberry", "es": "Arándano, Uva, Mandarina, Lima, Fresa"}},
+          {"label": {"en": "LAUNCH PRICE", "es": "PRECIO DE LANZAMIENTO"}, "value": {"en": "$1,199", "es": "1.199 $"}}
+        ]
+      }
+    ]
+  }
+]

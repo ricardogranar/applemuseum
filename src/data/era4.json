@@ -1,0 +1,2173 @@
+[
+  {
+    "id": "2010-macbook-air",
+    "year": 2010,
+    "date": {
+      "en": "October 20, 2010",
+      "es": "20 de octubre de 2010"
+    },
+    "os": {
+      "en": "Mac OS X 10.6 Snow Leopard",
+      "es": "Mac OS X 10.6 Snow Leopard"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2010 · All-Flash Air",
+      "es": "2010 · Air todo flash"
+    },
+    "shortLabel": {
+      "en": "MacBook Air 11\"/13\"",
+      "es": "MacBook Air 11\"/13\""
+    },
+    "title": {
+      "en": "MacBook Air (Late 2010) & Unibody Mac mini",
+      "es": "MacBook Air (finales de 2010) y Mac mini unibody"
+    },
+    "quote": {
+      "en": "What would happen if a MacBook and an iPad hooked up? Apple's answer: an all-flash, wedge-shaped notebook from $999.",
+      "es": "¿Qué pasaría si un MacBook y un iPad tuvieran un hijo? La respuesta de Apple: un portátil en cuña, todo flash, desde 999 $."
+    },
+    "story": {
+      "en": "At its 'Back to the Mac' event, Steve Jobs unveiled a redesigned 13.3-inch MacBook Air and a new 11.6-inch model, both dropping the hard drive for iPad-style flash storage. Earlier that year, the Mac mini was rebuilt as a slim aluminum unibody with HDMI and an internal power supply.",
+      "es": "En el evento «Back to the Mac», Steve Jobs presentó un MacBook Air de 13,3 pulgadas rediseñado y un nuevo modelo de 11,6 pulgadas, ambos sin disco duro y con almacenamiento flash como el del iPad. Ese mismo año, el Mac mini se reconstruyó como un fino bloque unibody de aluminio con HDMI y fuente de alimentación interna."
+    },
+    "highlights": {
+      "en": [
+        "Tapered enclosure just 0.3 cm thin at its edge and 1.7 cm at its thickest, with solid-state storage as standard.",
+        "Mac mini unibody: one aluminum block, 3.6 cm tall, with HDMI, an SD card slot and no external power brick."
+      ],
+      "es": [
+        "Carcasa en cuña de solo 0,3 cm en el borde y 1,7 cm en su parte más gruesa, con almacenamiento de estado sólido de serie.",
+        "Mac mini unibody: un único bloque de aluminio de 3,6 cm de alto, con HDMI, ranura SD y sin transformador externo."
+      ]
+    },
+    "archiveNote": {
+      "en": "Jobs called the new Air 'the future of notebooks'. Its 11.6-inch model weighed just 1.08 kg and started at $999, the cheapest MacBook Air yet.",
+      "es": "Jobs llamó al nuevo Air «el futuro de los portátiles». El modelo de 11,6 pulgadas pesaba solo 1,08 kg y costaba desde 999 $, el MacBook Air más barato hasta entonces."
+    },
+    "chime": "intel_unibody_chime",
+    "variants": [
+      {
+        "name": "MacBook Air (Late 2010)",
+        "img": "mba2010",
+        "wiki": "MacBook_Air_(Intel-based)",
+        "wikiEs": "MacBook_Air",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core 2 Duo 1.4 GHz (11\") / 1.86 GHz (13\")",
+              "es": "Intel Core 2 Duo a 1,4 GHz (11\") / 1,86 GHz (13\")"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "11.6\" 1366×768 / 13.3\" 1440×900",
+              "es": "11,6\" 1366×768 / 13,3\" 1440×900"
+            }
+          },
+          {
+            "label": {
+              "en": "STORAGE",
+              "es": "ALMACENAMIENTO"
+            },
+            "value": {
+              "en": "64–256 GB flash (no hard drive)",
+              "es": "64–256 GB flash (sin disco duro)"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$999 (11\") / $1,299 (13\")",
+              "es": "999 $ (11\") / 1.299 $ (13\")"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mac mini (Mid 2010)",
+        "img": "mini2010",
+        "wiki": "Mac_mini",
+        "wikiEs": "Mac_mini",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core 2 Duo @ 2.4 GHz",
+              "es": "Intel Core 2 Duo a 2,4 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "ENCLOSURE",
+              "es": "CARCASA"
+            },
+            "value": {
+              "en": "Aluminum unibody · 19.6 × 19.6 × 3.6 cm",
+              "es": "Unibody de aluminio · 19,6 × 19,6 × 3,6 cm"
+            }
+          },
+          {
+            "label": {
+              "en": "PORTS",
+              "es": "PUERTOS"
+            },
+            "value": {
+              "en": "HDMI + Mini DisplayPort + SD + FireWire 800",
+              "es": "HDMI + Mini DisplayPort + SD + FireWire 800"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$699",
+              "es": "699 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2012-macbook-pro-retina",
+    "year": 2012,
+    "date": {
+      "en": "June 11, 2012",
+      "es": "11 de junio de 2012"
+    },
+    "os": {
+      "en": "OS X 10.7 Lion / 10.8 Mountain Lion",
+      "es": "OS X 10.7 Lion / 10.8 Mountain Lion"
+    },
+    "topBrand": "OS X",
+    "topBadge": {
+      "en": "2012 · Retina",
+      "es": "2012 · Retina"
+    },
+    "shortLabel": {
+      "en": "MacBook Pro Retina",
+      "es": "MacBook Pro Retina"
+    },
+    "title": {
+      "en": "MacBook Pro with Retina Display & 5 mm iMac",
+      "es": "MacBook Pro con pantalla Retina e iMac de 5 mm"
+    },
+    "quote": {
+      "en": "5,184,000 pixels on a 15-inch notebook: so dense that, at a normal viewing distance, individual pixels disappear.",
+      "es": "5.184.000 píxeles en un portátil de 15 pulgadas: tan densos que, a distancia normal, los píxeles individuales desaparecen."
+    },
+    "story": {
+      "en": "Unveiled at WWDC 2012, the Retina MacBook Pro brought a 2880×1800 display to the Mac and dropped the optical drive, Ethernet and FireWire for an all-flash design 25% thinner than before. In October, the iMac followed with an edge just 5 mm thin and a laminated display.",
+      "es": "Presentado en la WWDC 2012, el MacBook Pro Retina llevó al Mac una pantalla de 2880×1800 y eliminó la unidad óptica, Ethernet y FireWire en favor de un diseño todo flash un 25 % más fino. En octubre llegó el iMac, con un borde de solo 5 mm y la pantalla laminada."
+    },
+    "highlights": {
+      "en": [
+        "First Mac with a Retina display: 2880×1800 at 220 ppi, plus MagSafe 2, two Thunderbolt ports, USB 3 and HDMI.",
+        "iMac (Late 2012): glass fused to the display panel, removing a 2 mm gap, in a body just 5 mm at the edge with no optical drive."
+      ],
+      "es": [
+        "Primer Mac con pantalla Retina: 2880×1800 a 220 ppp, con MagSafe 2, dos puertos Thunderbolt, USB 3 y HDMI.",
+        "iMac (finales de 2012): cristal laminado al panel, sin el hueco de 2 mm, en un cuerpo de solo 5 mm en el borde y sin unidad óptica."
+      ]
+    },
+    "archiveNote": {
+      "en": "The 15-inch Retina panel carried 2.5 times as many pixels as a 1080p HDTV, so apps had to ship new '@2x' artwork to look sharp on it.",
+      "es": "El panel Retina de 15 pulgadas tenía 2,5 veces los píxeles de un televisor HD de 1080p, así que las apps tuvieron que incluir nuevos gráficos «@2x» para verse nítidas."
+    },
+    "chime": "intel_unibody_chime",
+    "variants": [
+      {
+        "name": "MacBook Pro with Retina display (15-inch, Mid 2012)",
+        "img": "mbpr2012",
+        "wiki": "MacBook_Pro_(Intel-based)",
+        "wikiEs": "MacBook_Pro",
+        "specs": [
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "15.4\" Retina 2880×1800 (220 ppi)",
+              "es": "15,4\" Retina 2880×1800 (220 ppp)"
+            }
+          },
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Quad-core Intel Core i7 (Ivy Bridge)",
+              "es": "Intel Core i7 de cuatro núcleos (Ivy Bridge)"
+            }
+          },
+          {
+            "label": {
+              "en": "PROFILE",
+              "es": "PERFIL"
+            },
+            "value": {
+              "en": "1.8 cm thin · 2.02 kg · all-flash storage",
+              "es": "1,8 cm de grosor · 2,02 kg · almacenamiento flash"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$2,199",
+              "es": "2.199 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "iMac (Late 2012)",
+        "img": "imac5k",
+        "wiki": "IMac_(Intel-based)",
+        "wikiEs": "IMac",
+        "photoNote": {
+          "en": "Photo shows a later 27-inch model (same design)",
+          "es": "La foto muestra un modelo posterior de 27 pulgadas (mismo diseño)"
+        },
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Quad-core Intel Core i5 (Ivy Bridge)",
+              "es": "Intel Core i5 de cuatro núcleos (Ivy Bridge)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "21.5\" 1920×1080 / 27\" 2560×1440, laminated",
+              "es": "21,5\" 1920×1080 / 27\" 2560×1440, laminada"
+            }
+          },
+          {
+            "label": {
+              "en": "PROFILE",
+              "es": "PERFIL"
+            },
+            "value": {
+              "en": "5 mm edge · optional Fusion Drive",
+              "es": "Borde de 5 mm · Fusion Drive opcional"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,299 (21.5\") / $1,799 (27\")",
+              "es": "1.299 $ (21,5\") / 1.799 $ (27\")"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2013-mac-pro",
+    "year": 2013,
+    "date": {
+      "en": "December 19, 2013",
+      "es": "19 de diciembre de 2013"
+    },
+    "os": {
+      "en": "OS X 10.9 Mavericks",
+      "es": "OS X 10.9 Mavericks"
+    },
+    "topBrand": "OS X",
+    "topBadge": {
+      "en": "2013 · Thermal Core",
+      "es": "2013 · Núcleo térmico"
+    },
+    "shortLabel": {
+      "en": "Mac Pro (Cylinder)",
+      "es": "Mac Pro (cilindro)"
+    },
+    "title": {
+      "en": "Mac Pro (Late 2013 · Cylinder)",
+      "es": "Mac Pro (finales de 2013 · cilindro)"
+    },
+    "quote": {
+      "en": "A workstation in a 25-centimetre black cylinder, built around a single triangular thermal core and one quiet fan.",
+      "es": "Una estación de trabajo en un cilindro negro de 25 centímetros, construida alrededor de un núcleo térmico triangular y un solo ventilador."
+    },
+    "story": {
+      "en": "Previewed at WWDC in June 2013 and shipped that December, the cylindrical Mac Pro replaced internal expansion with six Thunderbolt 2 ports. Dual AMD FirePro GPUs and a Xeon processor shared one central heat sink, cooled by a single fan drawing air from bottom to top.",
+      "es": "Avanzado en la WWDC de junio de 2013 y a la venta en diciembre, el Mac Pro cilíndrico sustituyó la expansión interna por seis puertos Thunderbolt 2. Dos GPU AMD FirePro y un procesador Xeon compartían un único disipador central, refrigerado por un solo ventilador que aspiraba el aire de abajo arriba."
+    },
+    "highlights": {
+      "en": [
+        "Unified thermal core: CPU and dual GPU boards mounted on the faces of one triangular aluminum heat sink.",
+        "Just 25.1 cm tall and 5 kg, assembled in Austin, Texas, versus the 18 kg aluminum tower it replaced."
+      ],
+      "es": [
+        "Núcleo térmico unificado: la CPU y las dos placas gráficas montadas sobre las caras de un único disipador triangular de aluminio.",
+        "Solo 25,1 cm de alto y 5 kg, ensamblado en Austin (Texas), frente a la torre de aluminio de 18 kg a la que sustituía."
+      ]
+    },
+    "archiveNote": {
+      "en": "Unveiling it at WWDC 2013, Phil Schiller answered critics who said Apple had lost its edge: 'Can't innovate anymore, my ass!'",
+      "es": "Al presentarlo en la WWDC 2013, Phil Schiller respondió a quienes decían que Apple ya no innovaba: «Can't innovate anymore, my ass!»."
+    },
+    "chime": "intel_unibody_chime",
+    "variants": [
+      {
+        "name": "Mac Pro (Late 2013)",
+        "img": "macpro2013",
+        "wiki": "Mac_Pro",
+        "wikiEs": "Mac_Pro",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Xeon E5, 4 to 12 cores",
+              "es": "Intel Xeon E5, de 4 a 12 núcleos"
+            }
+          },
+          {
+            "label": {
+              "en": "GRAPHICS",
+              "es": "GRÁFICOS"
+            },
+            "value": {
+              "en": "Dual AMD FirePro D300 / D500 / D700",
+              "es": "Doble AMD FirePro D300 / D500 / D700"
+            }
+          },
+          {
+            "label": {
+              "en": "EXPANSION",
+              "es": "EXPANSIÓN"
+            },
+            "value": {
+              "en": "6× Thunderbolt 2 · no internal slots",
+              "es": "6× Thunderbolt 2 · sin ranuras internas"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$2,999",
+              "es": "2.999 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2014-imac-retina-5k",
+    "year": 2014,
+    "date": {
+      "en": "October 16, 2014",
+      "es": "16 de octubre de 2014"
+    },
+    "os": {
+      "en": "OS X 10.10 Yosemite",
+      "es": "OS X 10.10 Yosemite"
+    },
+    "topBrand": "OS X",
+    "topBadge": {
+      "en": "2014 · Retina 5K",
+      "es": "2014 · Retina 5K"
+    },
+    "shortLabel": {
+      "en": "iMac Retina 5K",
+      "es": "iMac Retina 5K"
+    },
+    "title": {
+      "en": "iMac with Retina 5K Display",
+      "es": "iMac con pantalla Retina 5K"
+    },
+    "quote": {
+      "en": "14.7 million pixels on a 27-inch screen: 5120×2880, seven times as many pixels as an HD display.",
+      "es": "14,7 millones de píxeles en 27 pulgadas: 5120×2880, siete veces los píxeles de una pantalla HD."
+    },
+    "story": {
+      "en": "Launched alongside OS X Yosemite, the 27-inch iMac with Retina 5K display packed 5120×2880 pixels into the same 5 mm-edge enclosure. It started at $2,499 with a 3.5 GHz quad-core Core i5 and AMD Radeon graphics.",
+      "es": "Presentado junto a OS X Yosemite, el iMac de 27 pulgadas con pantalla Retina 5K metió 5120×2880 píxeles en la misma carcasa de 5 mm en el borde. Partía de 2.499 $ con un Core i5 de cuatro núcleos a 3,5 GHz y gráficos AMD Radeon."
+    },
+    "highlights": {
+      "en": [
+        "Apple-designed timing controller drove all 14.7 million pixels on a single panel, with no tiling.",
+        "Ultra-thin 5 mm edge shared with the 2012 design, with a 1 TB Fusion Drive as standard."
+      ],
+      "es": [
+        "Un controlador de temporización diseñado por Apple movía los 14,7 millones de píxeles en un solo panel, sin dividirlo en mosaicos.",
+        "Borde ultrafino de 5 mm heredado del diseño de 2012, con Fusion Drive de 1 TB de serie."
+      ]
+    },
+    "archiveNote": {
+      "en": "No video port of the time could carry a 5K signal into it, so unlike earlier iMacs it could not be used as an external display.",
+      "es": "Ningún puerto de vídeo de la época podía enviarle una señal 5K, así que, a diferencia de iMac anteriores, no servía como pantalla externa."
+    },
+    "chime": "intel_unibody_chime",
+    "variants": [
+      {
+        "name": "iMac with Retina 5K display (27-inch, Late 2014)",
+        "img": "imac5k",
+        "wiki": "IMac_(Intel-based)",
+        "wikiEs": "IMac",
+        "specs": [
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "27\" Retina 5K · 5120×2880",
+              "es": "27\" Retina 5K · 5120×2880"
+            }
+          },
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Quad-core Intel Core i5 @ 3.5 GHz",
+              "es": "Intel Core i5 de cuatro núcleos a 3,5 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "GRAPHICS",
+              "es": "GRÁFICOS"
+            },
+            "value": {
+              "en": "AMD Radeon R9 M290X (2 GB)",
+              "es": "AMD Radeon R9 M290X (2 GB)"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$2,499",
+              "es": "2.499 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2015-macbook",
+    "year": 2015,
+    "date": {
+      "en": "March 9, 2015",
+      "es": "9 de marzo de 2015"
+    },
+    "os": {
+      "en": "OS X 10.10 Yosemite",
+      "es": "OS X 10.10 Yosemite"
+    },
+    "topBrand": "OS X",
+    "topBadge": {
+      "en": "2015 · One Port",
+      "es": "2015 · Un solo puerto"
+    },
+    "shortLabel": {
+      "en": "MacBook 12\"",
+      "es": "MacBook 12\""
+    },
+    "title": {
+      "en": "MacBook (Retina, 12-inch)",
+      "es": "MacBook (Retina, 12 pulgadas)"
+    },
+    "quote": {
+      "en": "One USB-C port, no fan and 0.92 kg: Apple's thinnest, lightest Mac notebook yet, in gold, silver and space gray.",
+      "es": "Un puerto USB-C, sin ventilador y 0,92 kg: el portátil Mac más fino y ligero hasta la fecha, en oro, plata y gris espacial."
+    },
+    "story": {
+      "en": "The 12-inch MacBook reinvented the notebook around a 4.5-watt Intel Core M chip, letting Apple remove the fan and shrink the logic board. Terraced batteries filled every gap, and a single USB-C port handled power, data and video.",
+      "es": "El MacBook de 12 pulgadas reinventó el portátil en torno a un chip Intel Core M de 4,5 vatios, lo que permitió eliminar el ventilador y encoger la placa base. Baterías escalonadas llenaban cada hueco y un único puerto USB-C se encargaba de carga, datos y vídeo."
+    },
+    "highlights": {
+      "en": [
+        "New butterfly keyboard mechanism and a solid-state Force Touch trackpad that simulates clicks with haptic feedback.",
+        "Custom terraced lithium-polymer cells (39.7 Wh) stacked to fill an enclosure just 13.1 mm thick."
+      ],
+      "es": [
+        "Nuevo teclado de mecanismo de mariposa y trackpad Force Touch de estado sólido que simula el clic con respuesta háptica.",
+        "Celdas de polímero de litio escalonadas a medida (39,7 Wh) para llenar una carcasa de solo 13,1 mm."
+      ]
+    },
+    "archiveNote": {
+      "en": "It was the first Mac with USB-C and the first MacBook without MagSafe: one port for everything drew both praise and dongle jokes.",
+      "es": "Fue el primer Mac con USB-C y el primer MacBook sin MagSafe: un solo puerto para todo que generó tanto elogios como bromas sobre adaptadores."
+    },
+    "chime": "intel_unibody_chime",
+    "variants": [
+      {
+        "name": "MacBook (Retina, 12-inch, Early 2015)",
+        "img": "macbook12",
+        "wiki": "MacBook_(12-inch)",
+        "wikiEs": "MacBook",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core M dual-core @ 1.1 GHz (fanless)",
+              "es": "Intel Core M de doble núcleo a 1,1 GHz (sin ventilador)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "12\" Retina 2304×1440 (226 ppi)",
+              "es": "12\" Retina 2304×1440 (226 ppp)"
+            }
+          },
+          {
+            "label": {
+              "en": "PROFILE",
+              "es": "PERFIL"
+            },
+            "value": {
+              "en": "13.1 mm · 0.92 kg · 1× USB-C",
+              "es": "13,1 mm · 0,92 kg · 1× USB-C"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,299",
+              "es": "1.299 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2016-macbook-pro-touch-bar",
+    "year": 2016,
+    "date": {
+      "en": "October 27, 2016",
+      "es": "27 de octubre de 2016"
+    },
+    "os": {
+      "en": "macOS 10.12 Sierra",
+      "es": "macOS 10.12 Sierra"
+    },
+    "topBrand": "macOS",
+    "topBadge": {
+      "en": "2016 · Touch Bar",
+      "es": "2016 · Touch Bar"
+    },
+    "shortLabel": {
+      "en": "MacBook Pro Touch Bar",
+      "es": "MacBook Pro Touch Bar"
+    },
+    "title": {
+      "en": "MacBook Pro with Touch Bar & Touch ID",
+      "es": "MacBook Pro con Touch Bar y Touch ID"
+    },
+    "quote": {
+      "en": "The function keys become a Retina OLED touch strip that changes with every app, and the power button reads your fingerprint.",
+      "es": "Las teclas de función se convierten en una tira táctil OLED Retina que cambia con cada app, y el botón de encendido lee tu huella."
+    },
+    "story": {
+      "en": "Apple's 'hello again' event introduced a thinner MacBook Pro whose function row was replaced by the Touch Bar, a multi-touch OLED strip. A sapphire Touch ID sensor, secured by the T1 chip, doubled as the power button, and every data port became Thunderbolt 3 over USB-C.",
+      "es": "El evento «hello again» presentó un MacBook Pro más fino cuya fila de teclas de función dio paso a la Touch Bar, una tira OLED multitáctil. Un sensor Touch ID de zafiro, protegido por el chip T1, hacía también de botón de encendido, y todos los puertos de datos pasaron a ser Thunderbolt 3 por USB-C."
+    },
+    "highlights": {
+      "en": [
+        "First Mac with Touch ID, guarded by Apple's T1 security chip, and a context-aware OLED Touch Bar.",
+        "Two or four Thunderbolt 3 ports for power, data and video, plus a trackpad up to twice as large."
+      ],
+      "es": [
+        "Primer Mac con Touch ID, protegido por el chip de seguridad T1 de Apple, y una Touch Bar OLED que se adapta al contexto.",
+        "Dos o cuatro puertos Thunderbolt 3 para carga, datos y vídeo, y un trackpad hasta el doble de grande."
+      ]
+    },
+    "archiveNote": {
+      "en": "This model silenced the classic Mac startup chime by default and powers on automatically the moment you open the lid.",
+      "es": "Este modelo silenció por defecto el clásico sonido de arranque del Mac y se enciende automáticamente al abrir la tapa."
+    },
+    "chime": "silent_t2",
+    "variants": [
+      {
+        "name": "MacBook Pro with Touch Bar (Late 2016)",
+        "img": "mbptouchbar",
+        "wiki": "MacBook_Pro_(Intel-based)",
+        "wikiEs": "MacBook_Pro",
+        "specs": [
+          {
+            "label": {
+              "en": "TOUCH BAR",
+              "es": "TOUCH BAR"
+            },
+            "value": {
+              "en": "Multi-touch OLED strip + Touch ID (T1 chip)",
+              "es": "Tira OLED multitáctil + Touch ID (chip T1)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "13.3\" 2560×1600 / 15.4\" 2880×1800",
+              "es": "13,3\" 2560×1600 / 15,4\" 2880×1800"
+            }
+          },
+          {
+            "label": {
+              "en": "PORTS",
+              "es": "PUERTOS"
+            },
+            "value": {
+              "en": "4× Thunderbolt 3 (USB-C) + headphone jack",
+              "es": "4× Thunderbolt 3 (USB-C) + toma de auriculares"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,799 (13\") / $2,399 (15\")",
+              "es": "1.799 $ (13\") / 2.399 $ (15\")"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2017-imac-pro",
+    "year": 2017,
+    "date": {
+      "en": "December 14, 2017",
+      "es": "14 de diciembre de 2017"
+    },
+    "os": {
+      "en": "macOS 10.13 High Sierra",
+      "es": "macOS 10.13 High Sierra"
+    },
+    "topBrand": "macOS",
+    "topBadge": {
+      "en": "2017 · Space Gray Pro",
+      "es": "2017 · Gris espacial"
+    },
+    "shortLabel": {
+      "en": "iMac Pro",
+      "es": "iMac Pro"
+    },
+    "title": {
+      "en": "iMac Pro (Space Gray Workstation)",
+      "es": "iMac Pro (estación de trabajo gris espacial)"
+    },
+    "quote": {
+      "en": "Up to 18 Xeon cores inside a space gray all-in-one with a 27-inch Retina 5K display.",
+      "es": "Hasta 18 núcleos Xeon dentro de un todo en uno gris espacial con pantalla Retina 5K de 27 pulgadas."
+    },
+    "story": {
+      "en": "Announced at WWDC 2017 and shipped in December, the iMac Pro fit a workstation into the slim iMac body. Apple replaced the hard-drive bay with a much larger cooling system so that Xeon W processors and Radeon Pro Vega graphics could run behind the display.",
+      "es": "Anunciado en la WWDC 2017 y a la venta en diciembre, el iMac Pro metió una estación de trabajo en la fina carcasa del iMac. Apple sustituyó el hueco del disco duro por un sistema de refrigeración mucho mayor para que los Xeon W y las gráficas Radeon Pro Vega pudieran funcionar tras la pantalla."
+    },
+    "highlights": {
+      "en": [
+        "First Mac with the Apple T2 chip, handling secure boot, encrypted storage and the FaceTime HD camera.",
+        "First Mac with 10 Gigabit Ethernet as standard, alongside four Thunderbolt 3 ports."
+      ],
+      "es": [
+        "Primer Mac con el chip Apple T2, encargado del arranque seguro, el cifrado del almacenamiento y la cámara FaceTime HD.",
+        "Primer Mac con Ethernet de 10 gigabits de serie, junto a cuatro puertos Thunderbolt 3."
+      ]
+    },
+    "archiveNote": {
+      "en": "It introduced space gray versions of the Magic Keyboard, Magic Mouse 2 and Magic Trackpad 2, color-matched to its dark enclosure.",
+      "es": "Estrenó versiones en gris espacial del Magic Keyboard, el Magic Mouse 2 y el Magic Trackpad 2, a juego con su carcasa oscura."
+    },
+    "chime": "silent_t2",
+    "variants": [
+      {
+        "name": "iMac Pro",
+        "img": "imacpro",
+        "wiki": "IMac_Pro",
+        "wikiEs": "IMac_Pro",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Xeon W, 8 to 18 cores",
+              "es": "Intel Xeon W, de 8 a 18 núcleos"
+            }
+          },
+          {
+            "label": {
+              "en": "GRAPHICS",
+              "es": "GRÁFICOS"
+            },
+            "value": {
+              "en": "AMD Radeon Pro Vega 56 / Vega 64",
+              "es": "AMD Radeon Pro Vega 56 / Vega 64"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "32 GB DDR4 ECC (configurable to 128 GB)",
+              "es": "32 GB DDR4 ECC (ampliable a 128 GB)"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$4,999",
+              "es": "4.999 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2018-macbook-air-retina",
+    "year": 2018,
+    "date": {
+      "en": "October 30, 2018",
+      "es": "30 de octubre de 2018"
+    },
+    "os": {
+      "en": "macOS 10.14 Mojave",
+      "es": "macOS 10.14 Mojave"
+    },
+    "topBrand": "macOS",
+    "topBadge": {
+      "en": "2018 · Recycled Al",
+      "es": "2018 · Al reciclado"
+    },
+    "shortLabel": {
+      "en": "MacBook Air Retina",
+      "es": "MacBook Air Retina"
+    },
+    "title": {
+      "en": "MacBook Air with Retina Display & Mac mini",
+      "es": "MacBook Air con pantalla Retina y Mac mini"
+    },
+    "quote": {
+      "en": "The first Macs with enclosures made from 100% recycled aluminum, and the first Retina display on a MacBook Air.",
+      "es": "Los primeros Mac con carcasa de aluminio 100 % reciclado y la primera pantalla Retina en un MacBook Air."
+    },
+    "story": {
+      "en": "At its October 2018 event in Brooklyn, Apple gave the MacBook Air a 2560×1600 Retina display, Touch ID and the T2 security chip. The Mac mini returned after four years in space gray, with quad- and six-core processors, four Thunderbolt 3 ports and optional 10 Gigabit Ethernet.",
+      "es": "En su evento de octubre de 2018 en Brooklyn, Apple dotó al MacBook Air de pantalla Retina de 2560×1600, Touch ID y chip de seguridad T2. El Mac mini volvió tras cuatro años en gris espacial, con procesadores de cuatro y seis núcleos, cuatro puertos Thunderbolt 3 y Ethernet de 10 gigabits opcional."
+    },
+    "highlights": {
+      "en": [
+        "Custom aluminum alloy made from 100% recycled aluminum for both enclosures, which Apple said nearly halved their carbon footprint.",
+        "Apple T2 chip in both machines: secure boot, encrypted SSD and, on the Air, the Touch ID sensor."
+      ],
+      "es": [
+        "Aleación de aluminio a medida, 100 % reciclado, en ambas carcasas; según Apple, reducía casi a la mitad su huella de carbono.",
+        "Chip Apple T2 en ambos equipos: arranque seguro, SSD cifrado y, en el Air, el sensor Touch ID."
+      ]
+    },
+    "archiveNote": {
+      "en": "The enclosures were made from aluminum left over from Apple's own manufacturing, remelted into a new alloy with no freshly mined ore.",
+      "es": "Las carcasas se fabricaban con aluminio sobrante de la propia producción de Apple, refundido en una nueva aleación sin mineral recién extraído."
+    },
+    "chime": "silent_t2",
+    "variants": [
+      {
+        "name": "MacBook Air (Retina, 13-inch, 2018)",
+        "img": "mba2018",
+        "wiki": "MacBook_Air_(Intel-based)",
+        "wikiEs": "MacBook_Air",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Dual-core Intel Core i5 @ 1.6 GHz",
+              "es": "Intel Core i5 de doble núcleo a 1,6 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "13.3\" Retina 2560×1600 (227 ppi)",
+              "es": "13,3\" Retina 2560×1600 (227 ppp)"
+            }
+          },
+          {
+            "label": {
+              "en": "SECURITY",
+              "es": "SEGURIDAD"
+            },
+            "value": {
+              "en": "Touch ID + Apple T2 · 1.25 kg",
+              "es": "Touch ID + Apple T2 · 1,25 kg"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,199",
+              "es": "1.199 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mac mini (2018)",
+        "img": "mini2018",
+        "wiki": "Mac_mini",
+        "wikiEs": "Mac_mini",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core i3 quad-core 3.6 GHz → 6-core i7",
+              "es": "Intel Core i3 de 4 núcleos a 3,6 GHz → i7 de 6 núcleos"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "8 GB DDR4 (configurable to 64 GB)",
+              "es": "8 GB DDR4 (ampliable a 64 GB)"
+            }
+          },
+          {
+            "label": {
+              "en": "PORTS",
+              "es": "PUERTOS"
+            },
+            "value": {
+              "en": "4× Thunderbolt 3 + HDMI + optional 10GbE",
+              "es": "4× Thunderbolt 3 + HDMI + 10GbE opcional"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$799",
+              "es": "799 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2019-mac-pro",
+    "year": 2019,
+    "date": {
+      "en": "December 10, 2019",
+      "es": "10 de diciembre de 2019"
+    },
+    "os": {
+      "en": "macOS 10.15 Catalina",
+      "es": "macOS 10.15 Catalina"
+    },
+    "topBrand": "macOS",
+    "topBadge": {
+      "en": "2019 · Modular Pro",
+      "es": "2019 · Pro modular"
+    },
+    "shortLabel": {
+      "en": "Mac Pro (Tower)",
+      "es": "Mac Pro (torre)"
+    },
+    "title": {
+      "en": "Mac Pro (2019 Modular Tower)",
+      "es": "Mac Pro (torre modular de 2019)"
+    },
+    "quote": {
+      "en": "A stainless steel space frame, a lattice-machined aluminum shell, eight PCIe slots and up to 1.5 TB of memory.",
+      "es": "Un bastidor de acero inoxidable, una carcasa de aluminio mecanizada en celosía, ocho ranuras PCIe y hasta 1,5 TB de memoria."
+    },
+    "story": {
+      "en": "Announced at WWDC 2019, the modular Mac Pro returned to a tower: its aluminum housing lifts off a steel frame, three impeller fans push air through a lattice front, and MPX modules carry graphics without cables. In November, the 16-inch MacBook Pro brought back a scissor-switch keyboard.",
+      "es": "Anunciado en la WWDC 2019, el Mac Pro modular volvió al formato torre: su carcasa de aluminio se levanta de un bastidor de acero, tres ventiladores de turbina empujan el aire a través de un frontal en celosía y los módulos MPX conectan las gráficas sin cables. En noviembre, el MacBook Pro de 16 pulgadas recuperó el teclado de tijera."
+    },
+    "highlights": {
+      "en": [
+        "Eight PCIe slots, MPX graphics modules up to dual Radeon Pro Vega II Duo, and the Afterburner ProRes accelerator card.",
+        "16-inch MacBook Pro: Magic Keyboard with a physical Escape key and a 100 Wh battery, the largest allowed in carry-on bags."
+      ],
+      "es": [
+        "Ocho ranuras PCIe, módulos gráficos MPX hasta doble Radeon Pro Vega II Duo y la tarjeta aceleradora Afterburner para ProRes.",
+        "MacBook Pro de 16 pulgadas: Magic Keyboard con tecla Escape física y batería de 100 Wh, la mayor permitida en el equipaje de mano."
+      ]
+    },
+    "archiveNote": {
+      "en": "Its companion Pro Display XDR cost $4,999, and the optional Pro Stand alone $999, a price that drew audible groans at WWDC 2019.",
+      "es": "Su compañera, la Pro Display XDR, costaba 4.999 $, y el soporte Pro Stand opcional 999 $ por sí solo, un precio que arrancó murmullos en la WWDC 2019."
+    },
+    "chime": "silent_t2",
+    "variants": [
+      {
+        "name": "Mac Pro (2019)",
+        "img": "macpro2019",
+        "wiki": "Mac_Pro",
+        "wikiEs": "Mac_Pro",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Xeon W, 8 to 28 cores",
+              "es": "Intel Xeon W, de 8 a 28 núcleos"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "Up to 1.5 TB DDR4 ECC (12 DIMM slots)",
+              "es": "Hasta 1,5 TB DDR4 ECC (12 ranuras DIMM)"
+            }
+          },
+          {
+            "label": {
+              "en": "EXPANSION",
+              "es": "EXPANSIÓN"
+            },
+            "value": {
+              "en": "8× PCIe + 2 MPX bays",
+              "es": "8× PCIe + 2 bahías MPX"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$5,999",
+              "es": "5.999 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2020-apple-silicon-m1",
+    "year": 2020,
+    "date": {
+      "en": "November 10, 2020",
+      "es": "10 de noviembre de 2020"
+    },
+    "os": {
+      "en": "macOS 11 Big Sur",
+      "es": "macOS 11 Big Sur"
+    },
+    "topBrand": "macOS 11",
+    "topBadge": {
+      "en": "2020 · Apple M1",
+      "es": "2020 · Apple M1"
+    },
+    "shortLabel": {
+      "en": "MacBook Air M1",
+      "es": "MacBook Air M1"
+    },
+    "title": {
+      "en": "MacBook Air & Mac mini with M1: First Apple Silicon",
+      "es": "MacBook Air y Mac mini con M1: el primer Apple silicon"
+    },
+    "quote": {
+      "en": "16 billion transistors on one 5-nanometer chip, and a MacBook Air with no fan at all.",
+      "es": "16.000 millones de transistores en un solo chip de 5 nanómetros, y un MacBook Air sin ningún ventilador."
+    },
+    "story": {
+      "en": "At its 'One More Thing' event, Apple launched the first Macs built on its own silicon: the MacBook Air, Mac mini and 13-inch MacBook Pro with the M1 chip. CPU, GPU, Neural Engine and unified memory shared one package, while Rosetta 2 translated existing Intel apps.",
+      "es": "En su evento «One More Thing», Apple lanzó los primeros Mac con chips propios: el MacBook Air, el Mac mini y el MacBook Pro de 13 pulgadas con el chip M1. CPU, GPU, Neural Engine y memoria unificada compartían un mismo encapsulado, mientras Rosetta 2 traducía las apps de Intel existentes."
+    },
+    "highlights": {
+      "en": [
+        "M1 system on a chip: 8-core CPU with four performance and four efficiency cores, up to 8 GPU cores and unified memory.",
+        "Fanless MacBook Air: passive aluminum heat spreader, completely silent under any load."
+      ],
+      "es": [
+        "Sistema en un chip M1: CPU de 8 núcleos (cuatro de alto rendimiento y cuatro de eficiencia), hasta 8 núcleos de GPU y memoria unificada.",
+        "MacBook Air sin ventilador: disipador pasivo de aluminio, completamente silencioso con cualquier carga."
+      ]
+    },
+    "archiveNote": {
+      "en": "The event closed with a cameo by John Hodgman, the 'PC' from Apple's 'Get a Mac' ads. macOS Big Sur also brought back the startup chime.",
+      "es": "El evento se cerró con un cameo de John Hodgman, el «PC» de los anuncios «Get a Mac». macOS Big Sur además recuperó el sonido de arranque."
+    },
+    "chime": "apple_silicon_spatial",
+    "variants": [
+      {
+        "name": "MacBook Air (M1, 2020)",
+        "img": "mbam1",
+        "wiki": "MacBook_Air_(Apple_silicon)",
+        "wikiEs": "MacBook_Air",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M1 (8-core CPU / 7-core GPU)",
+              "es": "Apple M1 (CPU de 8 núcleos / GPU de 7)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "13.3\" Retina 2560×1600",
+              "es": "13,3\" Retina 2560×1600"
+            }
+          },
+          {
+            "label": {
+              "en": "COOLING",
+              "es": "REFRIGERACIÓN"
+            },
+            "value": {
+              "en": "Fanless · 1.29 kg",
+              "es": "Sin ventilador · 1,29 kg"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$999",
+              "es": "999 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mac mini (M1, 2020)",
+        "img": "mini2010",
+        "wiki": "Mac_mini",
+        "wikiEs": "Mac_mini",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M1 (8-core CPU / 8-core GPU)",
+              "es": "Apple M1 (CPU de 8 núcleos / GPU de 8)"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "8 or 16 GB unified memory",
+              "es": "8 o 16 GB de memoria unificada"
+            }
+          },
+          {
+            "label": {
+              "en": "PORTS",
+              "es": "PUERTOS"
+            },
+            "value": {
+              "en": "2× Thunderbolt / USB 4 + 2× USB-A + HDMI 2.0",
+              "es": "2× Thunderbolt / USB 4 + 2× USB-A + HDMI 2.0"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$699",
+              "es": "699 $"
+            }
+          }
+        ],
+        "photoNote": {
+          "en": "Photo shows the 2010 Mac mini: the M1 model kept the same unibody aluminum enclosure (minus the optical drive).",
+          "es": "La foto muestra el Mac mini de 2010: el modelo M1 mantuvo la misma carcasa unibody de aluminio (sin la unidad óptica)."
+        }
+      }
+    ]
+  },
+  {
+    "id": "2021-imac-m1",
+    "year": 2021,
+    "date": {
+      "en": "April 20, 2021",
+      "es": "20 de abril de 2021"
+    },
+    "os": {
+      "en": "macOS 11 Big Sur / macOS 12 Monterey",
+      "es": "macOS 11 Big Sur / macOS 12 Monterey"
+    },
+    "topBrand": "macOS",
+    "topBadge": {
+      "en": "2021 · Seven Colors",
+      "es": "2021 · Siete colores"
+    },
+    "shortLabel": {
+      "en": "24\" iMac M1",
+      "es": "iMac M1 de 24\""
+    },
+    "title": {
+      "en": "24-inch iMac (M1) & 14/16-inch MacBook Pro",
+      "es": "iMac de 24 pulgadas (M1) y MacBook Pro de 14/16 pulgadas"
+    },
+    "quote": {
+      "en": "An 11.5 mm-thin iMac in seven colors, made possible by putting a whole computer on the M1 chip.",
+      "es": "Un iMac de 11,5 mm de grosor en siete colores, posible gracias a meter un ordenador entero en el chip M1."
+    },
+    "story": {
+      "en": "The M1's efficiency let Apple shrink the iMac's logic board and cooling into its chin, producing a flat 11.5 mm body with a 4.5K Retina display in seven colors. In October, the 14- and 16-inch MacBook Pro arrived with M1 Pro and M1 Max, mini-LED displays and the return of MagSafe, HDMI and an SD slot.",
+      "es": "La eficiencia del M1 permitió reducir la placa base y la refrigeración del iMac hasta caber en su barbilla, con un cuerpo plano de 11,5 mm, pantalla Retina 4,5K y siete colores. En octubre llegaron los MacBook Pro de 14 y 16 pulgadas con M1 Pro y M1 Max, pantallas mini-LED y la vuelta de MagSafe, HDMI y la ranura SD."
+    },
+    "highlights": {
+      "en": [
+        "iMac: 24-inch 4480×2520 display in an 11.5 mm-thin body, the first multi-color iMac lineup since the iMac G3.",
+        "MacBook Pro: Liquid Retina XDR mini-LED at 120 Hz ProMotion with 1,600-nit HDR peaks; the Touch Bar was removed."
+      ],
+      "es": [
+        "iMac: pantalla de 24 pulgadas y 4480×2520 en un cuerpo de 11,5 mm, la primera gama de iMac multicolor desde el iMac G3.",
+        "MacBook Pro: mini-LED Liquid Retina XDR a 120 Hz ProMotion con picos HDR de 1.600 nits; adiós a la Touch Bar."
+      ]
+    },
+    "archiveNote": {
+      "en": "The new iMac shipped with a 'Hello' screen saver in flowing script, a nod to the greeting on the original 1984 Macintosh.",
+      "es": "El nuevo iMac incluía un salvapantallas «Hello» en letra caligráfica, un guiño al saludo del Macintosh original de 1984."
+    },
+    "chime": "apple_silicon_spatial",
+    "variants": [
+      {
+        "name": "iMac (24-inch, M1, 2021)",
+        "img": "imacm1",
+        "wiki": "IMac_(Apple_silicon)",
+        "wikiEs": "IMac",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M1 (8-core CPU / 7- or 8-core GPU)",
+              "es": "Apple M1 (CPU de 8 núcleos / GPU de 7 u 8)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "24\" 4.5K Retina (4480×2520)",
+              "es": "24\" Retina 4,5K (4480×2520)"
+            }
+          },
+          {
+            "label": {
+              "en": "PROFILE",
+              "es": "PERFIL"
+            },
+            "value": {
+              "en": "11.5 mm thin · 7 colors",
+              "es": "11,5 mm de grosor · 7 colores"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,299",
+              "es": "1.299 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MacBook Pro (14- & 16-inch, 2021)",
+        "img": "mbp2021",
+        "wiki": "MacBook_Pro_(Apple_silicon)",
+        "wikiEs": "MacBook_Pro",
+        "photoNote": {
+          "en": "Photo shows the 16-inch model",
+          "es": "La foto muestra el modelo de 16 pulgadas"
+        },
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "M1 Pro / M1 Max (up to 10-core CPU / 32-core GPU)",
+              "es": "M1 Pro / M1 Max (hasta CPU de 10 núcleos / GPU de 32)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "14.2\" / 16.2\" Liquid Retina XDR · 120 Hz",
+              "es": "14,2\" / 16,2\" Liquid Retina XDR · 120 Hz"
+            }
+          },
+          {
+            "label": {
+              "en": "PORTS",
+              "es": "PUERTOS"
+            },
+            "value": {
+              "en": "MagSafe 3 + HDMI + SDXC + 3× Thunderbolt 4",
+              "es": "MagSafe 3 + HDMI + SDXC + 3× Thunderbolt 4"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,999 (14\") / $2,499 (16\")",
+              "es": "1.999 $ (14\") / 2.499 $ (16\")"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2022-mac-studio",
+    "year": 2022,
+    "date": {
+      "en": "March 8, 2022",
+      "es": "8 de marzo de 2022"
+    },
+    "os": {
+      "en": "macOS 12 Monterey",
+      "es": "macOS 12 Monterey"
+    },
+    "topBrand": "macOS",
+    "topBadge": {
+      "en": "2022 · M1 Ultra",
+      "es": "2022 · M1 Ultra"
+    },
+    "shortLabel": {
+      "en": "Mac Studio",
+      "es": "Mac Studio"
+    },
+    "title": {
+      "en": "Mac Studio (M1 Ultra) & MacBook Air (M2)",
+      "es": "Mac Studio (M1 Ultra) y MacBook Air (M2)"
+    },
+    "quote": {
+      "en": "Two M1 Max dies fused into one M1 Ultra: 114 billion transistors in a box 9.5 cm tall.",
+      "es": "Dos chips M1 Max fusionados en un M1 Ultra: 114.000 millones de transistores en una caja de 9,5 cm de alto."
+    },
+    "story": {
+      "en": "Mac Studio took the Mac mini's footprint, grew it to 9.5 cm tall and filled it with M1 Max or M1 Ultra, front ports and an SD slot, launched alongside the Studio Display. In June, the M2 MacBook Air got a flat-edged 11.3 mm redesign, a 13.6-inch display and MagSafe.",
+      "es": "Mac Studio tomó la planta del Mac mini, la elevó a 9,5 cm y la llenó con un M1 Max o M1 Ultra, puertos frontales y ranura SD, junto al nuevo Studio Display. En junio, el MacBook Air M2 estrenó un diseño plano de 11,3 mm, pantalla de 13,6 pulgadas y MagSafe."
+    },
+    "highlights": {
+      "en": [
+        "UltraFusion packaging joined two M1 Max dies so macOS saw one chip with a 20-core CPU and up to a 64-core GPU.",
+        "MacBook Air M2: flat unibody design at 11.3 mm and 1.24 kg, with a camera notch and four colors including Midnight."
+      ],
+      "es": [
+        "El encapsulado UltraFusion unía dos M1 Max para que macOS viera un solo chip con CPU de 20 núcleos y GPU de hasta 64.",
+        "MacBook Air M2: diseño unibody plano de 11,3 mm y 1,24 kg, con muesca para la cámara y cuatro colores, entre ellos Medianoche."
+      ]
+    },
+    "archiveNote": {
+      "en": "Apple claimed the M1 Ultra Mac Studio ran up to 50% faster than a Mac Pro with a 16-core Intel Xeon, at a fraction of its size.",
+      "es": "Apple aseguró que el Mac Studio con M1 Ultra era hasta un 50 % más rápido que un Mac Pro con Intel Xeon de 16 núcleos, ocupando una fracción de su tamaño."
+    },
+    "chime": "apple_silicon_spatial",
+    "variants": [
+      {
+        "name": "Mac Studio (2022)",
+        "img": "studio",
+        "wiki": "Mac_Studio",
+        "wikiEs": "Mac_Studio",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "M1 Max (10C CPU) or M1 Ultra (20C CPU / 64C GPU)",
+              "es": "M1 Max (CPU de 10 núcleos) o M1 Ultra (CPU de 20 / GPU de 64)"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "Up to 128 GB unified · 800 GB/s",
+              "es": "Hasta 128 GB unificada · 800 GB/s"
+            }
+          },
+          {
+            "label": {
+              "en": "SIZE",
+              "es": "TAMAÑO"
+            },
+            "value": {
+              "en": "19.7 × 19.7 × 9.5 cm",
+              "es": "19,7 × 19,7 × 9,5 cm"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,999 (Max) / $3,999 (Ultra)",
+              "es": "1.999 $ (Max) / 3.999 $ (Ultra)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MacBook Air (M2, 2022)",
+        "img": "mbam2",
+        "wiki": "MacBook_Air_(Apple_silicon)",
+        "wikiEs": "MacBook_Air",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M2 (8-core CPU / 8- or 10-core GPU)",
+              "es": "Apple M2 (CPU de 8 núcleos / GPU de 8 o 10)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "13.6\" Liquid Retina 2560×1664",
+              "es": "13,6\" Liquid Retina 2560×1664"
+            }
+          },
+          {
+            "label": {
+              "en": "PROFILE",
+              "es": "PERFIL"
+            },
+            "value": {
+              "en": "11.3 mm · 1.24 kg · MagSafe 3",
+              "es": "11,3 mm · 1,24 kg · MagSafe 3"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,199",
+              "es": "1.199 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2023-macbook-air-15",
+    "year": 2023,
+    "date": {
+      "en": "June 5, 2023",
+      "es": "5 de junio de 2023"
+    },
+    "os": {
+      "en": "macOS 13 Ventura",
+      "es": "macOS 13 Ventura"
+    },
+    "topBrand": "macOS",
+    "topBadge": {
+      "en": "2023 · Transition Done",
+      "es": "2023 · Adiós a Intel"
+    },
+    "shortLabel": {
+      "en": "15\" MacBook Air",
+      "es": "MacBook Air de 15\""
+    },
+    "title": {
+      "en": "15-inch MacBook Air & Mac Pro (M2 Ultra)",
+      "es": "MacBook Air de 15 pulgadas y Mac Pro (M2 Ultra)"
+    },
+    "quote": {
+      "en": "The biggest MacBook Air ever, and the Mac Pro on Apple silicon: the move away from Intel is complete.",
+      "es": "El MacBook Air más grande de la historia y el Mac Pro con Apple silicon: la salida de Intel se completa."
+    },
+    "story": {
+      "en": "At WWDC 2023, Apple introduced a 15-inch MacBook Air just 11.5 mm thin and moved the Mac Pro to the M2 Ultra, completing the transition from Intel that began in 2020. The Mac Pro kept the 2019 tower design, with seven PCIe slots but no support for discrete GPUs.",
+      "es": "En la WWDC 2023, Apple presentó un MacBook Air de 15 pulgadas de solo 11,5 mm y pasó el Mac Pro al M2 Ultra, completando la transición desde Intel iniciada en 2020. El Mac Pro mantuvo el diseño de torre de 2019, con siete ranuras PCIe pero sin admitir gráficas dedicadas."
+    },
+    "highlights": {
+      "en": [
+        "15.3-inch Liquid Retina display in an 11.5 mm, 1.51 kg fanless body with a six-speaker sound system.",
+        "Mac Pro: M2 Ultra with a 24-core CPU, up to a 76-core GPU and 192 GB of unified memory, plus six PCIe 4.0 slots."
+      ],
+      "es": [
+        "Pantalla Liquid Retina de 15,3 pulgadas en un cuerpo sin ventilador de 11,5 mm y 1,51 kg, con seis altavoces.",
+        "Mac Pro: M2 Ultra con CPU de 24 núcleos, GPU de hasta 76 y 192 GB de memoria unificada, más seis ranuras PCIe 4.0."
+      ]
+    },
+    "archiveNote": {
+      "en": "This was the last Mac Pro: Apple discontinued it on March 26, 2026, and said it had no plans for future Mac Pro hardware.",
+      "es": "Fue el último Mac Pro: Apple lo retiró el 26 de marzo de 2026 y afirmó que no tenía planes de lanzar más Mac Pro."
+    },
+    "chime": "apple_silicon_spatial",
+    "variants": [
+      {
+        "name": "MacBook Air (15-inch, M2, 2023)",
+        "img": "mba15",
+        "wiki": "MacBook_Air_(Apple_silicon)",
+        "wikiEs": "MacBook_Air",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M2 (8-core CPU / 10-core GPU)",
+              "es": "Apple M2 (CPU de 8 núcleos / GPU de 10)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "15.3\" Liquid Retina (2880×1864)",
+              "es": "15,3\" Liquid Retina (2880×1864)"
+            }
+          },
+          {
+            "label": {
+              "en": "PROFILE",
+              "es": "PERFIL"
+            },
+            "value": {
+              "en": "11.5 mm · 1.51 kg · 6 speakers",
+              "es": "11,5 mm · 1,51 kg · 6 altavoces"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,299",
+              "es": "1.299 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mac Pro (2023)",
+        "img": "macpro2019",
+        "wiki": "Mac_Pro",
+        "wikiEs": "Mac_Pro",
+        "photoNote": {
+          "en": "Photo shows the 2019 model (same design)",
+          "es": "La foto muestra el modelo de 2019 (mismo diseño)"
+        },
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "M2 Ultra (24-core CPU / 60- or 76-core GPU)",
+              "es": "M2 Ultra (CPU de 24 núcleos / GPU de 60 o 76)"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "64 GB to 192 GB unified",
+              "es": "De 64 a 192 GB unificada"
+            }
+          },
+          {
+            "label": {
+              "en": "EXPANSION",
+              "es": "EXPANSIÓN"
+            },
+            "value": {
+              "en": "7× PCIe (6 Gen 4) + 8× Thunderbolt 4",
+              "es": "7× PCIe (6 Gen 4) + 8× Thunderbolt 4"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$6,999",
+              "es": "6.999 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2024-mac-mini-m4",
+    "year": 2024,
+    "date": {
+      "en": "October 29, 2024",
+      "es": "29 de octubre de 2024"
+    },
+    "os": {
+      "en": "macOS 15 Sequoia",
+      "es": "macOS 15 Sequoia"
+    },
+    "topBrand": "macOS 15",
+    "topBadge": {
+      "en": "2024 · 5×5 Inches",
+      "es": "2024 · 12,7 cm de lado"
+    },
+    "shortLabel": {
+      "en": "Mac mini M4",
+      "es": "Mac mini M4"
+    },
+    "title": {
+      "en": "Mac mini (M4 & M4 Pro) & iMac (M4)",
+      "es": "Mac mini (M4 y M4 Pro) e iMac (M4)"
+    },
+    "quote": {
+      "en": "Five inches square: the smallest Mac mini ever, with front USB-C ports and Apple's first carbon-neutral Mac.",
+      "es": "12,7 centímetros de lado: el Mac mini más pequeño de la historia, con USB-C frontales y el primer Mac neutro en carbono de Apple."
+    },
+    "story": {
+      "en": "In a week of Mac launches, Apple shrank the Mac mini to 12.7 cm square with M4 or M4 Pro, 16 GB of memory as standard and Thunderbolt 5 on the Pro model. The day before, the 24-inch iMac moved to M4 with a 12 MP Center Stage camera and a nano-texture glass option.",
+      "es": "En una semana de lanzamientos, Apple redujo el Mac mini a 12,7 cm de lado con M4 o M4 Pro, 16 GB de memoria de serie y Thunderbolt 5 en el modelo Pro. El día anterior, el iMac de 24 pulgadas pasó al M4 con cámara Center Stage de 12 MP y opción de cristal nanotexturizado."
+    },
+    "highlights": {
+      "en": [
+        "5 × 5 × 2-inch enclosure with two front USB-C ports and up to three Thunderbolt ports on the back.",
+        "Apple's first carbon-neutral Mac, with an enclosure using recycled aluminum and fiber-based packaging."
+      ],
+      "es": [
+        "Carcasa de 12,7 × 12,7 × 5 cm con dos USB-C frontales y hasta tres puertos Thunderbolt traseros.",
+        "Primer Mac neutro en carbono de Apple, con carcasa de aluminio reciclado y embalaje a base de fibra."
+      ]
+    },
+    "archiveNote": {
+      "en": "To fit the tiny case, Apple moved the power button underneath: you reach under the front edge to switch it on.",
+      "es": "Para caber en una carcasa tan pequeña, Apple puso el botón de encendido debajo: hay que meter el dedo por el borde frontal para encenderlo."
+    },
+    "chime": "apple_silicon_spatial",
+    "variants": [
+      {
+        "name": "Mac mini (M4, 2024)",
+        "img": "minim4",
+        "wiki": "Mac_mini",
+        "wikiEs": "Mac_mini",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "M4 (10-core CPU) / M4 Pro (up to 14C CPU / 20C GPU)",
+              "es": "M4 (CPU de 10 núcleos) / M4 Pro (hasta CPU de 14 / GPU de 20)"
+            }
+          },
+          {
+            "label": {
+              "en": "SIZE",
+              "es": "TAMAÑO"
+            },
+            "value": {
+              "en": "12.7 × 12.7 × 5 cm",
+              "es": "12,7 × 12,7 × 5 cm"
+            }
+          },
+          {
+            "label": {
+              "en": "PORTS",
+              "es": "PUERTOS"
+            },
+            "value": {
+              "en": "2× front USB-C + 3× Thunderbolt 4 / 5 (Pro)",
+              "es": "2× USB-C frontales + 3× Thunderbolt 4 / 5 (Pro)"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$599 (16 GB memory)",
+              "es": "599 $ (16 GB de memoria)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "iMac (24-inch, M4, 2024)",
+        "img": "imacm4",
+        "wiki": "IMac_(Apple_silicon)",
+        "wikiEs": "IMac",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M4 (8- or 10-core CPU / GPU)",
+              "es": "Apple M4 (CPU / GPU de 8 o 10 núcleos)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "24\" 4.5K Retina · nano-texture option",
+              "es": "24\" Retina 4,5K · opción nanotextura"
+            }
+          },
+          {
+            "label": {
+              "en": "CAMERA",
+              "es": "CÁMARA"
+            },
+            "value": {
+              "en": "12 MP Center Stage with Desk View",
+              "es": "12 MP Center Stage con Desk View"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,299",
+              "es": "1.299 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2025-macbook-pro-m5",
+    "year": 2025,
+    "date": {
+      "en": "October 15, 2025",
+      "es": "15 de octubre de 2025"
+    },
+    "os": {
+      "en": "macOS 26 Tahoe (Liquid Glass)",
+      "es": "macOS 26 Tahoe (Liquid Glass)"
+    },
+    "topBrand": "macOS 26",
+    "topBadge": {
+      "en": "2025 · Apple M5",
+      "es": "2025 · Apple M5"
+    },
+    "shortLabel": {
+      "en": "MacBook Pro M5",
+      "es": "MacBook Pro M5"
+    },
+    "title": {
+      "en": "14-inch MacBook Pro (M5) & MacBook Air (M4)",
+      "es": "MacBook Pro de 14 pulgadas (M5) y MacBook Air (M4)"
+    },
+    "quote": {
+      "en": "A Neural Accelerator in every GPU core: the M5 brought Apple's next leap in on-device AI to the MacBook Pro.",
+      "es": "Un Neural Accelerator en cada núcleo de GPU: el M5 llevó al MacBook Pro el siguiente salto de Apple en IA en el dispositivo."
+    },
+    "story": {
+      "en": "The M5 debuted in October in the 14-inch MacBook Pro, running macOS 26 Tahoe with its translucent Liquid Glass interface; its 10-core GPU added a Neural Accelerator to every core. In March, the M4 MacBook Air had doubled base memory to 16 GB, added Sky Blue and dropped to $999.",
+      "es": "El M5 debutó en octubre en el MacBook Pro de 14 pulgadas, con macOS 26 Tahoe y su interfaz translúcida Liquid Glass; su GPU de 10 núcleos añadió un Neural Accelerator a cada núcleo. En marzo, el MacBook Air M4 había duplicado la memoria base a 16 GB, estrenado el color azul cielo y bajado a 999 $."
+    },
+    "highlights": {
+      "en": [
+        "M5: 10-core CPU and 10-core GPU with a Neural Accelerator in every GPU core, on a third-generation 3 nm process.",
+        "Liquid Retina XDR mini-LED display at 120 Hz ProMotion, with up to 1,600 nits for HDR and a nano-texture option."
+      ],
+      "es": [
+        "M5: CPU de 10 núcleos y GPU de 10 con un Neural Accelerator en cada núcleo de GPU, en un proceso de 3 nm de tercera generación.",
+        "Pantalla mini-LED Liquid Retina XDR a 120 Hz ProMotion, con hasta 1.600 nits en HDR y opción de nanotextura."
+      ]
+    },
+    "archiveNote": {
+      "en": "macOS 26 jumped straight from version 15 to 26, as Apple aligned every operating system's number with the year after release.",
+      "es": "macOS saltó directamente de la versión 15 a la 26, ya que Apple alineó el número de todos sus sistemas con el año siguiente al lanzamiento."
+    },
+    "chime": "apple_silicon_spatial",
+    "variants": [
+      {
+        "name": "MacBook Pro (14-inch, M5, 2025)",
+        "img": "mbpm5",
+        "wiki": "MacBook_Pro_(Apple_silicon)",
+        "wikiEs": "MacBook_Pro",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M5 (10-core CPU / 10-core GPU)",
+              "es": "Apple M5 (CPU de 10 núcleos / GPU de 10)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "14.2\" Liquid Retina XDR · 120 Hz",
+              "es": "14,2\" Liquid Retina XDR · 120 Hz"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY & STORAGE",
+              "es": "MEMORIA Y ALMACENAMIENTO"
+            },
+            "value": {
+              "en": "16 GB unified · 512 GB SSD",
+              "es": "16 GB unificada · SSD de 512 GB"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,599",
+              "es": "1.599 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MacBook Air (13-inch, M4, 2025)",
+        "img": "mbam4",
+        "wiki": "MacBook_Air_(Apple_silicon)",
+        "wikiEs": "MacBook_Air",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M4 (10-core CPU / 8- or 10-core GPU)",
+              "es": "Apple M4 (CPU de 10 núcleos / GPU de 8 o 10)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "13.6\" 2560×1664 / 15.3\" 2880×1864",
+              "es": "13,6\" 2560×1664 / 15,3\" 2880×1864"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY & CAMERA",
+              "es": "MEMORIA Y CÁMARA"
+            },
+            "value": {
+              "en": "16 GB unified · 12 MP Center Stage",
+              "es": "16 GB unificada · 12 MP Center Stage"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$999 (13\") / $1,199 (15\")",
+              "es": "999 $ (13\") / 1.199 $ (15\")"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-macbook-neo",
+    "year": 2026,
+    "date": {
+      "en": "March 4, 2026",
+      "es": "4 de marzo de 2026"
+    },
+    "os": {
+      "en": "macOS 26 Tahoe (Liquid Glass)",
+      "es": "macOS 26 Tahoe (Liquid Glass)"
+    },
+    "topBrand": "macOS 26",
+    "topBadge": {
+      "en": "2026 · $599 Mac",
+      "es": "2026 · Mac de 599 $"
+    },
+    "shortLabel": {
+      "en": "MacBook Neo",
+      "es": "MacBook Neo"
+    },
+    "title": {
+      "en": "MacBook Neo (A18 Pro)",
+      "es": "MacBook Neo (A18 Pro)"
+    },
+    "quote": {
+      "en": "An iPhone chip in a fanless aluminum MacBook for $599: Apple's lowest-priced laptop ever.",
+      "es": "Un chip de iPhone en un MacBook de aluminio sin ventilador por 599 $: el portátil más barato de la historia de Apple."
+    },
+    "story": {
+      "en": "MacBook Neo became the first Apple silicon Mac to use an A-series chip: the A18 Pro, first made for the iPhone 16 Pro. Its passively cooled aluminum body comes in Silver, Blush, Citrus and Indigo, with a 13-inch display without a notch.",
+      "es": "El MacBook Neo fue el primer Mac con Apple silicon en usar un chip de la serie A: el A18 Pro, creado para el iPhone 16 Pro. Su cuerpo de aluminio con refrigeración pasiva llega en Silver, Blush, Citrus e Indigo, con una pantalla de 13 pulgadas sin muesca."
+    },
+    "highlights": {
+      "en": [
+        "A18 Pro with a 6-core CPU and 5-core GPU, cooled passively in a fanless aluminum enclosure weighing 1.22 kg.",
+        "13-inch Liquid Retina display at 2408×1506 and 500 nits, with no camera notch."
+      ],
+      "es": [
+        "A18 Pro con CPU de 6 núcleos y GPU de 5, con refrigeración pasiva en una carcasa de aluminio sin ventilador de 1,22 kg.",
+        "Pantalla Liquid Retina de 13 pulgadas a 2408×1506 y 500 nits, sin muesca para la cámara."
+      ]
+    },
+    "archiveNote": {
+      "en": "iFixit called MacBook Neo Apple's most repairable laptop in 14 years.",
+      "es": "iFixit calificó el MacBook Neo como el portátil más reparable de Apple en 14 años."
+    },
+    "chime": "apple_silicon_spatial",
+    "variants": [
+      {
+        "name": "MacBook Neo",
+        "img": "neo",
+        "wiki": "MacBook_Neo",
+        "wikiEs": "MacBook_Neo",
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple A18 Pro (6-core CPU / 5-core GPU)",
+              "es": "Apple A18 Pro (CPU de 6 núcleos / GPU de 5)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "13\" Liquid Retina 2408×1506 · 500 nits",
+              "es": "13\" Liquid Retina 2408×1506 · 500 nits"
+            }
+          },
+          {
+            "label": {
+              "en": "FINISHES",
+              "es": "ACABADOS"
+            },
+            "value": {
+              "en": "Silver, Blush, Citrus & Indigo",
+              "es": "Silver, Blush, Citrus e Indigo"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$599 ($499 education)",
+              "es": "599 $ (499 $ en educación)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-macbook-pro-proled",
+    "year": 2026,
+    "date": {
+      "en": "October 28, 2026",
+      "es": "28 de octubre de 2026"
+    },
+    "os": {
+      "en": "macOS 27 Golden Gate",
+      "es": "macOS 27 Golden Gate"
+    },
+    "topBrand": "macOS 27",
+    "topBadge": {
+      "en": "2026 · PROLED Touch",
+      "es": "2026 · PROLED táctil"
+    },
+    "shortLabel": {
+      "en": "MacBook Pro Touch",
+      "es": "MacBook Pro táctil"
+    },
+    "title": {
+      "en": "MacBook Pro with PROLED XDR Display & iMac (M6)",
+      "es": "MacBook Pro con pantalla PROLED XDR e iMac (M6)"
+    },
+    "quote": {
+      "en": "Touch comes to the Mac for the first time, on a tandem OLED display with 2,000 nits and a Dynamic Island.",
+      "es": "El tacto llega al Mac por primera vez, en una pantalla OLED tándem de 2.000 nits y con Dynamic Island."
+    },
+    "story": {
+      "en": "Apple's first OLED Mac display, PROLED XDR, puts a touch sensor into the panel and replaces the notch with a Dynamic Island for Spotlight, Live Activities and Siri. The 14- and 16-inch models with M5 Pro or M5 Max ship with macOS 27. A day earlier, the 24-inch iMac moved to the M6 chip.",
+      "es": "PROLED XDR, la primera pantalla OLED de un Mac, integra el sensor táctil en el panel y cambia la muesca por una Dynamic Island para Spotlight, Actividades en Vivo y Siri. Los modelos de 14 y 16 pulgadas con M5 Pro o M5 Max llegan con macOS 27. Un día antes, el iMac de 24 pulgadas estrenó el chip M6."
+    },
+    "highlights": {
+      "en": [
+        "Tandem OLED PROLED XDR panel: 2,000 nits peak for SDR and HDR, 10,000,000:1 contrast and 10–120 Hz ProMotion.",
+        "Thinner and lighter: the 14-inch weighs 3 lb (about 1.4 kg), half a pound less than before, with three Thunderbolt 5 ports."
+      ],
+      "es": [
+        "Panel OLED tándem PROLED XDR: 2.000 nits de pico en SDR y HDR, contraste de 10.000.000:1 y ProMotion de 10 a 120 Hz.",
+        "Más fino y ligero: el de 14 pulgadas pesa unos 1,4 kg, unos 230 g menos que antes, con tres puertos Thunderbolt 5."
+      ]
+    },
+    "archiveNote": {
+      "en": "In 2010, Steve Jobs rejected touchscreen laptops: 'Touch surfaces don't want to be vertical.' Touch reached the MacBook Pro 16 years later.",
+      "es": "En 2010, Steve Jobs descartó los portátiles táctiles: «Las superficies táctiles no quieren estar en vertical». El tacto llegó al MacBook Pro 16 años después."
+    },
+    "chime": "apple_silicon_spatial",
+    "is2026TouchHero": true,
+    "variants": [
+      {
+        "name": "MacBook Pro with PROLED XDR Display",
+        "img": "mbp2026",
+        "wiki": "MacBook_Pro_(Apple_silicon)",
+        "wikiEs": "MacBook_Pro",
+        "photoNote": {
+          "en": "Photo shows the 2025 M5 model",
+          "es": "La foto muestra el modelo M5 de 2025"
+        },
+        "specs": [
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "14.2\" / 16.3\" PROLED XDR touch · 2,000 nits",
+              "es": "14,2\" / 16,3\" PROLED XDR táctil · 2.000 nits"
+            }
+          },
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "M5 Pro or M5 Max (up to 18C CPU / 40C GPU)",
+              "es": "M5 Pro o M5 Max (hasta CPU de 18 / GPU de 40)"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY & STORAGE",
+              "es": "MEMORIA Y ALMACENAMIENTO"
+            },
+            "value": {
+              "en": "Up to 128 GB unified · 16 TB SSD",
+              "es": "Hasta 128 GB unificada · SSD de 16 TB"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$2,899 (14\") / $3,399 (16\")",
+              "es": "2.899 $ (14\") / 3.399 $ (16\")"
+            }
+          }
+        ]
+      },
+      {
+        "name": "iMac (24-inch, M6, 2026)",
+        "img": "imacm4",
+        "wiki": "IMac_(Apple_silicon)",
+        "wikiEs": "IMac",
+        "photoNote": {
+          "en": "Photo shows the M4 model (same design)",
+          "es": "La foto muestra el modelo M4 (mismo diseño)"
+        },
+        "specs": [
+          {
+            "label": {
+              "en": "APPLE SILICON",
+              "es": "APPLE SILICON"
+            },
+            "value": {
+              "en": "Apple M6 (10- or 12-core CPU / GPU)",
+              "es": "Apple M6 (CPU / GPU de 10 o 12 núcleos)"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "24\" 4.5K Retina · 500 nits",
+              "es": "24\" Retina 4,5K · 500 nits"
+            }
+          },
+          {
+            "label": {
+              "en": "CONNECTIVITY",
+              "es": "CONECTIVIDAD"
+            },
+            "value": {
+              "en": "Wi-Fi 7 + Bluetooth 6 · 2.5 GbE option",
+              "es": "Wi-Fi 7 + Bluetooth 6 · 2,5 GbE opcional"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,499",
+              "es": "1.499 $"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

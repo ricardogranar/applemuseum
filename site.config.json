@@ -1,0 +1,11 @@
+{
+  "url": "https://applemuseum.ricardostudio.com",
+  "base": "/",
+  "siteName": "Apple Museum",
+  "published": "2026-11-08",
+  "author": {
+    "name": "Ricardo Graña",
+    "url": "https://ricardostudio.com",
+    "sameAs": ["https://www.linkedin.com/in/ricardograna/"]
+  }
+}

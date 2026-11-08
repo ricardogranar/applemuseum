@@ -1,0 +1,15 @@
+{
+  "name": "apple-museum",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Apple Museum — an interactive bilingual Cover Flow museum of 50 years of Apple computers (1976–2026).",
+  "author": "Ricardo Graña (https://ricardostudio.com)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

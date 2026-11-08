@@ -1,0 +1,1434 @@
+[
+  {
+    "id": "2000-power-mac-g4-cube",
+    "year": 2000,
+    "date": {
+      "en": "July 19, 2000",
+      "es": "19 de julio de 2000"
+    },
+    "os": {
+      "en": "Mac OS 9.0.4 · Mac OS X Public Beta",
+      "es": "Mac OS 9.0.4 · Mac OS X Public Beta"
+    },
+    "topBrand": "Mac OS 9",
+    "topBadge": {
+      "en": "2000 · Fanless G4",
+      "es": "2000 · G4 silencioso"
+    },
+    "shortLabel": {
+      "en": "Power Mac G4 Cube",
+      "es": "Power Mac G4 Cube"
+    },
+    "title": {
+      "en": "Power Mac G4 Cube & Slot-Loading iMac DV",
+      "es": "Power Mac G4 Cube e iMac DV de ranura"
+    },
+    "quote": {
+      "en": "A G4 tower's power hanging inside a clear 7.7-inch cube, cooled by nothing but rising air.",
+      "es": "La potencia de una torre G4 suspendida en un cubo transparente de 7,7 pulgadas, refrigerada solo por el aire que sube."
+    },
+    "story": {
+      "en": "Unveiled as the \"one more thing\" of Macworld New York, the Cube had no fan at all: heat rose through a grille on top while a touch-sensitive power button sat flush on the shell. The same day, Apple refreshed the slot-loading iMac DV line, whose FireWire ports and iMovie turned a consumer all-in-one into a home video studio.",
+      "es": "Presentado como el «one more thing» de la Macworld de Nueva York, el Cube no tenía ventilador: el calor salía por una rejilla superior y el botón de encendido era táctil. Ese mismo día Apple renovó los iMac DV con unidad de ranura, cuyos puertos FireWire e iMovie convertían un todo en uno doméstico en un estudio de vídeo."
+    },
+    "highlights": {
+      "en": [
+        "Passive convection cooling: no fan, with hot air exiting through the top grille of the Cube.",
+        "Capacitive touch power button and a top-mounted slot-loading optical drive that ejects discs upward like toast."
+      ],
+      "es": [
+        "Refrigeración pasiva por convección: sin ventilador, el aire caliente sale por la rejilla superior del Cube.",
+        "Botón de encendido táctil capacitivo y unidad óptica de ranura superior que expulsa los discos hacia arriba, como una tostadora."
+      ]
+    },
+    "archiveNote": {
+      "en": "Only about 150,000 Cubes sold before Apple \"suspended\" production on July 3, 2001—yet the Museum of Modern Art added one to its collection.",
+      "es": "Solo se vendieron unos 150.000 Cube antes de que Apple «suspendiera» su producción el 3 de julio de 2001; aun así, el MoMA incorporó uno a su colección."
+    },
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "Power Mac G4 Cube",
+        "img": "cube",
+        "wiki": "Power_Mac_G4_Cube",
+        "wikiEs": "Power_Mac_G4_Cube",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G4 @ 450 or 500 MHz",
+              "es": "PowerPC G4 a 450 o 500 MHz"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "64–128 MB SDRAM (max 1.5 GB)",
+              "es": "64–128 MB SDRAM (máx. 1,5 GB)"
+            }
+          },
+          {
+            "label": {
+              "en": "COOLING",
+              "es": "REFRIGERACIÓN"
+            },
+            "value": {
+              "en": "Fanless passive convection",
+              "es": "Convección pasiva sin ventilador"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "From $1,799",
+              "es": "Desde 1.799 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "iMac DV+ (Summer 2000)",
+        "img": "imacdv",
+        "wiki": "IMac_G3",
+        "wikiEs": "IMac_G3",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G3 (750) @ 450 MHz",
+              "es": "PowerPC G3 (750) a 450 MHz"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY / STORAGE",
+              "es": "MEMORIA / ALMACENAMIENTO"
+            },
+            "value": {
+              "en": "64 MB RAM · 20 GB hard drive",
+              "es": "64 MB de RAM · disco duro de 20 GB"
+            }
+          },
+          {
+            "label": {
+              "en": "OPTICAL / I/O",
+              "es": "ÓPTICA / PUERTOS"
+            },
+            "value": {
+              "en": "Slot-loading DVD-ROM · 2× FireWire",
+              "es": "DVD-ROM de ranura · 2× FireWire"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,299",
+              "es": "1.299 $"
+            }
+          }
+        ],
+        "photoNote": {
+          "en": "Photo shows a slot-loading iMac G3 in Indigo (same design)",
+          "es": "La foto muestra un iMac G3 de ranura en color índigo (mismo diseño)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "2001-powerbook-g4-titanium",
+    "year": 2001,
+    "date": {
+      "en": "January 9, 2001",
+      "es": "9 de enero de 2001"
+    },
+    "os": {
+      "en": "Mac OS 9.1 · Mac OS X 10.0 Cheetah / 10.1 Puma",
+      "es": "Mac OS 9.1 · Mac OS X 10.0 Cheetah / 10.1 Puma"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2001 · Aqua Arrives",
+      "es": "2001 · Llega Aqua"
+    },
+    "shortLabel": {
+      "en": "PowerBook G4 Titanium",
+      "es": "PowerBook G4 Titanium"
+    },
+    "title": {
+      "en": "PowerBook G4 Titanium, iBook \"Snow\" & Power Mac G4",
+      "es": "PowerBook G4 Titanium, iBook «Snow» y Power Mac G4"
+    },
+    "quote": {
+      "en": "One inch thick, wrapped in titanium, with a widescreen display: the TiBook made every other laptop look old.",
+      "es": "Una pulgada de grosor, carcasa de titanio y pantalla panorámica: el TiBook hizo que cualquier otro portátil pareciera viejo."
+    },
+    "story": {
+      "en": "The year Mac OS X shipped, Apple remade its whole line. The Titanium PowerBook G4 set the template for the modern pro notebook, the compact white \"Snow\" iBook brought a 1024×768 screen to a 4.9 lb consumer laptop, and the Quicksilver Power Mac G4 offered the SuperDrive DVD burner from $2,499.",
+      "es": "El año en que llegó Mac OS X, Apple renovó toda su gama. El PowerBook G4 de titanio definió el portátil profesional moderno, el compacto iBook blanco «Snow» llevó una pantalla de 1024×768 a un portátil de 2,2 kg y el Power Mac G4 Quicksilver ofrecía la grabadora SuperDrive desde 2.499 $."
+    },
+    "highlights": {
+      "en": [
+        "TiBook: a 0.016-inch Grade 1 titanium skin made it about 1 inch thick, 0.7 inch thinner than the PowerBook G3.",
+        "First 15.2-inch widescreen (1152×768) display on a Mac notebook, plus a slot-loading DVD drive."
+      ],
+      "es": [
+        "TiBook: una carcasa de titanio de grado 1 de 0,4 mm lo dejaba en unos 2,5 cm de grosor, 1,8 cm menos que el PowerBook G3.",
+        "Primera pantalla panorámica de 15,2 pulgadas (1152×768) en un portátil Mac, con unidad DVD de ranura."
+      ]
+    },
+    "archiveNote": {
+      "en": "On the Quicksilver G4, Jony Ive wanted polished stainless-steel screws in the handles. Jon Rubinstein vetoed them as too costly; Ive went to Steve Jobs and won.",
+      "es": "En el Power Mac G4 Quicksilver, Jony Ive quería tornillos de acero inoxidable pulido en las asas. Jon Rubinstein los vetó por caros; Ive acudió a Steve Jobs y ganó."
+    },
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "PowerBook G4 Titanium",
+        "img": "pbg4ti",
+        "wiki": "PowerBook_G4",
+        "wikiEs": "PowerBook_G4",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G4 @ 400 or 500 MHz",
+              "es": "PowerPC G4 a 400 o 500 MHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "15.2\" widescreen, 1152×768",
+              "es": "15,2\" panorámica, 1152×768"
+            }
+          },
+          {
+            "label": {
+              "en": "DESIGN",
+              "es": "DISEÑO"
+            },
+            "value": {
+              "en": "Titanium shell · 1 in thick · 5.3 lb",
+              "es": "Carcasa de titanio · 2,5 cm · 2,4 kg"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$2,599 – $3,499",
+              "es": "2.599 – 3.499 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "iBook G3 Dual USB (\"Snow\")",
+        "img": "ibooksnow",
+        "wiki": "IBook",
+        "wikiEs": "IBook_(computadora)",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G3 @ 500 MHz",
+              "es": "PowerPC G3 a 500 MHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "12.1\" TFT, 1024×768",
+              "es": "12,1\" TFT, 1024×768"
+            }
+          },
+          {
+            "label": {
+              "en": "WEIGHT",
+              "es": "PESO"
+            },
+            "value": {
+              "en": "4.9 lb (2.2 kg)",
+              "es": "2,2 kg"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "From $1,299",
+              "es": "Desde 1.299 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Power Mac G4 (Quicksilver)",
+        "img": "pmg4qs",
+        "wiki": "Power_Mac_G4",
+        "wikiEs": "Power_Mac_G4",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "G4 @ 733 MHz, 867 MHz or dual 800 MHz",
+              "es": "G4 a 733 MHz, 867 MHz o doble 800 MHz"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "128–256 MB PC133 (max 1.5 GB)",
+              "es": "128–256 MB PC133 (máx. 1,5 GB)"
+            }
+          },
+          {
+            "label": {
+              "en": "OPTICAL",
+              "es": "UNIDAD ÓPTICA"
+            },
+            "value": {
+              "en": "CD-RW or SuperDrive (DVD-R)",
+              "es": "CD-RW o SuperDrive (DVD-R)"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,699 – $3,499",
+              "es": "1.699 – 3.499 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2002-imac-g4",
+    "year": 2002,
+    "date": {
+      "en": "January 7, 2002",
+      "es": "7 de enero de 2002"
+    },
+    "os": {
+      "en": "Mac OS X 10.1.2 Puma · 10.2 Jaguar",
+      "es": "Mac OS X 10.1.2 Puma · 10.2 Jaguar"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2002 · Jaguar",
+      "es": "2002 · Jaguar"
+    },
+    "shortLabel": {
+      "en": "iMac G4",
+      "es": "iMac G4"
+    },
+    "title": {
+      "en": "iMac G4, eMac & Xserve",
+      "es": "iMac G4, eMac y Xserve"
+    },
+    "quote": {
+      "en": "A flat screen floating on a stainless-steel arm above a white dome—the computer that looked like a desk lamp.",
+      "es": "Una pantalla plana flotando sobre un brazo de acero inoxidable encima de una cúpula blanca: el ordenador que parecía un flexo."
+    },
+    "story": {
+      "en": "Rather than bolt the computer to the back of an LCD, Apple put the G4 logic board and optical drive in a 10.6-inch hemisphere and let the 15-inch screen glide on a single arm. Schools got the CRT-based eMac, and IT departments got Xserve, Apple's first rack-mount server.",
+      "es": "En lugar de atornillar el ordenador detrás de un LCD, Apple metió la placa G4 y la unidad óptica en una semiesfera de 27 cm y dejó que la pantalla de 15 pulgadas se deslizara sobre un único brazo. Los colegios recibieron el eMac con CRT y los departamentos de informática, el Xserve, el primer servidor en rack de Apple."
+    },
+    "highlights": {
+      "en": [
+        "The display tilts 35°, swivels 180° and rises or lowers 7 inches on one stainless-steel arm—adjustable with a fingertip.",
+        "Xserve packed one or two 1 GHz G4s, four drive bays and an unlimited-client Mac OS X Server license into a 1U chassis."
+      ],
+      "es": [
+        "La pantalla se inclina 35°, gira 180° y sube o baja 18 cm sobre un único brazo de acero inoxidable, con un solo dedo.",
+        "El Xserve metía uno o dos G4 a 1 GHz, cuatro bahías de disco y Mac OS X Server sin límite de clientes en un chasis 1U."
+      ]
+    },
+    "archiveNote": {
+      "en": "Steve Jobs suggested modelling the iMac G4 on the sunflowers in his garden, and Jony Ive's team built 19 prototypes over two years of development.",
+      "es": "Steve Jobs propuso inspirar el iMac G4 en los girasoles de su jardín, y el equipo de Jony Ive construyó 19 prototipos en dos años de desarrollo."
+    },
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "iMac G4",
+        "img": "imacg4",
+        "wiki": "IMac_G4",
+        "wikiEs": "IMac_G4",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G4 @ 700 or 800 MHz",
+              "es": "PowerPC G4 a 700 o 800 MHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "15\" LCD, 1024×768, on a steel arm",
+              "es": "LCD de 15\", 1024×768, sobre brazo de acero"
+            }
+          },
+          {
+            "label": {
+              "en": "BASE",
+              "es": "BASE"
+            },
+            "value": {
+              "en": "10.6\" (27 cm) hemispherical dome",
+              "es": "Cúpula semiesférica de 27 cm"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,299 – $1,799",
+              "es": "1.299 – 1.799 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "eMac",
+        "img": "emac",
+        "wiki": "EMac",
+        "wikiEs": "EMac",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G4 @ 700 MHz",
+              "es": "PowerPC G4 a 700 MHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "17\" flat CRT, 1280×960",
+              "es": "CRT plano de 17\", 1280×960"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY / STORAGE",
+              "es": "MEMORIA / ALMACENAMIENTO"
+            },
+            "value": {
+              "en": "128 MB RAM · 40 GB hard drive",
+              "es": "128 MB de RAM · disco duro de 40 GB"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$999 (education) · $1,099 (retail)",
+              "es": "999 $ (educación) · 1.099 $ (tiendas)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Xserve G4",
+        "img": "xserve",
+        "wiki": "Xserve",
+        "wikiEs": "Xserve",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Single or dual PowerPC G4 @ 1 GHz",
+              "es": "Uno o dos PowerPC G4 a 1 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "256–512 MB DDR (max 2 GB)",
+              "es": "256–512 MB DDR (máx. 2 GB)"
+            }
+          },
+          {
+            "label": {
+              "en": "FORM FACTOR",
+              "es": "FORMATO"
+            },
+            "value": {
+              "en": "1U rack-mount · 4 drive bays",
+              "es": "Rack 1U · 4 bahías de disco"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$2,999 – $3,999",
+              "es": "2.999 – 3.999 $"
+            }
+          }
+        ],
+        "photoNote": {
+          "en": "Photo shows the 2008 Intel Xserve (same 1U rack form factor)",
+          "es": "La foto muestra el Xserve Intel de 2008 (mismo formato de rack 1U)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "2003-power-mac-g5",
+    "year": 2003,
+    "date": {
+      "en": "June 23, 2003",
+      "es": "23 de junio de 2003"
+    },
+    "os": {
+      "en": "Mac OS X 10.2.7 Jaguar · 10.3 Panther",
+      "es": "Mac OS X 10.2.7 Jaguar · 10.3 Panther"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2003 · 64-Bit G5",
+      "es": "2003 · G5 de 64 bits"
+    },
+    "shortLabel": {
+      "en": "Power Mac G5",
+      "es": "Power Mac G5"
+    },
+    "title": {
+      "en": "Power Mac G5 & Aluminum PowerBook G4",
+      "es": "Power Mac G5 y PowerBook G4 de aluminio"
+    },
+    "quote": {
+      "en": "A 64-bit processor, a 1 GHz front-side bus and nine fans behind a wall of perforated aluminum.",
+      "es": "Un procesador de 64 bits, un bus frontal de 1 GHz y nueve ventiladores tras una pared de aluminio perforado."
+    },
+    "story": {
+      "en": "Built on IBM's PowerPC 970, the Power Mac G5 was billed as the world's first 64-bit desktop computer and Apple's first desktop in an anodized aluminum case. Months earlier, the 12- and 17-inch aluminum PowerBook G4s had launched the metal look that would define Apple notebooks for the next two decades.",
+      "es": "Basado en el PowerPC 970 de IBM, el Power Mac G5 se presentó como el primer ordenador de sobremesa de 64 bits del mundo y fue el primer sobremesa de Apple con caja de aluminio anodizado. Meses antes, los PowerBook G4 de aluminio de 12 y 17 pulgadas estrenaron la estética metálica de los portátiles de Apple."
+    },
+    "highlights": {
+      "en": [
+        "Nine computer-controlled fans grouped into four separate thermal zones keep the G5 cool and as quiet as possible.",
+        "The 17-inch PowerBook G4 debuted a fiber-optic backlit keyboard, an ambient light sensor and FireWire 800."
+      ],
+      "es": [
+        "Nueve ventiladores controlados por ordenador, agrupados en cuatro zonas térmicas, mantienen el G5 frío y lo más silencioso posible.",
+        "El PowerBook G4 de 17 pulgadas estrenó teclado retroiluminado por fibra óptica, sensor de luz ambiental y FireWire 800."
+      ]
+    },
+    "archiveNote": {
+      "en": "Virginia Tech built its System X cluster from 1,100 Power Mac G5 towers, and it ranked among the five fastest supercomputers in the world.",
+      "es": "Virginia Tech montó su clúster System X con 1.100 torres Power Mac G5, y se situó entre los cinco superordenadores más rápidos del mundo."
+    },
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "Power Mac G5",
+        "img": "pmg5",
+        "wiki": "Power_Mac_G5",
+        "wikiEs": "Power_Mac_G5",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G5 (970), 1.6 GHz to dual 2 GHz",
+              "es": "PowerPC G5 (970), de 1,6 GHz a doble 2 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "FRONT-SIDE BUS",
+              "es": "BUS FRONTAL"
+            },
+            "value": {
+              "en": "Up to 1 GHz per processor",
+              "es": "Hasta 1 GHz por procesador"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "DDR SDRAM, up to 8 GB",
+              "es": "DDR SDRAM, hasta 8 GB"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,999 – $2,999",
+              "es": "1.999 – 2.999 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "PowerBook G4 12\" & 17\" (Aluminum)",
+        "img": "pbg4al",
+        "wiki": "PowerBook_G4",
+        "wikiEs": "PowerBook_G4",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "G4 @ 867 MHz (12\") or 1 GHz (17\")",
+              "es": "G4 a 867 MHz (12\") o 1 GHz (17\")"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "12.1\" 1024×768 or 17\" 1440×900",
+              "es": "12,1\" 1024×768 o 17\" 1440×900"
+            }
+          },
+          {
+            "label": {
+              "en": "WEIGHT",
+              "es": "PESO"
+            },
+            "value": {
+              "en": "4.4 lb (12\") · 6.8 lb (17\")",
+              "es": "2 kg (12\") · 3,1 kg (17\")"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,799 (12\") · $3,299 (17\")",
+              "es": "1.799 $ (12\") · 3.299 $ (17\")"
+            }
+          }
+        ],
+        "photoNote": {
+          "en": "Photo shows the late-2005 17-inch model (same design)",
+          "es": "La foto muestra el modelo de 17 pulgadas de finales de 2005 (mismo diseño)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "2004-imac-g5",
+    "year": 2004,
+    "date": {
+      "en": "August 31, 2004",
+      "es": "31 de agosto de 2004"
+    },
+    "os": {
+      "en": "Mac OS X 10.3.5 Panther",
+      "es": "Mac OS X 10.3.5 Panther"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2004 · Panther",
+      "es": "2004 · Panther"
+    },
+    "shortLabel": {
+      "en": "iMac G5",
+      "es": "iMac G5"
+    },
+    "title": {
+      "en": "iMac G5 (The Computer Behind the Screen)",
+      "es": "iMac G5 (el ordenador tras la pantalla)"
+    },
+    "quote": {
+      "en": "From the creators of iPod: an entire 64-bit G5 computer hidden inside a display just two inches deep.",
+      "es": "De los creadores del iPod: un ordenador G5 de 64 bits entero, escondido en una pantalla de solo 5 cm de fondo."
+    },
+    "story": {
+      "en": "Unveiled at Apple Expo in Paris, the iMac G5 placed the logic board, optical drive and power supply directly behind a widescreen LCD standing on an aluminum foot. That silhouette has defined every iMac since.",
+      "es": "Presentado en la Apple Expo de París, el iMac G5 colocó la placa base, la unidad óptica y la fuente de alimentación justo detrás de una pantalla panorámica sobre un pie de aluminio. Esa silueta ha definido todos los iMac posteriores."
+    },
+    "highlights": {
+      "en": [
+        "The interior is split into three cooling zones—processor, hard drive, and power supply with logic board.",
+        "A slot-loading optical drive in the right edge and an aluminum foot that tilts the screen from −5° to 25°."
+      ],
+      "es": [
+        "El interior se divide en tres zonas de refrigeración: procesador, disco duro y fuente de alimentación con placa base.",
+        "Unidad óptica de ranura en el borde derecho y un pie de aluminio que inclina la pantalla de −5° a 25°."
+      ]
+    },
+    "archiveNote": {
+      "en": "Apple marketed the iMac G5 as coming \"From the creators of iPod,\" leaning on the music player's success to sell Macs to Windows users.",
+      "es": "Apple anunció el iMac G5 con el lema «From the creators of iPod», apoyándose en el éxito del reproductor para atraer a usuarios de Windows."
+    },
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "iMac G5",
+        "img": "imacg5",
+        "wiki": "IMac_G5",
+        "wikiEs": null,
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G5 @ 1.6 or 1.8 GHz",
+              "es": "PowerPC G5 a 1,6 o 1,8 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "17\" 1440×900 or 20\" 1680×1050",
+              "es": "17\" 1440×900 o 20\" 1680×1050"
+            }
+          },
+          {
+            "label": {
+              "en": "DEPTH",
+              "es": "GROSOR"
+            },
+            "value": {
+              "en": "2 in (5.1 cm)",
+              "es": "5,1 cm"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,299 – $1,899",
+              "es": "1.299 – 1.899 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2005-mac-mini-g4",
+    "year": 2005,
+    "date": {
+      "en": "January 11, 2005",
+      "es": "11 de enero de 2005"
+    },
+    "os": {
+      "en": "Mac OS X 10.3.7 Panther · 10.4 Tiger",
+      "es": "Mac OS X 10.3.7 Panther · 10.4 Tiger"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2005 · Tiger",
+      "es": "2005 · Tiger"
+    },
+    "shortLabel": {
+      "en": "Mac mini (G4)",
+      "es": "Mac mini (G4)"
+    },
+    "title": {
+      "en": "Mac mini (G4) & the Intel Announcement",
+      "es": "Mac mini (G4) y el anuncio de Intel"
+    },
+    "quote": {
+      "en": "The most affordable Mac ever, at $499: bring your own display, keyboard and mouse.",
+      "es": "El Mac más asequible de la historia, por 499 $: tú pones la pantalla, el teclado y el ratón."
+    },
+    "story": {
+      "en": "The Mac mini squeezed a G4 into a 6.5-inch aluminum-and-polycarbonate box aimed at Windows users who already owned peripherals. Five months later, at WWDC on June 6, 2005, Steve Jobs announced that the Mac would move from PowerPC to Intel processors.",
+      "es": "El Mac mini metió un G4 en una caja de aluminio y policarbonato de 16,5 cm pensada para usuarios de Windows que ya tenían periféricos. Cinco meses después, en la WWDC del 6 de junio de 2005, Steve Jobs anunció que el Mac pasaría de PowerPC a procesadores Intel."
+    },
+    "highlights": {
+      "en": [
+        "A complete Mac 2 inches tall and 6.5 inches square, weighing 2.9 lb, with a slot-loading Combo drive.",
+        "Apple's Intel plan: first Intel Macs by mid-2006, with the whole line switched by the end of 2007."
+      ],
+      "es": [
+        "Un Mac completo de 5 cm de alto y 16,5 cm de lado, con 1,3 kg y unidad Combo de ranura.",
+        "El plan de Apple con Intel: primeros Mac Intel a mediados de 2006 y toda la gama cambiada antes de finales de 2007."
+      ]
+    },
+    "archiveNote": {
+      "en": "For $999, developers could get a Developer Transition Kit: a Pentium 4 PC running an Intel build of Mac OS X 10.4.1 inside a Power Mac G5 case.",
+      "es": "Por 999 $, los desarrolladores podían conseguir un Developer Transition Kit: un PC con Pentium 4 que ejecutaba Mac OS X 10.4.1 para Intel dentro de una caja de Power Mac G5."
+    },
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "Mac mini (G4)",
+        "img": "minig4",
+        "wiki": "Mac_mini",
+        "wikiEs": null,
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "PowerPC G4 @ 1.25 or 1.42 GHz",
+              "es": "PowerPC G4 a 1,25 o 1,42 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY / STORAGE",
+              "es": "MEMORIA / ALMACENAMIENTO"
+            },
+            "value": {
+              "en": "256 MB RAM · 40 or 80 GB",
+              "es": "256 MB de RAM · 40 u 80 GB"
+            }
+          },
+          {
+            "label": {
+              "en": "SIZE",
+              "es": "TAMAÑO"
+            },
+            "value": {
+              "en": "6.5 × 6.5 × 2 in · 2.9 lb",
+              "es": "16,5 × 16,5 × 5 cm · 1,3 kg"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$499 – $599",
+              "es": "499 – 599 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2006-macbook-pro",
+    "year": 2006,
+    "date": {
+      "en": "January 10, 2006",
+      "es": "10 de enero de 2006"
+    },
+    "os": {
+      "en": "Mac OS X 10.4 Tiger (Intel)",
+      "es": "Mac OS X 10.4 Tiger (Intel)"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2006 · Intel Inside",
+      "es": "2006 · Intel Inside"
+    },
+    "shortLabel": {
+      "en": "MacBook Pro",
+      "es": "MacBook Pro"
+    },
+    "title": {
+      "en": "MacBook Pro, MacBook & Mac Pro: The Intel Switch",
+      "es": "MacBook Pro, MacBook y Mac Pro: el salto a Intel"
+    },
+    "quote": {
+      "en": "Seven months, 210 days: the entire Mac line moved from PowerPC to Intel.",
+      "es": "Siete meses, 210 días: toda la gama Mac pasó de PowerPC a Intel."
+    },
+    "story": {
+      "en": "The 15-inch MacBook Pro was one of the first two Intel Macs, with a dual-core Core Duo, a built-in iSight camera and the new MagSafe connector. The white MacBook followed in May, and the Xeon-powered Mac Pro completed the transition in August.",
+      "es": "El MacBook Pro de 15 pulgadas fue uno de los dos primeros Mac con Intel, con un Core Duo de doble núcleo, cámara iSight integrada y el nuevo conector MagSafe. El MacBook blanco llegó en mayo y el Mac Pro con Xeon completó la transición en agosto."
+    },
+    "highlights": {
+      "en": [
+        "MagSafe: a magnetic power connector that pops free when someone trips over the cord, instead of pulling the laptop down.",
+        "MacBook: Apple's first notebook with a magnetic latch and a sunken, flat-key keyboard set into the polycarbonate."
+      ],
+      "es": [
+        "MagSafe: un conector de corriente magnético que se suelta si alguien tropieza con el cable, en vez de tirar el portátil al suelo.",
+        "MacBook: el primer portátil de Apple con cierre magnético y teclado de teclas planas encastrado en el policarbonato."
+      ]
+    },
+    "archiveNote": {
+      "en": "Apple announced 1.67 and 1.83 GHz MacBook Pros, then shipped them in February with 1.83 and 2.0 GHz chips at the same $1,999 and $2,499 prices.",
+      "es": "Apple anunció los MacBook Pro a 1,67 y 1,83 GHz, pero en febrero los entregó con chips de 1,83 y 2,0 GHz por los mismos 1.999 y 2.499 $."
+    },
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "MacBook Pro (15-inch, Early 2006)",
+        "img": "mbp2006",
+        "wiki": "MacBook_Pro_(Intel-based)",
+        "wikiEs": "MacBook_Pro",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core Duo @ 1.83 or 2.0 GHz",
+              "es": "Intel Core Duo a 1,83 o 2,0 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "15.4\" widescreen, 1440×900",
+              "es": "15,4\" panorámica, 1440×900"
+            }
+          },
+          {
+            "label": {
+              "en": "DESIGN",
+              "es": "DISEÑO"
+            },
+            "value": {
+              "en": "Aluminum · 1 in thick · 5.6 lb",
+              "es": "Aluminio · 2,5 cm · 2,5 kg"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,999 – $2,499",
+              "es": "1.999 – 2.499 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MacBook (13-inch, Mid 2006)",
+        "img": "macbookwhite",
+        "wiki": "MacBook_(2006–2012)",
+        "wikiEs": null,
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core Duo @ 1.83 or 2.0 GHz",
+              "es": "Intel Core Duo a 1,83 o 2,0 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "13.3\" glossy widescreen, 1280×800",
+              "es": "13,3\" panorámica brillante, 1280×800"
+            }
+          },
+          {
+            "label": {
+              "en": "FINISH",
+              "es": "ACABADO"
+            },
+            "value": {
+              "en": "White or black polycarbonate",
+              "es": "Policarbonato blanco o negro"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,099 – $1,499 (black)",
+              "es": "1.099 – 1.499 $ (negro)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mac Pro (2006)",
+        "img": "macpro2006",
+        "wiki": "Mac_Pro",
+        "wikiEs": null,
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "2× dual-core Xeon 5100 @ 2.66 GHz",
+              "es": "2× Xeon 5100 de doble núcleo a 2,66 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "MEMORY",
+              "es": "MEMORIA"
+            },
+            "value": {
+              "en": "1 GB, expandable to 16 GB",
+              "es": "1 GB, ampliable a 16 GB"
+            }
+          },
+          {
+            "label": {
+              "en": "EXPANSION",
+              "es": "EXPANSIÓN"
+            },
+            "value": {
+              "en": "4 drive bays + 2 optical bays",
+              "es": "4 bahías de disco + 2 bahías ópticas"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$2,499 (standard)",
+              "es": "2.499 $ (configuración estándar)"
+            }
+          }
+        ],
+        "photoNote": {
+          "en": "Photo shows the 2010 model (same design)",
+          "es": "La foto muestra el modelo de 2010 (mismo diseño)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "2007-imac-aluminum",
+    "year": 2007,
+    "date": {
+      "en": "August 7, 2007",
+      "es": "7 de agosto de 2007"
+    },
+    "os": {
+      "en": "Mac OS X 10.4.10 Tiger · 10.5 Leopard",
+      "es": "Mac OS X 10.4.10 Tiger · 10.5 Leopard"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2007 · Leopard",
+      "es": "2007 · Leopard"
+    },
+    "shortLabel": {
+      "en": "iMac (Aluminum)",
+      "es": "iMac (aluminio)"
+    },
+    "title": {
+      "en": "iMac (Aluminum & Glass)",
+      "es": "iMac (aluminio y cristal)"
+    },
+    "quote": {
+      "en": "White plastic gives way to anodized aluminum and glass—the look of every Mac to come.",
+      "es": "El plástico blanco deja paso al aluminio anodizado y al cristal: el aspecto de todos los Mac que vendrían."
+    },
+    "story": {
+      "en": "The aluminum iMac traded polycarbonate for professional-grade aluminum and a scratch-resistant glass front, dropped the 17-inch size, and cut prices: the 20-inch started at $1,199. It shipped with iLife '08 and a new ultra-thin aluminum keyboard.",
+      "es": "El iMac de aluminio cambió el policarbonato por aluminio de calidad profesional y un frontal de cristal resistente a los arañazos, eliminó el tamaño de 17 pulgadas y bajó precios: el de 20 pulgadas partía de 1.199 $. Llegó con iLife '08 y un nuevo teclado de aluminio ultrafino."
+    },
+    "highlights": {
+      "en": [
+        "Glass covers the whole front and meets the aluminum case almost seamlessly; the 24-inch model uses an IPS panel.",
+        "The new aluminum Apple Keyboard measured just 0.33 inch thick at its front edge."
+      ],
+      "es": [
+        "El cristal cubre todo el frontal y se une a la carcasa de aluminio casi sin juntas; el modelo de 24 pulgadas usa panel IPS.",
+        "El nuevo Apple Keyboard de aluminio medía solo 0,84 cm de grosor en su borde frontal."
+      ]
+    },
+    "archiveNote": {
+      "en": "At $1,199, the 20-inch aluminum iMac cost $300 less than the white 20-inch model it replaced; the 24-inch dropped $200 to $1,799.",
+      "es": "Por 1.199 $, el iMac de aluminio de 20 pulgadas costaba 300 $ menos que el modelo blanco al que sustituía; el de 24 bajó 200 $, hasta 1.799 $."
+    },
+    "chime": "new_world_fsharp",
+    "variants": [
+      {
+        "name": "iMac (Mid 2007)",
+        "img": "imac2009",
+        "wiki": "IMac_(Intel-based)",
+        "wikiEs": null,
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core 2 Duo @ 2.0 or 2.4 GHz",
+              "es": "Intel Core 2 Duo a 2,0 o 2,4 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "20\" 1680×1050 or 24\" 1920×1200",
+              "es": "20\" 1680×1050 o 24\" 1920×1200"
+            }
+          },
+          {
+            "label": {
+              "en": "ENCLOSURE",
+              "es": "CARCASA"
+            },
+            "value": {
+              "en": "Anodized aluminum with glass front",
+              "es": "Aluminio anodizado con frontal de cristal"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,199 – $1,799",
+              "es": "1.199 – 1.799 $"
+            }
+          }
+        ],
+        "photoNote": {
+          "en": "Photo shows the 2009 27-inch iMac, which refined the aluminum-and-glass design this 2007 model introduced.",
+          "es": "La foto muestra el iMac de 27 pulgadas de 2009, que pulió el diseño de aluminio y cristal que estrenó este modelo de 2007."
+        }
+      }
+    ]
+  },
+  {
+    "id": "2008-macbook-air",
+    "year": 2008,
+    "date": {
+      "en": "January 15, 2008",
+      "es": "15 de enero de 2008"
+    },
+    "os": {
+      "en": "Mac OS X 10.5 Leopard",
+      "es": "Mac OS X 10.5 Leopard"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2008 · Leopard",
+      "es": "2008 · Leopard"
+    },
+    "shortLabel": {
+      "en": "MacBook Air",
+      "es": "MacBook Air"
+    },
+    "title": {
+      "en": "MacBook Air & Unibody MacBook Pro",
+      "es": "MacBook Air y MacBook Pro unibody"
+    },
+    "quote": {
+      "en": "Pulled from an interoffice envelope on stage: the world's thinnest notebook, 0.16 inch at its thinnest point.",
+      "es": "Sacado de un sobre de correo interno en el escenario: el portátil más fino del mundo, 0,4 cm en su punto más delgado."
+    },
+    "story": {
+      "en": "The MacBook Air dropped the optical drive, offered an optional solid-state drive and brought Multi-Touch gestures to the trackpad. In October, the MacBook Pro was rebuilt as a precision unibody carved from a single block of aluminum, with a glass trackpad that is itself the button.",
+      "es": "El MacBook Air prescindió de la unidad óptica, ofreció un SSD opcional y llevó los gestos Multi-Touch al trackpad. En octubre, el MacBook Pro se reconstruyó como un unibody de precisión tallado en un único bloque de aluminio, con un trackpad de cristal que es en sí mismo el botón."
+    },
+    "highlights": {
+      "en": [
+        "A custom Intel Core 2 Duo package about 40% the size of the standard chip made the Air's 0.16–0.76 inch wedge possible.",
+        "Unibody MacBook Pro: aluminum milled from one block, a glass trackpad clickable almost anywhere, and arsenic-free glass."
+      ],
+      "es": [
+        "Un encapsulado Intel Core 2 Duo a medida, de un 40 % del tamaño estándar, hizo posible la cuña de 0,4–1,9 cm del Air.",
+        "MacBook Pro unibody: aluminio fresado de un solo bloque, trackpad de cristal pulsable casi en cualquier punto y vidrio sin arsénico."
+      ]
+    },
+    "archiveNote": {
+      "en": "With no optical drive, the Air could borrow one over the network: the Remote Disc feature used the CD/DVD drive of a nearby Mac or PC.",
+      "es": "Sin unidad óptica, el Air podía usar la de otro equipo por red: la función Remote Disc aprovechaba la unidad de CD/DVD de un Mac o PC cercano."
+    },
+    "chime": "intel_unibody_chime",
+    "variants": [
+      {
+        "name": "MacBook Air (Original)",
+        "img": "mba2008",
+        "wiki": "MacBook_Air_(Intel-based)",
+        "wikiEs": null,
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core 2 Duo @ 1.6 or 1.8 GHz",
+              "es": "Intel Core 2 Duo a 1,6 o 1,8 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "PROFILE",
+              "es": "PERFIL"
+            },
+            "value": {
+              "en": "0.16–0.76 in thick · 3.0 lb",
+              "es": "0,4–1,9 cm de grosor · 1,36 kg"
+            }
+          },
+          {
+            "label": {
+              "en": "STORAGE",
+              "es": "ALMACENAMIENTO"
+            },
+            "value": {
+              "en": "80 GB hard drive or 64 GB SSD",
+              "es": "Disco duro de 80 GB o SSD de 64 GB"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "From $1,799",
+              "es": "Desde 1.799 $"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MacBook Pro (15-inch Unibody, Late 2008)",
+        "img": "mbpunibody",
+        "wiki": "MacBook_Pro_(Intel-based)",
+        "wikiEs": "MacBook_Pro",
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Intel Core 2 Duo @ 2.4 or 2.53 GHz",
+              "es": "Intel Core 2 Duo a 2,4 o 2,53 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "GRAPHICS",
+              "es": "GRÁFICOS"
+            },
+            "value": {
+              "en": "NVIDIA GeForce 9400M + 9600M GT",
+              "es": "NVIDIA GeForce 9400M + 9600M GT"
+            }
+          },
+          {
+            "label": {
+              "en": "DESIGN",
+              "es": "DISEÑO"
+            },
+            "value": {
+              "en": "Aluminum unibody · 0.95 in · 5.5 lb",
+              "es": "Unibody de aluminio · 2,4 cm · 2,5 kg"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,999 – $2,499",
+              "es": "1.999 – 2.499 $"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2009-imac-27",
+    "year": 2009,
+    "date": {
+      "en": "October 20, 2009",
+      "es": "20 de octubre de 2009"
+    },
+    "os": {
+      "en": "Mac OS X 10.6 Snow Leopard",
+      "es": "Mac OS X 10.6 Snow Leopard"
+    },
+    "topBrand": "Mac OS X",
+    "topBadge": {
+      "en": "2009 · Snow Leopard",
+      "es": "2009 · Snow Leopard"
+    },
+    "shortLabel": {
+      "en": "iMac 27-inch",
+      "es": "iMac de 27 pulgadas"
+    },
+    "title": {
+      "en": "iMac 27-inch (Late 2009)",
+      "es": "iMac de 27 pulgadas (finales de 2009)"
+    },
+    "quote": {
+      "en": "A 27-inch, 2560×1440 IPS panel edge-to-edge under glass, in a seamless all-aluminum enclosure.",
+      "es": "Un panel IPS de 27 pulgadas y 2560×1440 bajo cristal de borde a borde, en una carcasa de aluminio sin juntas."
+    },
+    "story": {
+      "en": "The late-2009 iMac wrapped a 16:9 LED-backlit IPS display in a single aluminum shell, offered the first quad-core iMac processors, and shipped with a wireless keyboard and the new Magic Mouse, whose whole top surface is Multi-Touch.",
+      "es": "El iMac de finales de 2009 envolvió una pantalla IPS 16:9 con retroiluminación LED en una sola carcasa de aluminio, estrenó procesadores de cuatro núcleos en el iMac y llegó con teclado inalámbrico y el nuevo Magic Mouse, cuya superficie superior es entera Multi-Touch."
+    },
+    "highlights": {
+      "en": [
+        "2560×1440 resolution with IPS technology for consistent color across a 178° viewing angle.",
+        "Mini DisplayPort for video input and output, plus an SD card slot built into the side."
+      ],
+      "es": [
+        "Resolución de 2560×1440 con tecnología IPS para un color uniforme en un ángulo de visión de 178°.",
+        "Mini DisplayPort de entrada y salida de vídeo, y una ranura para tarjetas SD en el lateral."
+      ]
+    },
+    "archiveNote": {
+      "en": "It was the first iMac with Target Display Mode: plug another Mac into its Mini DisplayPort and the 27-inch screen becomes an external monitor.",
+      "es": "Fue el primer iMac con Modo de Pantalla de Destino: conecta otro Mac a su Mini DisplayPort y la pantalla de 27 pulgadas se convierte en monitor externo."
+    },
+    "chime": "intel_unibody_chime",
+    "variants": [
+      {
+        "name": "iMac (27-inch, Late 2009)",
+        "img": "imac2009",
+        "wiki": "IMac_(Intel-based)",
+        "wikiEs": null,
+        "specs": [
+          {
+            "label": {
+              "en": "PROCESSOR",
+              "es": "PROCESADOR"
+            },
+            "value": {
+              "en": "Core 2 Duo 3.06 GHz or quad-core Core i5 2.66 GHz",
+              "es": "Core 2 Duo a 3,06 GHz o Core i5 de 4 núcleos a 2,66 GHz"
+            }
+          },
+          {
+            "label": {
+              "en": "DISPLAY",
+              "es": "PANTALLA"
+            },
+            "value": {
+              "en": "27\" LED IPS, 2560×1440 (16:9)",
+              "es": "27\" IPS LED, 2560×1440 (16:9)"
+            }
+          },
+          {
+            "label": {
+              "en": "STORAGE",
+              "es": "ALMACENAMIENTO"
+            },
+            "value": {
+              "en": "1 TB hard drive",
+              "es": "Disco duro de 1 TB"
+            }
+          },
+          {
+            "label": {
+              "en": "LAUNCH PRICE",
+              "es": "PRECIO DE LANZAMIENTO"
+            },
+            "value": {
+              "en": "$1,699 – $1,999",
+              "es": "1.699 – 1.999 $"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
